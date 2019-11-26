@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/branding_watermark" android:layout_width="@dimen/annotation_branding_watermark_width" android:layout_height="@dimen/annotation_branding_watermark_width" android:layout_margin="12dp" android:scaleType="centerInside" android:alpha="0.7"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/promo_website_expanded" android:layout_width="wrap_content" android:layout_height="@dimen/annotation_banner_height" android:layoutDirection="ltr" style="@style/AnnotationBanner">
+        <ImageView android:id="@+id/promo_website_thumbnail_expanded" android:layout_width="@dimen/annotation_banner_icon_height" android:layout_height="@dimen/annotation_banner_icon_height" style="@style/AnnotationBannerThumbnailImage"/>
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layoutDirection="locale" style="@style/AnnotationBannerTextContent">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@+id/promo_website_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:robotoFont="0" style="@style/AnnotationBannerTitleText"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@+id/promo_website_description" android:layout_width="wrap_content" android:layout_height="wrap_content" app:robotoFont="1" style="@style/AnnotationBannerDescriptionText"/>
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/annotation_banner_icon_height" android:src="@drawable/ic_annotation_external_link" style="@style/AnnotationBannerIcon"/>
+        <ImageButton android:id="@+id/promo_website_dismiss" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_annotation_close" android:contentDescription="@string/accessibility_annotation_overlay_promo_dismiss" style="@style/AnnotationBannerCloseIcon"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/promo_collapsed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" style="@style/AnnotationBanner">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/promo_thumbnail_collapsed" android:layout_width="wrap_content" android:layout_height="@dimen/annotation_banner_icon_height" style="@style/AnnotationBannerThumbnailImage"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/promo_video_duration_collapsed" android:layout_width="wrap_content" android:layout_height="wrap_content" app:robotoFont="1" style="@style/AnnotationBannerThumbnailImageVideoDurationText"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/promo_expand_arrow" android:background="@null" android:layout_width="16dp" android:layout_height="@dimen/annotation_banner_icon_height" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:src="@drawable/ic_annotation_expand_right" android:scaleType="centerInside" android:contentDescription="@string/accessibility_annotation_overlay_promo_expand"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Reproduciraj muziku&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Reproduciraj pop muziku&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Reproduciraj muziku za zabavu&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Reproduciraj današnje hitove&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Reproduciraj preporučene videozapise&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Prikaži filmske najave&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Pokaži mi videozapise s vježbama joge&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Pokaži mi vježbe istezanja&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Pronađi ideje za ukrašavanje torte&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Pronađi recepte zdravih jela&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Pronađi videozapise o vožnji snowboarda&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Prikaži ideje za izradu rukotvorina za djecu&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Prikaži videozapis o obradi drveta&lt;/i&gt;</item>
+        <item>Izgovorite:&lt;br/&gt;&lt;i&gt;Pokaži mi kako zavezati kravatu&lt;/i&gt;</item>
+    </array>
+</resources>

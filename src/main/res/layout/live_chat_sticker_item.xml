@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:background="?attr/selectableItemBackground" android:padding="@dimen/live_chat_sticker_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/sticker_image" android:layout_width="@dimen/live_chat_sticker_image_dimensions" android:layout_height="@dimen/live_chat_sticker_image_dimensions" android:contentDescription="@null"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceCaption" android:textColor="?attr/ytTextPrimary" android:id="@+id/sticker_caption" android:background="@drawable/live_chat_sticker_price_pill_corners" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:paddingStart="4dp" android:paddingEnd="4dp" app:robotoFont="6"/>
+</LinearLayout>

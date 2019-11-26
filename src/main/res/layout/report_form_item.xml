@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/report_form_top_level_item" android:background="?attr/selectableItemBackground" android:paddingTop="@dimen/report_form_item_padding_vertical" android:paddingBottom="@dimen/report_form_item_padding_vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/report_form_standard_spacing">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/report_form_top_level_radio" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/report_form_compound_button_margin_start"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceBody1" android:gravity="start" android:id="@+id/report_form_top_level_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textAlignment="viewStart" android:layout_marginStart="@dimen/report_form_compound_button_label_spacing" app:robotoFont="0"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="56dp">
+        <Spinner android:id="@+id/report_form_top_level_spinner" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:dropDownWidth="wrap_content" android:spinnerMode="dropdown"/>
+        <View android:id="@+id/report_form_top_level_separator" android:background="?attr/yt10PercentLayer" android:layout_width="match_parent" android:layout_height="@dimen/report_form_separator_height"/>
+    </LinearLayout>
+</LinearLayout>

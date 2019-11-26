@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.YouTubeTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="12sp" android:textColor="?attr/ytTextPrimary" android:background="@drawable/video_duration_background_technodrome" android:layout_width="wrap_content" android:layout_height="16dp" android:paddingStart="4dp" android:paddingEnd="4dp"/>

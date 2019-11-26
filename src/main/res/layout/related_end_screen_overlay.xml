@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:id="@+id/related_endscreen_container" android:background="@null" android:layout_width="wrap_content" android:layout_height="@dimen/related_end_screen_background_height">
+    <android.support.v7.widget.RecyclerView android:layout_gravity="bottom" android:id="@+id/related_endscreen_results" android:paddingTop="8dp" android:paddingBottom="16dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/related_end_screen_list_height" android:contentDescription="@string/accessibility_related_screen" android:overScrollMode="never" android:paddingStart="12dp" android:paddingEnd="12dp"/>
+</FrameLayout>

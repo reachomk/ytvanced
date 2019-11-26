@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Spil noget musik&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Spil popmusik&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Spil festmusik&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Spil dagens hit&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Afspil anbefalede videoer&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Vis mig filmtrailere&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Vis mig yogavideoer&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Vis mig strækøvelser&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Find idéer til kagedekoration&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Find opskrifter på sund mad&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Find videoer med snowboarding&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Vis forslag til kreative projekter for børn&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Vis video med træarbejde&lt;/i&gt;</item>
+        <item>Prøv at sige:&lt;br/&gt;&lt;i&gt;Vis mig, hvordan man binder et slips&lt;/i&gt;</item>
+    </array>
+</resources>

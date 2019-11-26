@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_like_video_plural">
+        <item>Nút thích, %1$d người khác đã thích video này</item>
+        <item>Nút thích, %1$d người khác đã thích video này</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item>Bỏ qua quảng cáo sau %1$d giây</item>
+        <item>Bỏ qua quảng cáo sau 1 giây</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item>Nút bỏ thích, %1$d người khác đã thích video này</item>
+        <item>Nút bỏ thích, %1$d người khác đã thích video này</item>
+    </plurals>
+    <plurals name="auto_offline_video_duration_minutes">
+        <item>%1$d phút</item>
+        <item>%1$d phút</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item>Tải %1$d video mới xuống</item>
+        <item>Tải %1$d video mới xuống</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item>%1$d phút</item>
+        <item>0 phút</item>
+        <item>1 phút</item>
+        <item>2 phút</item>
+        <item>%1$d phút</item>
+        <item>%1$d phút</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item>%1$d giây</item>
+        <item>0 giây</item>
+        <item>1 giây</item>
+        <item>2 giây</item>
+        <item>%1$d giây</item>
+        <item>%1$d giây</item>
+    </plurals>
+    <plurals name="empty_chat_four_or_more_other_participants">
+        <item>Đây là cuộc trò chuyện với %1$s, %2$s, %3$s và %4$d người khác. Hãy chia sẻ điều gì đó để bắt đầu!</item>
+        <item>Đây là cuộc trò chuyện với %1$s, %2$s, %3$s và 1 người khác. Hãy chia sẻ điều gì đó để bắt đầu!</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item>%1$d giờ</item>
+        <item>%1$d giờ</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item>%1$d giờ một lần</item>
+        <item>Mỗi giờ</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item>%1$d phút</item>
+        <item>%1$d phút</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item>%1$d phút một lần</item>
+        <item>Mỗi phút</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item>Đã cập nhật %1$d ngày trước</item>
+        <item>Đã cập nhật hôm qua</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item>Đã cập nhật %1$d giờ trước</item>
+        <item>Đã cập nhật %1$d giờ trước</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item>Đã cập nhật %1$d phút trước</item>
+        <item>Đã cập nhật %1$d phút trước</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item>Đã cập nhật %1$d tuần trước</item>
+        <item>Đã cập nhật %1$d tuần trước</item>
+    </plurals>
+    <plurals name="lc_stream_status_cd">
+        <item>%1$s hiện đang xem, %2$s lượt thích</item>
+        <item>%1$s hiện đang xem, %2$s lượt thích</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item>%1$d/%2$d video</item>
+        <item>%1$d/1 video</item>
+    </plurals>
+    <plurals name="notification_video_list_completed">
+        <item>Đã lưu %1$d video mới</item>
+        <item>Đã lưu %1$d video mới</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item>Bạn vẫn có thể xem video đã tải xuống với điều kiện là thiết bị của bạn có kết nối Internet %1$d ngày một lần.</item>
+        <item>Bạn vẫn có xem các video đã tải xuống với điều kiện là thiết bị của bạn có kết nối Internet mỗi ngày.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item>Bạn vẫn có thể xem video đã tải xuống trong %1$d ngày mà không cần kết nối Internet.</item>
+        <item>Bạn vẫn có thể xem video đã tải xuống trong 1 ngày mà không cần kết nối Internet.</item>
+    </plurals>
+    <plurals name="offline_pending_time_window_plural">
+        <item>Tổng số %1$d video. Đặt để lưu: Từ %2$s đến %3$s.</item>
+        <item>Đặt để lưu: Từ %2$s đến %3$s.</item>
+    </plurals>
+    <plurals name="overflow_hearters">
+        <item>+%d người khác</item>
+        <item>+%d người khác</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item>%1$,d video</item>
+        <item>1 video</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item>%d giây</item>
+        <item>%d giây</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item>%1$d đề xuất</item>
+        <item>1 đề xuất</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item>Đã chọn %1$d video</item>
+        <item>Đã chọn 1 video</item>
+    </plurals>
+    <plurals name="tab_with_new_items">
+        <item>%2$s: %1$d mục mới.</item>
+        <item>%2$s: %1$d mục mới.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item>Đang chuẩn bị %1$,d%%</item>
+        <item>Đang chuẩn bị %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item>Còn khoảng %1$,d giờ</item>
+        <item>Còn khoảng %1$,d giờ</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item>Còn khoảng %1$,d phút</item>
+        <item>Còn khoảng %1$,d phút</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item>Đang tải %1$d/%2$d video lên</item>
+        <item>Đang tải 1 video lên</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item>Đã tải lên %1$,d%%</item>
+        <item>Đã tải lên %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item>Còn khoảng %1$,d giây</item>
+        <item>Còn khoảng %1$,d giây</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item>Nhấn đúp bên trái hoặc bên phải để tua đi %d giây</item>
+        <item>Nhấn đúp vào bên trái hoặc phải để tua đi %d giây</item>
+    </plurals>
+    <plurals name="video_count">
+        <item>%1$d video</item>
+        <item>1 video</item>
+    </plurals>
+    <plurals name="videos_with_count">
+        <item>%d video</item>
+        <item>1 video</item>
+    </plurals>
+</resources>

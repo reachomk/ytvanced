@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="16dp" android:layout_height="24dp" android:src="@drawable/drag_handle" android:scaleType="center" android:tint="?attr/ytIcon1" android:contentDescription="@string/accessibility_drag_handle"/>

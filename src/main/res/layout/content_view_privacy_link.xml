@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:rowCount="2" android:columnCount="2">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:gravity="center_vertical" android:layout_gravity="fill" android:id="@+id/privacy_text" android:paddingLeft="16dp" android:layout_width="0dp" android:layout_column="0" android:layout_row="0" app:robotoFont="0"/>
+    <ImageView android:id="@+id/privacy_link_button" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_settings_grey" android:scaleType="center" android:layout_column="1" android:contentDescription="@null" android:layout_row="0" android:layout_marginStart="16dp" android:layout_marginEnd="4dp"/>
+    <View android:background="#cccccc" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="8dp" android:layout_column="0" android:layout_row="1" android:layout_columnSpan="2"/>
+</GridLayout>

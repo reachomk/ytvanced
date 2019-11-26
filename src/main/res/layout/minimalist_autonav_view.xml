@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/close_button" android:padding="12dp" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/quantum_ic_close_white_24" android:contentDescription="@string/accessibility_close_button" style="@style/YouTubePlayerButton"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:layout_marginStart="16dp">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/ytTextAppearanceBody1b" android:textColor="?attr/ytOverlayTextSecondary" android:ellipsize="end" android:id="@+id/countdown_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/ytTextAppearanceBody1b" android:textColor="?attr/ytOverlayTextSecondary" android:ellipsize="end" android:id="@+id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/info_panel_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+            <include android:id="@+id/info_panel" layout="@layout/autonav_info_panel"/>
+            <include android:id="@+id/info_panel_fullscreen" layout="@layout/autonav_info_panel_fullscreen"/>
+            <include android:id="@+id/info_panel_portrait_fullscreen" layout="@layout/autonav_info_panel_portrait_fullscreen"/>
+        </FrameLayout>
+    </LinearLayout>
+</merge>

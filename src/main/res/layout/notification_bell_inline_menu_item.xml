@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="?attr/ytBrandBackgroundSolid" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/selectableItemBackground" android:minWidth="160dp" android:minHeight="48dp" android:paddingStart="12dp" android:paddingEnd="12dp">
+    <TextView android:textAppearance="?attr/ytTextAppearanceTitle2" android:ellipsize="end" android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <ImageView android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?attr/ytIconInactive" android:importantForAccessibility="no"/>
+</LinearLayout>

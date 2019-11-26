@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/abc_dialog_padding_top_material" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="?attr/dialogPreferredPadding" android:paddingEnd="?attr/dialogPreferredPadding">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cellular_upload_dialog_message" style="@style/TextAppearance.AppCompat.Subhead"/>
+        <CheckBox android:textColor="?android:attr/textColorSecondary" android:id="@+id/do_not_ask_again_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abc_dialog_padding_top_material" android:text="@string/cellular_upload_dialog_do_not_ask_again"/>
+    </LinearLayout>
+</ScrollView>

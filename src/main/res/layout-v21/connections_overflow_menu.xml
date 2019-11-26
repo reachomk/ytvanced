@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/ytBrandBackgroundSolid" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.libraries.youtube.share.ui.ActivityIndicatorFrameLayout android:id="@+id/activity_indicator" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/contents" android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.v7.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="4dp" android:navigationContentDescription="@string/accessibility_back" style="@style/ConnectionToolbars"/>
+            <android.support.v7.widget.RecyclerView android:id="@+id/list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:overScrollMode="never"/>
+            <View android:id="@+id/list_bottom_sheet_padding" android:layout_width="match_parent" android:layout_height="0dp"/>
+        </LinearLayout>
+    </com.google.android.libraries.youtube.share.ui.ActivityIndicatorFrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:paddingTop="3dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/select_message_view" android:visibility="invisible" layout="@layout/share_panel_select_message"/>
+        <include android:id="@+id/message_input_view" android:visibility="invisible" layout="@layout/message_input_section_v15"/>
+    </LinearLayout>
+    <com.google.android.libraries.quantum.fab.FloatingActionButton android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/send_button" android:visibility="gone" android:layout_width="@dimen/quantum_fab_diameter_default" android:layout_height="@dimen/quantum_fab_diameter_default" android:layout_margin="@dimen/quantum_fab_edge_margin" android:src="@drawable/quantum_ic_send_white_24" android:contentDescription="@string/accessibility_send_share" app:quantumFabColor="@color/quantum_googred500"/>
+    <com.google.android.libraries.quantum.snackbar.Snackbar android:layout_gravity="bottom" android:id="@+id/snackbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

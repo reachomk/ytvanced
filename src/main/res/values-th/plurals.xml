@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_like_video_plural">
+        <item>ปุ่มชอบ อีก %1$d คนชอบวิดีโอนี้</item>
+        <item>ปุ่มชอบ อีก %1$d คนชอบวิดีโอนี้</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item>ข้ามโฆษณาใน %1$d วินาที</item>
+        <item>ข้ามโฆษณาใน 1 วินาที</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item>ปุ่มเลิกชอบ อีก %1$d คนชอบวิดีโอนี้</item>
+        <item>ปุ่มเลิกชอบ อีก %1$d คนชอบวิดีโอนี้</item>
+    </plurals>
+    <plurals name="auto_offline_video_duration_minutes">
+        <item>%1$d นาที</item>
+        <item>%1$d นาที</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item>ดาวน์โหลดวิดีโอใหม่ %1$d รายการ</item>
+        <item>ดาวน์โหลดวิดีโอใหม่ %1$d รายการ</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item>%1$d นาที</item>
+        <item>0 นาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>%1$d นาที</item>
+        <item>%1$d นาที</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item>%1$d วินาที</item>
+        <item>0 วินาที</item>
+        <item>1 วินาที</item>
+        <item>2 วินาที</item>
+        <item>%1$d วินาที</item>
+        <item>%1$d วินาที</item>
+    </plurals>
+    <plurals name="empty_chat_four_or_more_other_participants">
+        <item>นี่คือการแชทกับ %1$s, %2$s, %3$s และคนอื่นๆ อีก %4$d คน แชร์บางสิ่งเพื่อเริ่มต้น</item>
+        <item>นี่คือการแชทกับ %1$s, %2$s, %3$s และคนอื่นอีก 1 คน แชร์บางสิ่งเพื่อเริ่มต้น</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item>%1$d ชั่วโมง</item>
+        <item>%1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item>ทุก %1$d ชั่วโมง</item>
+        <item>ทุกชั่วโมง</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item>%1$d นาที</item>
+        <item>%1$d นาที</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item>ทุก %1$d นาที</item>
+        <item>ทุกนาที</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item>อัปเดตเมื่อ %1$d วันที่ผ่านมา</item>
+        <item>อัปเดตเมื่อวานนี้</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item>อัปเดตเมื่อ %1$d ชั่วโมงที่ผ่านมา</item>
+        <item>อัปเดตเมื่อ %1$d ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item>อัปเดตเมื่อ %1$d นาทีที่ผ่านมา</item>
+        <item>อัปเดตเมื่อ %1$d นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item>อัปเดตเมื่อ %1$d สัปดาห์ที่ผ่านมา</item>
+        <item>อัปเดตเมื่อ %1$d สัปดาห์ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="lc_stream_status_cd">
+        <item>ขณะนี้มี %1$s คนกำลังดูอยู่ และมี %2$s คนที่ชอบ</item>
+        <item>ขณะนี้มี %1$s คนกำลังดูอยู่ และมี %2$s คนที่ชอบ</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item>%1$d จากวิดีโอ %2$d รายการ</item>
+        <item>%1$d จากวิดีโอ 1 รายการ</item>
+    </plurals>
+    <plurals name="notification_video_list_completed">
+        <item>บันทึกวิดีโอใหม่แล้ว %1$d รายการ</item>
+        <item>บันทึกวิดีโอใหม่แล้ว %1$d รายการ</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item>วิดีโอที่ดาวน์โหลดจะใช้งานได้ตราบเท่าที่อุปกรณ์ของคุณเชื่อมต่ออินเทอร์เน็ตทุกๆ %1$d วัน</item>
+        <item>วิดีโอที่ดาวน์โหลดจะใช้งานได้ตราบเท่าที่อุปกรณ์ของคุณเชื่อมต่ออินเทอร์เน็ตทุกวัน</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item>วิดีโอที่ดาวน์โหลดจะใช้ได้ %1$d วันโดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต</item>
+        <item>วิดีโอที่ดาวน์โหลดจะใช้ได้ 1 วันโดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต</item>
+    </plurals>
+    <plurals name="offline_pending_time_window_plural">
+        <item>วิดีโอทั้งหมด %1$d รายการ ตั้งค่าเพื่อบันทึก: %2$s ถึง %3$s</item>
+        <item>ตั้งค่าเพื่อบันทึก: %2$s ถึง %3$s</item>
+    </plurals>
+    <plurals name="overflow_hearters">
+        <item>และอีก %d คน</item>
+        <item>และอีก %d คน</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item>วิดีโอ %1$,d รายการ</item>
+        <item>วิดีโอ 1 รายการ</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item>%d วินาที</item>
+        <item>%d วินาที</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item>%1$d วิดีโอแนะนำ</item>
+        <item>1 วิดีโอแนะนำ</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item>เลือกวิดีโอแล้ว %1$d รายการ</item>
+        <item>เลือกวิดีโอแล้ว 1 รายการ</item>
+    </plurals>
+    <plurals name="tab_with_new_items">
+        <item>%2$s: %1$d รายการใหม่</item>
+        <item>%2$s: %1$d รายการใหม่</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item>กำลังเตรียม %1$,d%%</item>
+        <item>กำลังเตรียม %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item>เหลือประมาณ %1$,d ชั่วโมง</item>
+        <item>เหลือประมาณ %1$,d ชั่วโมง</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item>เหลือประมาณ %1$,d นาที</item>
+        <item>เหลือประมาณ %1$,d นาที</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item>กำลังอัปโหลดวิดีโอ %1$d จาก %2$d รายการ</item>
+        <item>กำลังอัปโหลดวิดีโอ 1 รายการ</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item>อัปโหลดแล้ว %1$,d%%</item>
+        <item>อัปโหลดแล้ว %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item>เหลือประมาณ %1$,d วินาที</item>
+        <item>เหลือประมาณ %1$,d วินาที</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item>แตะ 2 ครั้งทางซ้ายหรือขวาเพื่อข้ามไป %d วินาที</item>
+        <item>แตะ 2 ครั้งทางซ้ายหรือขวาเพื่อข้ามไป %d วินาที</item>
+    </plurals>
+    <plurals name="video_count">
+        <item>วิดีโอ %1$d รายการ</item>
+        <item>วิดีโอ 1 รายการ</item>
+    </plurals>
+    <plurals name="videos_with_count">
+        <item>วิดีโอ %d รายการ</item>
+        <item>วิดีโอ 1 รายการ</item>
+    </plurals>
+</resources>

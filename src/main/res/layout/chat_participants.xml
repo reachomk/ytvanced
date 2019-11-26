@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.textfield.TextInputLayout android:theme="@style/EditChatNameLayout" android:layout_gravity="center_horizontal" android:id="@+id/edit_chat_name" android:paddingLeft="16dp" android:paddingTop="24dp" android:paddingRight="16dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/edit_chat_name_dialog_title" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <android.support.design.textfield.TextInputEditText android:ellipsize="end" android:id="@+id/edit_chat_name_edit_text" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+    </android.support.design.textfield.TextInputLayout>
+    <android.support.v7.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/edit_chat_name"/>
+    <ProgressBar android:id="@+id/loading_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/error_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+        <TextView android:id="@+id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/error_retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/yt_lib_common_retry"/>
+    </LinearLayout>
+</RelativeLayout>

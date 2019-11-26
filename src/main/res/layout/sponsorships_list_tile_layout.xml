@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp">
+        <ImageView android:layout_gravity="top" android:id="@+id/icon" android:padding="4dp" android:layout_width="32dp" android:layout_height="32dp" android:contentDescription="@null" android:layout_marginEnd="16dp"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/content" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Body1" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" app:hyperlinksClickable="true"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Body1" android:textColor="?attr/ytTextSecondary" android:id="@+id/subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" app:hyperlinksClickable="true"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Spec.Body1a" android:textColor="?attr/ytTextSecondary" android:id="@+id/detail" android:layout_width="match_parent" android:layout_height="wrap_content" app:hyperlinksClickable="true"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/expand_icon" android:padding="4dp" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/quantum_ic_keyboard_arrow_down_grey600_24" android:contentDescription="@null" android:layout_marginStart="8dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/expanded_content" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

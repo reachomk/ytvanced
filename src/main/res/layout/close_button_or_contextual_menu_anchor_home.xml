@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/close_button_or_contextual_menu_anchor" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <include android:id="@+id/contextual_menu_anchor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="1dp" layout="@layout/video_with_context_contextual_menu_anchor"/>
+    <include android:id="@+id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/close_button"/>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Atskaņot mūziku&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Atskaņot popmūziku&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Atskaņot ballītes mūziku&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Atskaņot šodienas hitus&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Atskaņot ieteiktos videoklipus&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Rādīt filmu reklāmklipus&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Rādīt videoklipus par jogu&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Rādīt stiepšanās vingrinājumus&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Atrast kūku dekorēšanas idejas&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Atrast veselīgu pusdienu receptes&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Atrast videoklipus par snovbordu&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Rādīt bērnu rokdarbu idejas&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Rādīt videoklipu par kokapstrādi&lt;/i&gt;</item>
+        <item>Sakiet:&lt;br/&gt;&lt;i&gt;Rādīt, kā sasiet kaklasaiti&lt;/i&gt;</item>
+    </array>
+</resources>

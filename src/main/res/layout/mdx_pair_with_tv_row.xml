@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Mdx.PrefsTitle"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@+id/subtitle" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mdx_pref_pair_with_tv_watching_on_summary" style="@style/Mdx.PrefsSummary"/>
+    </LinearLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:layout_gravity="center_vertical" android:id="@+id/action" style="@style/Mdx.PrefsAction"/>
+    <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16dp" style="@style/Mdx.ProgressSmall"/>
+</LinearLayout>

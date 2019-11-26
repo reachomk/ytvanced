@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:name="standard_spinner" android:height="720dp" android:width="1280dp" android:viewportWidth="1280" android:viewportHeight="720">
+    <group android:name="circle_2" android:scaleX="1.7" android:scaleY="1.7" android:translateX="641" android:translateY="360.5">
+        <path android:name="ellipse_path_1" android:pathData="M 0.0,-56.0 c 30.9279459888,0.0 56.0,25.0720540112 56.0,56.0 c 0.0,30.9279459888 -25.0720540112,56.0 -56.0,56.0 c -30.9279459888,0.0 -56.0,-25.0720540112 -56.0,-56.0 c 0.0,-30.9279459888 25.0720540112,-56.0 56.0,-56.0 Z" android:strokeColor="#ffffffff" android:strokeWidth="5" android:trimPathStart="0.001" android:trimPathEnd="0" android:strokeLineCap="round"/>
+    </group>
+</vector>

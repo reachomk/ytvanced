@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:padding="40dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.libraries.youtube.common.ui.CircularImageView android:layout_gravity="center_horizontal" android:id="@+id/main_thumbnail" android:layout_width="@dimen/family_profile_main_thumbnail_size_small" android:layout_height="@dimen/family_profile_main_thumbnail_size_small" android:contentDescription="@null"/>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/secondary_thumbnails" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceSubhead" android:textColor="@color/text_color_secondary_default_light" android:layout_gravity="center_horizontal" android:id="@+id/member_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceBody2" android:layout_gravity="center_horizontal" android:id="@+id/member_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceButton" android:layout_gravity="center_horizontal" android:id="@+id/manage_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:robotoFont="6"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceTitle" android:id="@+id/additional_info_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="70dp"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceSubhead" android:textColor="@color/text_color_secondary_default_light" android:textColorLink="@color/text_link_color" android:id="@+id/additional_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:lineSpacingExtra="4sp" app:hyperlinksClickable="true"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:background="@color/color_brand_primary" android:layout_width="match_parent" android:layout_height="56dp">
+        <com.google.android.libraries.youtube.common.ui.YouTubeButton android:id="@+id/dismiss_button" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" app:robotoFont="6" style="@style/FamilyButton"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeButton android:id="@+id/action_button" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" app:robotoFont="6" style="@style/FamilyButton"/>
+    </LinearLayout>
+</LinearLayout>

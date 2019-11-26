@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_like_video_plural">
+        <item>Hnappurinn Líkar við, %1$d öðrum líkar þetta vídeó</item>
+        <item>Hnappurinn Líkar við, %1$d öðrum líkar þetta vídeó</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item>Sleppa auglýsingu eftir %1$d sekúndur</item>
+        <item>Sleppa auglýsingu eftir %1$d sekúndu</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item>Hnappurinn Líkar ekki lengur, %1$d öðrum líkar þetta vídeó</item>
+        <item>Hnappurinn Líkar ekki lengur, %1$d öðrum líkar þetta vídeó</item>
+    </plurals>
+    <plurals name="auto_offline_video_duration_minutes">
+        <item>%1$d mínútur</item>
+        <item>%1$d mínúta</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item>Sækja %1$d ný vídeó</item>
+        <item>Sækja %1$d nýtt vídeó</item>
+    </plurals>
+    <plurals name="empty_chat_four_or_more_other_participants">
+        <item>Þetta er spjall við %1$s, %2$s, %3$s og %4$d manneskjur til viðbótar. Deildu einhverju til að hefja spjallið!</item>
+        <item>Þetta er spjall við %1$s, %2$s, %3$s og %4$d manneskju til viðbótar. Deildu einhverju til að hefja spjallið!</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item>%1$d klukkustundir</item>
+        <item>%1$d klukkustund</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item>Á %1$d klukkustunda fresti</item>
+        <item>Á %1$d klukkustundar fresti</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item>%1$d mínútur</item>
+        <item>%1$d mínúta</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item>Á %1$d mínútna fresti</item>
+        <item>Á %1$d mínútu fresti</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item>Uppfært fyrir %1$d dögum</item>
+        <item>Uppfært fyrir %1$d degi</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item>Uppfært fyrir %1$d klukkustundum</item>
+        <item>Uppfært fyrir %1$d klukkustund</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item>Uppfært fyrir %1$d mínútum</item>
+        <item>Uppfært fyrir %1$d mínútu</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item>Uppfært fyrir %1$d vikum</item>
+        <item>Uppfært fyrir %1$d viku</item>
+    </plurals>
+    <plurals name="lc_stream_status_cd">
+        <item>%1$s að horfa núna, %2$s líkar við</item>
+        <item>%1$s að horfa núna, %2$s líkar við</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item>%1$d af %2$d vídeóum</item>
+        <item>%1$d af %2$d vídeói</item>
+    </plurals>
+    <plurals name="notification_video_list_completed">
+        <item>%1$d ný vídeó vistuð</item>
+        <item>%1$d nýtt vídeó vistað</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item>Niðurhal er tiltækt svo framarlega að tækið þitt tengist netinu á %1$d daga fresti.</item>
+        <item>Niðurhal er tiltækt svo framarlega að tækið þitt tengist netinu á %1$d dags fresti.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item>Sótt efni er tiltækt í %1$d daga án nettengingar.</item>
+        <item>Sótt efni er tiltækt í %1$d dag án nettengingar.</item>
+    </plurals>
+    <plurals name="offline_pending_time_window_plural">
+        <item>%1$d vídeós alls. Verður vistað: %2$s til %3$s.</item>
+        <item>%1$d vídeó alls. Verður vistað: %2$s til %3$s.</item>
+    </plurals>
+    <plurals name="overflow_hearters">
+        <item>+%d til viðbótar</item>
+        <item>+%d til viðbótar</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item>%1$,d vídeó</item>
+        <item>%1$,d vídeó</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item>%d sekúndur</item>
+        <item>%d sekúnda</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item>%1$d tillögur</item>
+        <item>%1$d tillaga</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item>%1$d vídeó valin</item>
+        <item>%1$d vídeó valið</item>
+    </plurals>
+    <plurals name="tab_with_new_items">
+        <item>%2$s: %1$d ný atriði.</item>
+        <item>%2$s: %1$d nýtt atriði.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item>Undirbýr %1$,d%%</item>
+        <item>Undirbýr %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item>Um %1$,d klst. eftir</item>
+        <item>Um %1$,d klst. eftir</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item>Um %1$,d mínútur eftir</item>
+        <item>Um %1$,d mínúta eftir</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item>Hleður upp %1$d af %2$d vídeóum</item>
+        <item>Hleður upp %1$d af %2$d vídeói</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item>%1$,d%% hlaðið upp</item>
+        <item>%1$,d%% hlaðið upp</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item>Um %1$,d sekúndur eftir</item>
+        <item>Um %1$,d sekúnda eftir</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item>Ýttu tvisvar til vinstri eða hægri til að spóla um %d sekúndur</item>
+        <item>Ýttu tvisvar til vinstri eða hægri til að spóla um %d sekúndu</item>
+    </plurals>
+    <plurals name="video_count">
+        <item>%1$d vídeó</item>
+        <item>%1$d vídeó</item>
+    </plurals>
+    <plurals name="videos_with_count">
+        <item>%d vídeó</item>
+        <item>%d vídeó</item>
+    </plurals>
+</resources>

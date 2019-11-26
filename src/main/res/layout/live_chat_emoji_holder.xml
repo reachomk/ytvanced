@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:id="@+id/emoji_container" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="44dp" android:minWidth="44dp">
+    <ImageView android:layout_gravity="center" android:id="@+id/emoji" android:layout_width="wrap_content" android:layout_height="24dp" android:minWidth="24dp"/>
+</FrameLayout>

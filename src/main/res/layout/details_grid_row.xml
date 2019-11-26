@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/details_grid_content_side_padding" android:paddingEnd="@dimen/details_grid_content_side_padding">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/row_content" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintWidth_max="666dp"/>
+</android.support.constraint.ConstraintLayout>

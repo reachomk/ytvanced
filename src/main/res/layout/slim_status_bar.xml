@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.common.ui.slimstatusbar.SlimStatusBar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:id="@+id/slim_status_bar" android:padding="@dimen/slim_status_bar_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/slim_status_bar_text_size" android:textColor="@color/slim_status_bar_text_color" android:ellipsize="end" android:gravity="center" android:id="@+id/text" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+</com.google.android.apps.youtube.app.common.ui.slimstatusbar.SlimStatusBar>

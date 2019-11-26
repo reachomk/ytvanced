@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_like_video_plural">
+        <item>Poga Patīk; vēl %1$d citi lietotāji atzīmēja šo videoklipu ar Patīk.</item>
+        <item>Poga Patīk</item>
+        <item>Poga Patīk; vēl %1$d cits lietotājs atzīmēja šo videoklipu ar Patīk.</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item>Izlaist reklāmu pēc %1$d sekundēm</item>
+        <item>Izlaist reklāmu pēc %1$d sekundēm</item>
+        <item>Izlaist reklāmu pēc %1$d sekundes</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item>Atsaukt atzīmi Patīk; %1$d citi lietotāji atzīmēja šo videoklipu ar Patīk.</item>
+        <item>Atsaukt atzīmi Patīk</item>
+        <item>Atsaukt atzīmi Patīk; %1$d cits lietotājs atzīmēja šo videoklipu ar Patīk.</item>
+    </plurals>
+    <plurals name="auto_offline_video_duration_minutes">
+        <item>%1$d minūtes</item>
+        <item>%1$d minūtes</item>
+        <item>%1$d minūte</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item>Lejupielādēt %1$d jaunus videoklipus</item>
+        <item>Lejupielādēt %1$d jaunus videoklipus</item>
+        <item>Lejupielādēt %1$d jaunu videoklipu</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item>%1$d minūtes</item>
+        <item>0 minūšu</item>
+        <item>1 minūte</item>
+        <item>2 minūtes</item>
+        <item>%1$d minūtes</item>
+        <item>%1$d minūtes</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item>%1$d sekundes</item>
+        <item>0 sekunžu</item>
+        <item>1 sekunde</item>
+        <item>2 sekundes</item>
+        <item>%1$d sekundes</item>
+        <item>%1$d sekundes</item>
+    </plurals>
+    <plurals name="empty_chat_four_or_more_other_participants">
+        <item>Šī ir tērzēšana ar šādiem lietotājiem: %1$s, %2$s, %3$s un vēl %4$d personām. Lai sāktu, kopīgojiet saturu.</item>
+        <item>Šī ir tērzēšana ar šādiem lietotājiem: %1$s, %2$s un %3$s. Lai sāktu, kopīgojiet saturu.</item>
+        <item>Šī ir tērzēšana ar šādiem lietotājiem: %1$s, %2$s, %3$s un vēl %4$d personu. Lai sāktu, kopīgojiet saturu.</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item>%1$d stundas</item>
+        <item>%1$d stundu</item>
+        <item>%1$d stunda</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item>Ik pēc %1$d stundām</item>
+        <item>Ik pēc %1$d stundām</item>
+        <item>Ik pēc %1$d stundas</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item>%1$d minūtes</item>
+        <item>%1$d minūšu</item>
+        <item>%1$d minūte</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item>Ik pēc %1$d minūtēm</item>
+        <item>Ik pēc %1$d minūtēm</item>
+        <item>Ik pēc %1$d minūtes</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item>Atjaunināts pirms %1$d dienām</item>
+        <item>Atjaunināts šodien</item>
+        <item>Atjaunināts pirms %1$d dienas</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item>Atjaunināts pirms %1$d stundām</item>
+        <item>Nesen atjaunināts</item>
+        <item>Atjaunināts pirms %1$d stundas</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item>Atjaunināts pirms %1$d minūtēm</item>
+        <item>Nesen atjaunināts</item>
+        <item>Atjaunināts pirms %1$d minūtes</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item>Atjaunināts pirms %1$d nedēļām</item>
+        <item>Atjaunināts šonedēļ</item>
+        <item>Atjaunināts pirms %1$d nedēļas</item>
+    </plurals>
+    <plurals name="lc_stream_status_cd">
+        <item>Šobrīd skatās: %1$s; atzīmju Patīk skaits: %2$s.</item>
+        <item>Šobrīd skatās: %1$s; atzīmju Patīk skaits: %2$s.</item>
+        <item>Šobrīd skatās: %1$s; atzīmju Patīk skaits: %2$s.</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item>%1$d. no %2$d videoklipiem</item>
+        <item>%1$d. no %2$d videoklipiem</item>
+        <item>%1$d. no %2$d videoklipa</item>
+    </plurals>
+    <plurals name="notification_video_list_completed">
+        <item>Saglabāti %1$d jauni videoklipi</item>
+        <item>Saglabāti %1$d jauni videoklipi</item>
+        <item>Saglabāts %1$d jauns videoklips</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item>Lejupielādes būs pieejamas, ja vien jūsu ierīcei tiks izveidots savienojums ar internetu ik pēc %1$d dienām.</item>
+        <item>Lejupielādes būs pieejamas, ja vien jūsu ierīcei tiks izveidots savienojums ar internetu ik pēc %1$d dienām.</item>
+        <item>Lejupielādes būs pieejamas, ja vien jūsu ierīcei tiks izveidots savienojums ar internetu ik pēc %1$d dienas.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item>Lejupielādes būs pieejamas %1$d dienas bez interneta savienojuma.</item>
+        <item>Lejupielādes būs pieejamas %1$d dienas bez interneta savienojuma.</item>
+        <item>Lejupielādes būs pieejamas %1$d dienu bez interneta savienojuma.</item>
+    </plurals>
+    <plurals name="offline_pending_time_window_plural">
+        <item>Kopējais videoklipu skaits: %1$d. Ieplānota saglabāšana: no %2$s līdz %3$s.</item>
+        <item>Nav videoklipu.</item>
+        <item>Kopējais videoklipu skaits: %1$d. Ieplānota saglabāšana: no %2$s līdz %3$s.</item>
+    </plurals>
+    <plurals name="overflow_hearters">
+        <item>Vēl %d lietotāji</item>
+        <item>Vēl %d lietotāju</item>
+        <item>Vēl %d lietotājs</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item>%1$,d videoklipi</item>
+        <item>%1$,d videoklipi</item>
+        <item>%1$,d videoklips</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item>%d sekundes</item>
+        <item>%d sekundes</item>
+        <item>%d sekunde</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item>%1$d ieteikumi</item>
+        <item>%1$d ieteikumi</item>
+        <item>%1$d ieteikums</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item>Atlasīti %1$d videoklipi</item>
+        <item>Atlasīti %1$d videoklipi</item>
+        <item>Atlasīts %1$d videoklips</item>
+    </plurals>
+    <plurals name="tab_with_new_items">
+        <item>%2$s: %1$d jauni vienumi.</item>
+        <item>%2$s: %1$d jauni vienumi.</item>
+        <item>%2$s: %1$d jauns vienums.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item>Notiek sagatavošana: %1$,d%%</item>
+        <item>Notiek sagatavošana: %1$,d%%</item>
+        <item>Notiek sagatavošana: %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item>Atlikušas apmēram %1$,d stundas</item>
+        <item>Atlikušas apmēram %1$,d stundas</item>
+        <item>Atlikusi apmēram %1$,d stunda</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item>Atlikušas apmēram %1$,d minūtes</item>
+        <item>Atlikušas apmēram %1$,d minūtes</item>
+        <item>Atlikusi apmēram %1$,d minūte</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item>Notiek augšupielāde: %1$d. no %2$d videoklipiem</item>
+        <item>Notiek augšupielāde: %1$d. no %2$d videoklipiem</item>
+        <item>Notiek augšupielāde: %1$d. no %2$d videoklipa</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item>Augšupielādētā daļa: %1$,d%%</item>
+        <item>Augšupielādētā daļa: %1$,d%%</item>
+        <item>Augšupielādētā daļa: %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item>Atlikušas apmēram %1$,d sekundes</item>
+        <item>Atlikušas apmēram %1$,d sekundes</item>
+        <item>Atlikusi apmēram %1$,d sekunde</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item>Lai izlaistu %d sekundes, veiciet dubultskārienu pa kreisi vai pa labi</item>
+        <item>Lai izlaistu %d sekundes, veiciet dubultskārienu pa kreisi vai pa labi</item>
+        <item>Lai izlaistu %d sekundi, veiciet dubultskārienu pa kreisi vai pa labi</item>
+    </plurals>
+    <plurals name="video_count">
+        <item>%1$d videoklipi</item>
+        <item>%1$d videoklipi</item>
+        <item>%1$d videoklips</item>
+    </plurals>
+    <plurals name="videos_with_count">
+        <item>%d videoklipi</item>
+        <item>Nav videoklipu</item>
+        <item>%d videoklips</item>
+    </plurals>
+</resources>

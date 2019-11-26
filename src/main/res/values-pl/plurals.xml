@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_like_video_plural">
+        <item>Przycisk Podoba mi się; ten film podoba się %1$d innej osoby</item>
+        <item>Przycisk Podoba mi się; ten film podoba się %1$d innej osobie</item>
+        <item>Przycisk Podoba mi się; ten film podoba się %1$d innym osobom</item>
+        <item>Przycisk Podoba mi się; ten film podoba się %1$d innym osobom</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item>Pomiń reklamę za %1$d sekundy</item>
+        <item>Pomiń reklamę za 1 sekundę</item>
+        <item>Pomiń reklamę za %1$d sekundy</item>
+        <item>Pomiń reklamę za %1$d sekund</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item>Przycisk Cofnij polubienie; ten film podoba się %1$d innej osoby</item>
+        <item>Przycisk Cofnij polubienie; ten film podoba się %1$d innej osobie</item>
+        <item>Przycisk Cofnij polubienie; ten film podoba się %1$d innym osobom</item>
+        <item>Przycisk Cofnij polubienie; ten film podoba się %1$d innym osobom</item>
+    </plurals>
+    <plurals name="auto_offline_video_duration_minutes">
+        <item>%1$d minuty</item>
+        <item>%1$d minuta</item>
+        <item>%1$d minuty</item>
+        <item>%1$d minut</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item>Pobierz %1$d nowego filmu</item>
+        <item>Pobierz %1$d nowy film</item>
+        <item>Pobierz %1$d nowe filmy</item>
+        <item>Pobierz %1$d nowych filmów</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item>%1$d minuty</item>
+        <item>0 minut</item>
+        <item>1 minuta</item>
+        <item>2 minuty</item>
+        <item>%1$d minuty</item>
+        <item>%1$d minut</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item>%1$d sekundy</item>
+        <item>0 sekund</item>
+        <item>1 sekunda</item>
+        <item>2 sekundy</item>
+        <item>%1$d sekundy</item>
+        <item>%1$d sekund</item>
+    </plurals>
+    <plurals name="empty_chat_four_or_more_other_participants">
+        <item>W tym czacie uczestniczą też %1$s, %2$s, %3$s i %4$d innej osoby. Udostępnij coś, żeby zacząć rozmowę.</item>
+        <item>W tym czacie uczestniczą też %1$s,%2$s, %3$s i jeszcze jedna osoba. Udostępnij coś, żeby zacząć rozmowę.</item>
+        <item>W tym czacie uczestniczą też %1$s, %2$s, %3$s i %4$d inne osoby. Udostępnij coś, żeby zacząć rozmowę.</item>
+        <item>W tym czacie uczestniczą też %1$s, %2$s, %3$s i %4$d innych osób. Udostępnij coś, żeby zacząć rozmowę.</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item>%1$d godziny</item>
+        <item>%1$d godzina</item>
+        <item>%1$d godziny</item>
+        <item>%1$d godzin</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item>Co %1$d godziny</item>
+        <item>Co godzinę</item>
+        <item>Co %1$d godziny</item>
+        <item>Co %1$d godzin</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item>%1$d minuty</item>
+        <item>%1$d minuta</item>
+        <item>%1$d minuty</item>
+        <item>%1$d minut</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item>Co %1$d minuty</item>
+        <item>Co minutę</item>
+        <item>Co %1$d minuty</item>
+        <item>Co %1$d minut</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item>Zaktualizowano %1$d dnia temu</item>
+        <item>Zaktualizowano wczoraj</item>
+        <item>Zaktualizowano %1$d dni temu</item>
+        <item>Zaktualizowano %1$d dni temu</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item>Zaktualizowano %1$d godziny temu</item>
+        <item>Zaktualizowano %1$d godzinę temu</item>
+        <item>Zaktualizowano %1$d godziny temu</item>
+        <item>Zaktualizowano %1$d godzin temu</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item>Zaktualizowano %1$d minuty temu</item>
+        <item>Zaktualizowano %1$d minutę temu</item>
+        <item>Zaktualizowano %1$d minuty temu</item>
+        <item>Zaktualizowano %1$d minut temu</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item>Zaktualizowano %1$d tygodnia temu</item>
+        <item>Zaktualizowano %1$d tydzień temu</item>
+        <item>Zaktualizowano %1$d tygodnie temu</item>
+        <item>Zaktualizowano %1$d tygodni temu</item>
+    </plurals>
+    <plurals name="lc_stream_status_cd">
+        <item>Liczba osób, które teraz oglądają: %1$s; liczba osób, którym podoba się transmisja: %2$s</item>
+        <item>Liczba osób, które teraz oglądają: %1$s; liczba osób, którym podoba się transmisja: %2$s</item>
+        <item>Liczba osób, które teraz oglądają: %1$s; liczba osób, którym podoba się transmisja: %2$s</item>
+        <item>Liczba osób, które teraz oglądają: %1$s; liczba osób, którym podoba się transmisja: %2$s</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item>%1$d z %2$d filmu</item>
+        <item>%1$d z 1 filmu</item>
+        <item>%1$d z %2$d filmów</item>
+        <item>%1$d z %2$d filmów</item>
+    </plurals>
+    <plurals name="notification_video_list_completed">
+        <item>Zapisano %1$d nowego filmu</item>
+        <item>Zapisano %1$d nowy film</item>
+        <item>Zapisano %1$d nowe filmy</item>
+        <item>Zapisano %1$d nowych filmów</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item>Pobrane filmy pozostaną dostępne, jeśli będziesz się łączyć z internetem co %1$d dnia.</item>
+        <item>Pobrane filmy pozostaną dostępne, jeśli codziennie będziesz się łączyć z internetem.</item>
+        <item>Pobrane filmy pozostaną dostępne, jeśli będziesz się łączyć z internetem co %1$d dni.</item>
+        <item>Pobrane filmy pozostaną dostępne, jeśli będziesz się łączyć z internetem co %1$d dni.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item>Jeśli nie połączysz się z internetem, pobrane filmy będą dostępne przez %1$d dnia.</item>
+        <item>Jeśli nie połączysz się z internetem, pobrane filmy będą dostępne przez jeden dzień.</item>
+        <item>Jeśli nie połączysz się z internetem, pobrane filmy będą dostępne przez %1$d dni.</item>
+        <item>Jeśli nie połączysz się z internetem, pobrane filmy będą dostępne przez %1$d dni.</item>
+    </plurals>
+    <plurals name="offline_pending_time_window_plural">
+        <item>Łącznie %1$d filmu. Ustawiono do zapisania między %2$s a %3$s.</item>
+        <item>Ustawiono do zapisania między %2$s a %3$s.</item>
+        <item>Łącznie %1$d filmy. Ustawiono do zapisania między %2$s a %3$s.</item>
+        <item>Łącznie %1$d filmów. Ustawiono do zapisania między %2$s a %3$s.</item>
+    </plurals>
+    <plurals name="overflow_hearters">
+        <item>i jeszcze %d</item>
+        <item>i jeszcze %d</item>
+        <item>i jeszcze %d</item>
+        <item>i jeszcze %d</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item>%1$,d filmu</item>
+        <item>1 film</item>
+        <item>%1$,d filmy</item>
+        <item>%1$,d filmów</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item>%d sekundy</item>
+        <item>%d sekunda</item>
+        <item>%d sekundy</item>
+        <item>%d sekund</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item>%1$d rekomendacji</item>
+        <item>1 rekomendacja</item>
+        <item>%1$d rekomendacje</item>
+        <item>%1$d rekomendacji</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item>Wybrano %1$d filmu</item>
+        <item>Wybrano 1 film</item>
+        <item>Wybrano %1$d filmy</item>
+        <item>Wybrano %1$d filmów</item>
+    </plurals>
+    <plurals name="tab_with_new_items">
+        <item>%2$s: %1$d nowego elementu.</item>
+        <item>%2$s: %1$d nowy element.</item>
+        <item>%2$s: %1$d nowe elementy.</item>
+        <item>%2$s: %1$d nowych elementów.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item>Przygotowuję %1$,d%%</item>
+        <item>Przygotowuję %1$,d%%</item>
+        <item>Przygotowuję %1$,d%%</item>
+        <item>Przygotowuję %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item>Pozostało około %1$,d godziny</item>
+        <item>Pozostała około %1$,d godzina</item>
+        <item>Pozostały około %1$,d godziny</item>
+        <item>Pozostało około %1$,d godzin</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item>Pozostało około %1$,d minuty</item>
+        <item>Pozostała około %1$,d minuta</item>
+        <item>Pozostały około %1$,d minuty</item>
+        <item>Pozostało około %1$,d minut</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item>Przesyłam %1$d z %2$d filmów</item>
+        <item>Przesyłam 1 film</item>
+        <item>Przesyłam %1$d z %2$d filmów</item>
+        <item>Przesyłam %1$d z %2$d filmów</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item>Przesłano %1$,d%%</item>
+        <item>Przesłano %1$,d%%</item>
+        <item>Przesłano %1$,d%%</item>
+        <item>Przesłano %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item>Pozostało około %1$,d sekundy</item>
+        <item>Pozostała około %1$,d sekunda</item>
+        <item>Pozostały około %1$,d sekundy</item>
+        <item>Pozostało około %1$,d sekund</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item>Dotknij dwukrotnie po lewej lub po prawej stronie, aby przewinąć o %d sekundy</item>
+        <item>Dotknij dwukrotnie po lewej lub po prawej stronie, aby przewinąć o %d sekundę</item>
+        <item>Dotknij dwukrotnie po lewej lub po prawej stronie, aby przewinąć o %d sekundy</item>
+        <item>Dotknij dwukrotnie po lewej lub po prawej stronie, aby przewinąć o %d sekund</item>
+    </plurals>
+    <plurals name="video_count">
+        <item>%1$d filmu</item>
+        <item>1 film</item>
+        <item>%1$d filmy</item>
+        <item>%1$d filmów</item>
+    </plurals>
+    <plurals name="videos_with_count">
+        <item>%d filmu</item>
+        <item>1 film</item>
+        <item>%d filmy</item>
+        <item>%d filmów</item>
+    </plurals>
+</resources>

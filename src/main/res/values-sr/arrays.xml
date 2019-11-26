@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Пусти музику&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Пусти поп музику&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Пусти музику за журку&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Пусти данашње хитове&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Пусти препоручене видео снимке&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Покажи ми трејлере филмова&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Покажи ми видео снимке о јоги&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Покажи ми вежбе за истезање&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Нађи идеје за украшавање торте&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Нађи рецепте за здраву вечеру&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Нађи видео снимке о сноубордингу&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Покажи идеје за мајсторије за децу&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Покажи видео снимак о дрводељству&lt;/i&gt;</item>
+        <item>Реците:&lt;br/&gt;&lt;i&gt;Покажи ми како се везује кравата&lt;/i&gt;</item>
+    </array>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Pusti muziku&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Pusti pop muziku&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Pusti muziku za žurku&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Pusti današnje hitove&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Pusti preporučene video snimke&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Pokaži mi trejlere filmova&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Pokaži mi video snimke o jogi&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Pokaži mi vežbe za istezanje&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Nađi ideje za ukrašavanje torte&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Nađi recepte za zdravu večeru&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Nađi video snimke o snoubordingu&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Pokaži ideje za majstorije za decu&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Pokaži video snimak o drvodeljstvu&lt;/i&gt;</item>
+        <item>Recite:&lt;br/&gt;&lt;i&gt;Pokaži mi kako se vezuje kravata&lt;/i&gt;</item>
+    </array>
+</resources>

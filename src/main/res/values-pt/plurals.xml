@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="duration_minutes">
+        <item>%1$d minutos</item>
+        <item>0 minutos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>%1$d minutos</item>
+        <item>%1$d minutos</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item>%1$d segundos</item>
+        <item>0 segundos</item>
+        <item>1 segundo</item>
+        <item>2 segundos</item>
+        <item>%1$d segundos</item>
+        <item>%1$d segundos</item>
+    </plurals>
+</resources>

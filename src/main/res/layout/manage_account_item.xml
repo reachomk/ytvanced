@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/account_item_selector" android:padding="16dp" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@+id/thumbnail" android:padding="@dimen/account_switcher_drawable_internal_padding" android:layout_width="@dimen/account_switcher_thumbnail_size" android:layout_height="@dimen/account_switcher_thumbnail_size" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_toEndOf="@+id/thumbnail">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="@color/account_switcher_name_text_color" android:ellipsize="end" android:gravity="start" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:robotoFont="0"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="@color/account_switcher_byline_text_color" android:ellipsize="end" android:gravity="start" android:id="@+id/byline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:robotoFont="1"/>
+    </LinearLayout>
+</RelativeLayout>

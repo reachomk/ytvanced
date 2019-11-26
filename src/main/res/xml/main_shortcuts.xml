@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <shortcut android:icon="@drawable/ic_shortcut_search">
+        <intent android:targetPackage="com.google.android.youtube" android:action="com.google.android.youtube.action.open.search" android:targetActivity="com.google.android.apps.youtube.app.application.Shell$HomeActivity">
+            <extra android:name="source" android:value="shortcut"/>
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_subscriptions">
+        <intent android:targetPackage="com.google.android.youtube" android:action="com.google.android.youtube.action.open.subscriptions" android:targetActivity="com.google.android.apps.youtube.app.application.Shell$HomeActivity">
+            <extra android:name="source" android:value="shortcut"/>
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_trending">
+        <intent android:targetPackage="com.google.android.youtube" android:action="com.google.android.youtube.action.open.trending" android:targetActivity="com.google.android.apps.youtube.app.application.Shell$HomeActivity">
+            <extra android:name="source" android:value="shortcut"/>
+        </intent>
+    </shortcut>
+</shortcuts>

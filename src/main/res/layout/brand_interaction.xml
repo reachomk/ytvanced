@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:id="@+id/brand_interaction_container" android:background="@color/brand_interaction_background_color" android:layout_width="wrap_content" android:layout_height="36dp">
+        <ImageButton android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/brand_interaction_thumbs_up" android:background="@android:color/transparent" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="45dp" android:layout_height="36dp" android:contentDescription="@null" android:alpha="@dimen/low_opacity" android:paddingStart="10dp" android:paddingEnd="5dp"/>
+        <ImageButton android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/brand_interaction_thumbs_down" android:background="@android:color/transparent" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="45dp" android:layout_height="36dp" android:contentDescription="@null" android:alpha="@dimen/low_opacity" android:paddingStart="5dp" android:paddingEnd="10dp"/>
+    </LinearLayout>
+</merge>

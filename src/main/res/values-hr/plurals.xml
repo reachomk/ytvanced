@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_like_video_plural">
+        <item>Gumb za pozitivno ocjenjivanje; videozapis je pozitivno ocijenilo još %1$d korisnika</item>
+        <item>Gumb za pozitivno ocjenjivanje; videozapis je pozitivno ocijenio još %1$d korisnik</item>
+        <item>Gumb za pozitivno ocjenjivanje; videozapis su pozitivno ocijenila još %1$d korisnika</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item>Preskoči oglas za %1$d sekundi</item>
+        <item>Preskoči oglas za %1$d sekundu</item>
+        <item>Preskoči oglas za %1$d sekunde</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item>Gumb za povlačenje pozitivne ocjene; videozapis je pozitivno ocijenilo još %1$d korisnika</item>
+        <item>Gumb za povlačenje pozitivne ocjene; videozapis je pozitivno ocijenio još %1$d korisnik</item>
+        <item>Gumb za povlačenje pozitivne ocjene; videozapis su pozitivno ocijenila još %1$d korisnika</item>
+    </plurals>
+    <plurals name="auto_offline_video_duration_minutes">
+        <item>%1$d minuta</item>
+        <item>%1$d minuta</item>
+        <item>%1$d minute</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item>Preuzmi %1$d novih videozapisa</item>
+        <item>Preuzmi %1$d novi videozapis</item>
+        <item>Preuzmi %1$d nova videozapisa</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item>%1$d min</item>
+        <item>0 minuta</item>
+        <item>1 minuta</item>
+        <item>2 minute</item>
+        <item>%1$d min</item>
+        <item>%1$d min</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item>%1$d s</item>
+        <item>0 sekundi</item>
+        <item>1 sekunda</item>
+        <item>2 sekunde</item>
+        <item>%1$d s</item>
+        <item>%1$d s</item>
+    </plurals>
+    <plurals name="empty_chat_four_or_more_other_participants">
+        <item>Ovo je chat u kojem sudjeluju %1$s, %2$s, %3$s i još %4$d osoba. Podijelite nešto da biste započeli razgovor!</item>
+        <item>Ovo je chat u kojem sudjeluju %1$s, %2$s, %3$s i još %4$d osoba. Podijelite nešto da biste započeli razgovor!</item>
+        <item>Ovo je chat u kojem sudjeluju %1$s, %2$s, %3$s i još %4$d osobe. Podijelite nešto da biste započeli razgovor!</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item>%1$d sati</item>
+        <item>%1$d sat</item>
+        <item>%1$d sata</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item>Svakih %1$d sati</item>
+        <item>Svaki %1$d sat</item>
+        <item>Svaka %1$d sata</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item>%1$d minuta</item>
+        <item>%1$d minuta</item>
+        <item>%1$d minute</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item>Svakih %1$d minuta</item>
+        <item>Svaku %1$d minutu</item>
+        <item>Svake %1$d minute</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item>Ažurirano prije %1$d dana</item>
+        <item>Ažurirano prije %1$d dan</item>
+        <item>Ažurirano prije %1$d dana</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item>Ažurirano prije %1$d sati</item>
+        <item>Ažurirano prije %1$d sat</item>
+        <item>Ažurirano prije %1$d sata</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item>Ažurirano prije %1$d minuta</item>
+        <item>Ažurirano prije %1$d minutu</item>
+        <item>Ažurirano prije %1$d minute</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item>Ažurirano prije %1$d tjedana</item>
+        <item>Ažurirano prije %1$d tjedan</item>
+        <item>Ažurirano prije %1$d tjedna</item>
+    </plurals>
+    <plurals name="lc_stream_status_cd">
+        <item>Trenutačno gledatelja: %1$s, %2$s pozitivnih ocjena</item>
+        <item>Trenutačno gledatelja: %1$s, %2$s pozitivna ocjena</item>
+        <item>Trenutačno gledatelja: %1$s, %2$s pozitivne ocjene</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item>%1$d od %2$d videozapisa</item>
+        <item>%1$d od %2$d videozapisa</item>
+        <item>%1$d od %2$d videozapisa</item>
+    </plurals>
+    <plurals name="notification_video_list_completed">
+        <item>Spremljeno je %1$d novih videozapisa</item>
+        <item>Spremljen je %1$d novi videozapis</item>
+        <item>Spremljena su %1$d nova videozapisa</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item>Preuzimanja ostaju dostupna sve dok vaš uređaj uspostavlja vezu s internetom u razmacima od %1$d dana.</item>
+        <item>Preuzimanja ostaju dostupna sve dok vaš uređaj uspostavlja vezu s internetom u razmacima od %1$d dana.</item>
+        <item>Preuzimanja ostaju dostupna sve dok vaš uređaj uspostavlja vezu s internetom u razmacima od %1$d dana.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item>Preuzimanja ostaju dostupna %1$d dana bez internetske veze.</item>
+        <item>Preuzimanja ostaju dostupna %1$d dan bez internetske veze.</item>
+        <item>Preuzimanja ostaju dostupna %1$d dana bez internetske veze.</item>
+    </plurals>
+    <plurals name="offline_pending_time_window_plural">
+        <item>Ukupno %1$d videozapisa. Postavljeno za spremanje: od %2$s do %3$s.</item>
+        <item>Ukupno %1$d videozapis. Postavljeno za spremanje: od %2$s do %3$s.</item>
+        <item>Ukupno %1$d videozapisa. Postavljeno za spremanje: od %2$s do %3$s.</item>
+    </plurals>
+    <plurals name="overflow_hearters">
+        <item>i još %d</item>
+        <item>i još %d</item>
+        <item>i još %d</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item>%1$,d videozapisa</item>
+        <item>%1$,d videozapis</item>
+        <item>%1$,d videozapisa</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item>%d sekundi</item>
+        <item>%d sekunda</item>
+        <item>%d sekunde</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item>%1$d preporuka</item>
+        <item>%1$d preporuka</item>
+        <item>%1$d preporuke</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item>Odabrano je %1$d videozapisa</item>
+        <item>Odabran je %1$d videozapis</item>
+        <item>Odabrana su %1$d videozapisa</item>
+    </plurals>
+    <plurals name="tab_with_new_items">
+        <item>%2$s: %1$d novih stavki.</item>
+        <item>%2$s: %1$d nova stavka.</item>
+        <item>%2$s: %1$d nove stavke.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item>Priprema: %1$,d%%</item>
+        <item>Priprema: %1$,d%%</item>
+        <item>Priprema: %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item>Preostalo je približno %1$,d sati</item>
+        <item>Preostao je približno %1$,d sat</item>
+        <item>Preostala su približno %1$,d sata</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item>Preostalo je približno %1$,d minuta</item>
+        <item>Preostala je približno %1$,d minuta</item>
+        <item>Preostale su približno %1$,d minute</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item>Prijenos %1$d od %2$d videozapisa u tijeku</item>
+        <item>Prijenos %1$d od %2$d videozapisa u tijeku</item>
+        <item>Prijenos %1$d od %2$d videozapisa u tijeku</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item>Preneseno: %1$,d%%</item>
+        <item>Preneseno: %1$,d%%</item>
+        <item>Preneseno: %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item>Preostalo je približno %1$,d sekundi</item>
+        <item>Preostala je približno %1$,d sekunda</item>
+        <item>Preostale su približno %1$,d sekunde</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item>Dodirnite dvaput lijevo ili desno za preskok od %d sekundi</item>
+        <item>Dodirnite dvaput lijevo ili desno za preskok od %d sekunde</item>
+        <item>Dodirnite dvaput lijevo ili desno za preskok od %d sekunde</item>
+    </plurals>
+    <plurals name="video_count">
+        <item>%1$d videozapisa</item>
+        <item>%1$d videozapis</item>
+        <item>%1$d videozapisa</item>
+    </plurals>
+    <plurals name="videos_with_count">
+        <item>%d videozapisa</item>
+        <item>%d videozapis</item>
+        <item>%d videozapisa</item>
+    </plurals>
+</resources>

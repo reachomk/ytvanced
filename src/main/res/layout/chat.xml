@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/ytGeneralBackgroundA" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/chat_pending_members"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <include android:id="@+id/reply_box" layout="@layout/reply_box"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/empty" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.conversation.ui.FacePileView android:id="@+id/empty_face_pile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="20dp" app:itemSize="64dp" app:itemOffset="52dp" app:facePileStrokeWidth="4dp"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="12sp" android:textColor="?attr/ytTextDisabled" android:gravity="center_horizontal" android:id="@+id/empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" app:robotoFont="6"/>
+    </LinearLayout>
+    <ProgressBar android:id="@+id/loading_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/error_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+        <TextView android:id="@+id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/error_retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/yt_lib_common_retry"/>
+    </LinearLayout>
+    <com.google.android.libraries.youtube.conversation.technodrome.view.ChatInlineFixedVideoView android:id="@+id/chat_fixed_player" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textColor="?attr/ytText1Inverse" android:id="@+id/technodrome_marker" android:background="?attr/yt10PercentLayer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/technodrome_marker"/>
+</RelativeLayout>

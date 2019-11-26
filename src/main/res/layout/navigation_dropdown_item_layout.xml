@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/navigation_dropdown_item_height" android:foreground="?attr/selectableItemBackground">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?attr/ytTextPrimary" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/dropdown_item_label" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:includeFontPadding="false" android:textAllCaps="true" app:robotoFont="6"/>
+</FrameLayout>

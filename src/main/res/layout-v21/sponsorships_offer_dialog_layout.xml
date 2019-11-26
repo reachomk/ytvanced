@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.LoadingFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/ytBrandBackgroundSolid" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.design.appbar.AppBarLayout android:id="@+id/browse_app_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/tabbar_elevation">
+            <android.support.v7.widget.Toolbar android:theme="?attr/actionBarTheme" android:id="@+id/toolbar" android:background="?attr/ytBrandBackgroundPrimary" android:layout_width="match_parent" android:layout_height="48dp" android:minHeight="?attr/actionBarSize" app:navigationIcon="@drawable/quantum_ic_close_white_24" app:navigationContentDescription="@string/accessibility_close_button" app:titleTextColor="?attr/ytTextPrimary">
+                <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/contextual_menu_anchor" android:background="?attr/selectableItemBackgroundBorderless" android:padding="8dp" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/quantum_ic_more_vert_black_24" android:scaleType="centerInside" android:adjustViewBounds="true" android:tint="?attr/ytTextSecondary" android:contentDescription="@null"/>
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.appbar.AppBarLayout>
+        <FrameLayout android:id="@+id/offer_view" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</com.google.android.libraries.youtube.common.ui.LoadingFrameLayout>

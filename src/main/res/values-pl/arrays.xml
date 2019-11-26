@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Zagraj jakiś utwór&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Zagraj jakieś popowe piosenki&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Zagraj muzykę na imprezę&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Odtwórz dzisiejsze przeboje&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Odtwórz polecane filmy&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Wyświetl zwiastuny filmów&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Pokaż filmy o jodze&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Wyświetl ćwiczenia rozciągające&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Znajdź pomysły na przyozdobienie tortu&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Znajdź przepisy na zdrowe obiady&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Znajdź filmy o jeździe na snowboardzie&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Pokaż pomysły na prace ręczne, które mogą robić dzieci&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Odtwórz film o stolarstwie&lt;/i&gt;</item>
+        <item>Powiedz:&lt;br/&gt;&lt;i&gt;Pokaż, jak się wiąże krawat&lt;/i&gt;</item>
+    </array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/promo_image" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginTop="24dp" android:layout_marginBottom="24dp"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceSubhead" android:textColor="?attr/ytTextSecondary" android:id="@+id/promo_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@+id/add_contacts_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/close_button" android:background="?attr/selectableItemBackground" android:layout_width="32dp" android:layout_height="32dp" android:layout_margin="16dp" android:scaleType="centerInside" android:contentDescription="@string/accessibility_close_dialog"/>
+</FrameLayout>

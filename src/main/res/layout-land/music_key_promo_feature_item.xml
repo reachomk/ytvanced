@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@drawable/card_frame_middle" android:paddingTop="40dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:id="@+id/image_container" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3" android:layout_marginStart="@dimen/margin_start" android:layout_marginEnd="2dp" app:aspectRatio="@fraction/aspect_ratio_2_1">
+        <ImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@null"/>
+    </com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout>
+    <include android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2" android:layout_marginEnd="@dimen/margin_end" layout="@layout/music_key_promo_feature_item_text"/>
+</LinearLayout>

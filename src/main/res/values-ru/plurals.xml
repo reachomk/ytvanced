@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_like_video_plural">
+        <item>Поставить отметку &quot;Мне понравилось&quot;; это видео нравится ещё %1$d пользователям</item>
+        <item>Поставить отметку &quot;Мне понравилось&quot;; это видео нравится ещё %1$d пользователю</item>
+        <item>Поставить отметку &quot;Мне понравилось&quot;; это видео нравится ещё %1$d пользователям</item>
+        <item>Поставить отметку &quot;Мне понравилось&quot;; это видео нравится ещё %1$d пользователям</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item>Рекламу можно будет пропустить через %1$d секунды</item>
+        <item>Рекламу можно будет пропустить через %1$d секунду</item>
+        <item>Рекламу можно будет пропустить через %1$d секунды</item>
+        <item>Рекламу можно будет пропустить через %1$d секунд</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item>Снять отметку &quot;Мне понравилось&quot;; это видео нравится ещё %1$d пользователя</item>
+        <item>Снять отметку &quot;Мне понравилось&quot;; это видео нравится ещё %1$d пользователю</item>
+        <item>Снять отметку &quot;Мне понравилось&quot;; это видео нравится ещё %1$d пользователям</item>
+        <item>Снять отметку &quot;Мне понравилось&quot;; это видео нравится ещё %1$d пользователям</item>
+    </plurals>
+    <plurals name="auto_offline_video_duration_minutes">
+        <item>%1$d минуты</item>
+        <item>%1$d минута</item>
+        <item>%1$d минуты</item>
+        <item>%1$d минут</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item>Сохранить %1$d нового видео</item>
+        <item>Сохранить %1$d новое видео</item>
+        <item>Сохранить %1$d новых видео</item>
+        <item>Сохранить %1$d новых видео</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item>%1$d минуты</item>
+        <item>0 минут</item>
+        <item>1 минута</item>
+        <item>2 минуты</item>
+        <item>%1$d минуты</item>
+        <item>%1$d минут</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item>%1$d секунды</item>
+        <item>0 секунд</item>
+        <item>1 секунда</item>
+        <item>2 секунды</item>
+        <item>%1$d секунды</item>
+        <item>%1$d секунд</item>
+    </plurals>
+    <plurals name="empty_chat_four_or_more_other_participants">
+        <item>В этом чате вы можете общаться с пользователями %1$s, %2$s, %3$s и ещё %4$d человека. Поделитесь с ними каким-нибудь видео!</item>
+        <item>В этом чате вы можете общаться с пользователями %1$s, %2$s, %3$s и ещё %4$d человеком. Поделитесь с ними каким-нибудь видео!</item>
+        <item>В этом чате вы можете общаться с пользователями %1$s, %2$s, %3$s и ещё %4$d людьми. Поделитесь с ними каким-нибудь видео!</item>
+        <item>В этом чате вы можете общаться с пользователями %1$s, %2$s, %3$s и ещё %4$d людьми. Поделитесь с ними каким-нибудь видео!</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item>%1$d часа</item>
+        <item>%1$d час</item>
+        <item>%1$d часа</item>
+        <item>%1$d часов</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item>Каждые %1$d часа</item>
+        <item>Каждый %1$d час</item>
+        <item>Каждые %1$d часа</item>
+        <item>Каждые %1$d часов</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item>%1$dминуты</item>
+        <item>%1$dминуту</item>
+        <item>%1$dминуты</item>
+        <item>%1$dминут</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item>Каждые %1$d минуты</item>
+        <item>Каждую %1$d минуту</item>
+        <item>Каждые %1$d минуты</item>
+        <item>Каждые %1$d минут</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item>Обновлено %1$d дня назад</item>
+        <item>Обновлено %1$d день назад</item>
+        <item>Обновлено %1$d дня назад</item>
+        <item>Обновлено %1$d дней назад</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item>Обновлено %1$d часа назад</item>
+        <item>Обновлено %1$d час назад</item>
+        <item>Обновлено %1$d часа назад</item>
+        <item>Обновлено %1$d часов назад</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item>Обновлено %1$d минуты назад</item>
+        <item>Обновлено %1$d минуту назад</item>
+        <item>Обновлено %1$d минуты назад</item>
+        <item>Обновлено %1$d минут назад</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item>Обновлено %1$d недели назад</item>
+        <item>Обновлено %1$d неделю назад</item>
+        <item>Обновлено %1$d недели назад</item>
+        <item>Обновлено %1$d недель назад</item>
+    </plurals>
+    <plurals name="lc_stream_status_cd">
+        <item>%1$s зрителя, %2$s отметки &quot;Мне понравилось&quot;</item>
+        <item>%1$s зритель, %2$s отметка &quot;Мне понравилось&quot;</item>
+        <item>%1$s зрителя, %2$s отметки &quot;Мне понравилось&quot;</item>
+        <item>%1$s зрителей, %2$s отметок &quot;Мне понравилось&quot;</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item>%1$d из %2$d видео</item>
+        <item>%1$d из %2$d видео</item>
+        <item>%1$d из %2$d видео</item>
+        <item>%1$d из %2$d видео</item>
+    </plurals>
+    <plurals name="notification_video_list_completed">
+        <item>Сохранено %1$d нового видео</item>
+        <item>Сохранено %1$d новое видео</item>
+        <item>Сохранено %1$d новых видео</item>
+        <item>Сохранено %1$d новых видео</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item>Чтобы срок хранения не истекал, нужно подключаться к Сети не реже чем раз в %1$d дня.</item>
+        <item>Чтобы срок хранения не истекал, нужно подключаться к Сети не реже чем раз в %1$d день.</item>
+        <item>Чтобы срок хранения не истекал, нужно подключаться к Сети не реже чем раз в %1$d дня.</item>
+        <item>Чтобы срок хранения не истекал, нужно подключаться к Сети не реже чем раз в %1$d дней.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item>Без подключения к Сети ролики хранятся на устройстве %1$d дня.</item>
+        <item>Без подключения к Сети ролики хранятся на устройстве %1$d день.</item>
+        <item>Без подключения к Сети ролики хранятся на устройстве %1$d дня.</item>
+        <item>Без подключения к Сети ролики хранятся на устройстве %1$d дней.</item>
+    </plurals>
+    <plurals name="offline_pending_time_window_plural">
+        <item>Выбрано %1$d видео. Они будут сохранены в период с %2$s до %3$s.</item>
+        <item>Выбрано %1$d видео. Они будут сохранены в период с %2$s до %3$s.</item>
+        <item>Выбрано %1$d видео. Они будут сохранены в период с %2$s до %3$s.</item>
+        <item>Выбрано %1$d видео. Они будут сохранены в период с %2$s до %3$s.</item>
+    </plurals>
+    <plurals name="overflow_hearters">
+        <item>и ещё %d пользователя</item>
+        <item>и ещё %d пользователь</item>
+        <item>и ещё %d пользователя</item>
+        <item>и ещё %d пользователей</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item>%1$,d видео</item>
+        <item>%1$,d видео</item>
+        <item>%1$,d видео</item>
+        <item>%1$,d видео</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item>%d секунды</item>
+        <item>%d секунда</item>
+        <item>%d секунды</item>
+        <item>%d секунд</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item>%1$d рекомендованного видео</item>
+        <item>%1$d рекомендованное видео</item>
+        <item>%1$d рекомендованных видео</item>
+        <item>%1$d рекомендованных видео</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item>Выбрано %1$d видео</item>
+        <item>Выбрано %1$d видео</item>
+        <item>Выбрано %1$d видео</item>
+        <item>Выбрано %1$d видео</item>
+    </plurals>
+    <plurals name="tab_with_new_items">
+        <item>На вкладке %2$s есть %1$d нового уведомления.</item>
+        <item>На вкладке %2$s есть %1$d новое уведомление.</item>
+        <item>На вкладке %2$s есть %1$d новых уведомления.</item>
+        <item>На вкладке %2$s есть %1$d новых уведомлений.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item>Подготовлено %1$,d%% видео</item>
+        <item>Подготовлен %1$,d%% видео</item>
+        <item>Подготовлено %1$,d%% видео</item>
+        <item>Подготовлено %1$,d%% видео</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item>Осталось около %1$,d часа</item>
+        <item>Осталось около %1$,d часа</item>
+        <item>Осталось около %1$,d часов</item>
+        <item>Осталось около %1$,d часов</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item>Осталось около %1$,d минуты</item>
+        <item>Осталось около %1$,d минуты</item>
+        <item>Осталось около %1$,d минут</item>
+        <item>Осталось около %1$,d минут</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item>Загружается %1$d из %2$d видео…</item>
+        <item>Загружается %1$d из %2$d видео…</item>
+        <item>Загружается %1$d из %2$d видео…</item>
+        <item>Загружается %1$d из %2$d видео…</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item>Загружено %1$,d%% видео</item>
+        <item>Загружен %1$,d%% видео</item>
+        <item>Загружено %1$,d%% видео</item>
+        <item>Загружено %1$,d%% видео</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item>Осталось около %1$,d секунды</item>
+        <item>Осталось около %1$,d секунды</item>
+        <item>Осталось около %1$,d секунд</item>
+        <item>Осталось около %1$,d секунд</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item>Чтобы перемотать на %d секунды вперед, дважды нажмите справа; на столько же назад – слева.</item>
+        <item>Чтобы перемотать на %d секунду вперед, дважды нажмите справа; на столько же назад – слева.</item>
+        <item>Чтобы перемотать на %d секунды вперед, дважды нажмите справа; на столько же назад – слева.</item>
+        <item>Чтобы перемотать на %d секунд вперед, дважды нажмите справа; на столько же назад – слева.</item>
+    </plurals>
+    <plurals name="video_count">
+        <item>%1$d видео</item>
+        <item>%1$d видео</item>
+        <item>%1$d видео</item>
+        <item>%1$d видео</item>
+    </plurals>
+    <plurals name="videos_with_count">
+        <item>%d видео</item>
+        <item>%d видео</item>
+        <item>%d видео</item>
+        <item>%d видео</item>
+    </plurals>
+</resources>

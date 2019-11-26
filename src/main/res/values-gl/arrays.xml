@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Reproducir algo de música&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Reproducir música pop&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Reproducir música de festa&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Reproducir éxitos actuais&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Reproducir vídeos recomendados&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Mostrarme tráilers de películas&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Mostrarme vídeos de ioga&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Mostrarme exercicios de estiramentos&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Buscar ideas para decorar pasteis&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Buscar receitas de ceas saudables&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Buscar vídeos de snowboard&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Mostrar ideas de traballos manuais para nenos&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Mostrar vídeo de carpintaría&lt;/i&gt;</item>
+        <item>Proba a dicir:&lt;br/&gt;&lt;i&gt;Mostrarme como anoar unha gravata&lt;/i&gt;</item>
+    </array>
+</resources>

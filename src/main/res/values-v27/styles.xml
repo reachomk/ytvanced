@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavigationBar.Dark">
+    </style>
+    <style name="NavigationBar.Light">
+    </style>
+    <style name="Theme.GoogleMaterial.Light.BottomSheetDialog">
+        <item name="android:navigationBarColor">@color/google_white</item>
+        <item name="?0x101056c">true</item>
+        <item name="?0x101056d">@android:color/transparent</item>
+    </style>
+    <style name="Theme.YouTube.Dark">
+    </style>
+    <style name="Theme.YouTube.GalleryActivity">
+    </style>
+    <style name="Theme.YouTube.Home">
+    </style>
+    <style name="Theme.YouTube.Launcher">
+    </style>
+    <style name="Theme.YouTube.Launcher">
+    </style>
+    <style name="Theme.YouTube.Light">
+    </style>
+    <style name="Theme.YouTube.Light.Dialog">
+    </style>
+    <style name="Theme.YouTube.Share.DialogFragment.Dark">
+    </style>
+    <style name="Theme.YouTube.Share.DialogFragment.Light">
+    </style>
+    <style name="Base.V27.Theme.YouTube.Dark">
+        <item name="android:navigationBarColor">@color/navigation_bar_background_dark</item>
+        <item name="?0x101056c">false</item>
+        <item name="?0x101056d">@color/navigation_bar_divider_dark</item>
+    </style>
+    <style name="Base.V27.Theme.YouTube.GalleryActivity">
+        <item name="?0x101056d">@android:color/transparent</item>
+    </style>
+    <style name="Base.V27.Theme.YouTube.Home">
+        <item name="?0x101056d">@color/navigation_bar_divider_light</item>
+    </style>
+    <style name="Base.V27.Theme.YouTube.Launcher.Dark">
+        <item name="android:navigationBarColor">@color/navigation_bar_background_dark</item>
+        <item name="?0x101056c">false</item>
+        <item name="?0x101056d">@color/navigation_bar_divider_dark</item>
+    </style>
+    <style name="Base.V27.Theme.YouTube.Launcher.Light">
+        <item name="android:navigationBarColor">@color/navigation_bar_background_light</item>
+        <item name="?0x101056c">true</item>
+        <item name="?0x101056d">@color/navigation_bar_divider_light</item>
+    </style>
+    <style name="Base.V27.Theme.YouTube.Light">
+        <item name="android:navigationBarColor">@color/navigation_bar_background_light</item>
+        <item name="?0x101056c">true</item>
+        <item name="?0x101056d">@color/navigation_bar_divider_light</item>
+    </style>
+    <style name="Base.V27.Theme.YouTube.Light.Dialog">
+        <item name="android:navigationBarColor">@color/navigation_bar_background_light</item>
+        <item name="?0x101056c">true</item>
+        <item name="?0x101056d">@color/navigation_bar_divider_light</item>
+    </style>
+    <style name="Base.V27.Theme.YouTube.Share.DialogFragment.Dark">
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="?0x101056c">false</item>
+        <item name="?0x101056d">@android:color/black</item>
+    </style>
+    <style name="Base.V27.Theme.YouTube.Share.DialogFragment.Light">
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="?0x101056c">true</item>
+        <item name="?0x101056d">@color/yt_white4</item>
+    </style>
+    <style name="NavigationBar.Dark.V27">
+        <item name="navigationBarColor">@color/navigation_bar_background_dark</item>
+        <item name="navigationBarControlsMode">@null</item>
+        <item name="navigationBarDividerColor">@color/navigation_bar_divider_dark</item>
+        <item name="navigationBarDividerSize">@dimen/navigation_bar_divider_size_dark</item>
+    </style>
+    <style name="NavigationBar.Light.V27">
+        <item name="navigationBarColor">@color/navigation_bar_background_light</item>
+        <item name="navigationBarControlsMode">1</item>
+        <item name="navigationBarDividerColor">@color/navigation_bar_divider_light</item>
+        <item name="navigationBarDividerSize">@dimen/navigation_bar_divider_size_light</item>
+    </style>
+</resources>

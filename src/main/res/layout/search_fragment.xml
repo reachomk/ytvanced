@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/search_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <LinearLayout android:orientation="vertical" android:id="@+id/incognito_message" android:paddingTop="40dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/ic_incognito_circle_light" android:scaleType="centerCrop" android:tint="?attr/ytIcon2"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?attr/ytTextPrimary" android:gravity="center" android:layout_gravity="center" android:paddingTop="32dp" android:layout_width="200dp" android:layout_height="wrap_content" android:minHeight="20dp" android:text="@string/search_incognito_message" android:includeFontPadding="false" android:inputType="textMultiLine"/>
+    </LinearLayout>
+    <ListView android:id="@+id/results" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Widget.YouTube.ListView"/>
+</FrameLayout>

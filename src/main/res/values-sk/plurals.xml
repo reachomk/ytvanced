@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_like_video_plural">
+        <item>Tlačidlo Páči sa mi, toto video sa páči %1$d ďalším používateľom</item>
+        <item>Tlačidlo Páči sa mi, toto video sa páči %1$d ďalšiemu používateľovi</item>
+        <item>Tlačidlo Páči sa mi, toto video sa páči %1$d ďalším používateľom</item>
+        <item>Tlačidlo Páči sa mi, toto video sa páči %1$d ďalším používateľom</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item>Preskočiť reklamu o %1$d sekúnd</item>
+        <item>Preskočiť reklamu o 1 sekundu</item>
+        <item>Preskočiť reklamu o %1$d sekundy</item>
+        <item>Preskočiť reklamu o %1$d sekundy</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item>Tlačidlo na zrušenie označenia Páči sa mi, toto video sa páči %1$d ďalším používateľom</item>
+        <item>Tlačidlo na zrušenie označenia Páči sa mi, toto video sa páči %1$d ďalšiemu používateľovi</item>
+        <item>Tlačidlo na zrušenie označenia Páči sa mi, toto video sa páči %1$d ďalším používateľom</item>
+        <item>Tlačidlo na zrušenie označenia Páči sa mi, toto video sa páči %1$d ďalším používateľom</item>
+    </plurals>
+    <plurals name="auto_offline_video_duration_minutes">
+        <item>%1$d minút</item>
+        <item>%1$d minúta</item>
+        <item>%1$d minúty</item>
+        <item>%1$d minúty</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item>Stiahnuť %1$d nových videí</item>
+        <item>Stiahnuť %1$d nové video</item>
+        <item>Stiahnuť %1$d nové videá</item>
+        <item>Stiahnuť %1$d nového videa</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item>%1$d min</item>
+        <item>0 minút</item>
+        <item>1 minúta</item>
+        <item>2 minúty</item>
+        <item>%1$d min</item>
+        <item>%1$d min</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item>%1$d s</item>
+        <item>0 sekúnd</item>
+        <item>1 sekunda</item>
+        <item>2 sekundy</item>
+        <item>%1$d s</item>
+        <item>%1$d s</item>
+    </plurals>
+    <plurals name="empty_chat_four_or_more_other_participants">
+        <item>Toto je čet s používateľmi %1$s, %2$s, %3$s a ešte %4$d ďalšími. Na začiatok niečo nazdieľajte.</item>
+        <item>Toto je čet s používateľmi %1$s, %2$s, %3$s a ešte 1 ďalším. Na začiatok niečo nazdieľajte.</item>
+        <item>Toto je čet s používateľmi %1$s, %2$s, %3$s a ešte %4$d ďalšími. Na začiatok niečo nazdieľajte.</item>
+        <item>This is a chat with %1$s, %2$s, %3$s, and %4$d more people. Na začiatok niečo nazdieľajte.</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item>%1$d hodinách</item>
+        <item>%1$d hodine</item>
+        <item>%1$d hodinách</item>
+        <item>%1$d hodiny</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item>Každých %1$d hodín</item>
+        <item>Každú hodinu</item>
+        <item>Každé %1$d hodiny</item>
+        <item>Každých %1$d hodiny</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item>%1$d minútach</item>
+        <item>%1$d minúte</item>
+        <item>%1$d minútach</item>
+        <item>%1$d minúty</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item>Každých %1$d minút</item>
+        <item>Každú minútu</item>
+        <item>Každé %1$d minúty</item>
+        <item>Každých %1$d minúty</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item>Aktualizované pred %1$d dňami</item>
+        <item>Aktualizované včera</item>
+        <item>Aktualizované pred %1$d dňami</item>
+        <item>Aktualizované pred %1$d dňom</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item>Aktualizované pred %1$d hodinami</item>
+        <item>Aktualizované pred %1$d hodinou</item>
+        <item>Aktualizované pred %1$d hodinami</item>
+        <item>Aktualizované pred %1$d hodinou</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item>Aktualizované pred %1$d minútami</item>
+        <item>Aktualizované pred %1$d minútou</item>
+        <item>Aktualizované pred %1$d minútami</item>
+        <item>Aktualizované pred %1$d minútou</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item>Aktualizované pred %1$d týždňami</item>
+        <item>Aktualizované pred %1$d týždňom</item>
+        <item>Aktualizované pred %1$d týždňami</item>
+        <item>Aktualizované pred %1$d týždňom</item>
+    </plurals>
+    <plurals name="lc_stream_status_cd">
+        <item>Aktuálny počet divákov: %1$s, %2$s označení Páči sa mi</item>
+        <item>Aktuálny počet divákov: %1$s, %2$s označenie Páči sa mi</item>
+        <item>Aktuálny počet divákov: %1$s, %2$s označenia Páči sa mi</item>
+        <item>Aktuálny počet divákov: %1$s, %2$s označenia Páči sa mi</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item>%1$d z %2$d videí</item>
+        <item>%1$d z 1 videa</item>
+        <item>%1$d z %2$d videí</item>
+        <item>%1$d z %2$d videa</item>
+    </plurals>
+    <plurals name="notification_video_list_completed">
+        <item>Uložených %1$d nových videí</item>
+        <item>Uložené %1$d nové video</item>
+        <item>Uložené %1$d nové videá</item>
+        <item>Uložených %1$d nového videa</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item>Stiahnutý obsah bude k dispozícii, pokiaľ bude mať vaše zariadenie internetové pripojenie každých %1$d dní.</item>
+        <item>Stiahnutý obsah bude k dispozícii, pokiaľ bude mať vaše zariadenie internetové pripojenie každý deň.</item>
+        <item>Stiahnutý obsah bude k dispozícii, pokiaľ bude mať vaše zariadenie internetové pripojenie každé %1$d dni.</item>
+        <item>Stiahnutý obsah bude k dispozícii, pokiaľ bude mať vaše zariadenie internetové pripojenie každého %1$d dňa.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item>Stiahnuté súbory sú bez internetového pripojenia k dispozícii %1$d dní.</item>
+        <item>Stiahnuté súbory sú bez internetového pripojenia k dispozícii 1 deň.</item>
+        <item>Stiahnuté súbory sú bez internetového pripojenia k dispozícii %1$d dni.</item>
+        <item>Stiahnuté súbory sú bez internetového pripojenia k dispozícii %1$d dňa.</item>
+    </plurals>
+    <plurals name="offline_pending_time_window_plural">
+        <item>Celkovo %1$d videí. Nastavené ukladanie: od %2$s do %3$s.</item>
+        <item>Nastavené ukladanie: od %2$s do %3$s.</item>
+        <item>Celkovo %1$d videá. Nastavené ukladanie: od %2$s do %3$s.</item>
+        <item>Celkovo %1$d videa. Nastavené ukladanie: od %2$s do %3$s.</item>
+    </plurals>
+    <plurals name="overflow_hearters">
+        <item>+%d ďalších</item>
+        <item>+%d ďalší</item>
+        <item>+%d ďalší</item>
+        <item>+%d others</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item>%1$,d videí</item>
+        <item>1 video</item>
+        <item>%1$,d videá</item>
+        <item>%1$,d videa</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item>%d sekúnd</item>
+        <item>%d sekunda</item>
+        <item>%d sekundy</item>
+        <item>%d sekundy</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item>%1$d odporúčaní</item>
+        <item>1 odporúčanie</item>
+        <item>%1$d odporúčania</item>
+        <item>%1$d odporúčania</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item>%1$d vybratých videí</item>
+        <item>1 vybraté video</item>
+        <item>%1$d vybraté videá</item>
+        <item>%1$d videos selected</item>
+    </plurals>
+    <plurals name="tab_with_new_items">
+        <item>%2$s: %1$d nových položiek.</item>
+        <item>%2$s: %1$d nová položka.</item>
+        <item>%2$s: %1$d nové položky.</item>
+        <item>%2$s: %1$d novej položky.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item>Pripravuje sa %1$,d %%</item>
+        <item>Pripravuje sa %1$,d %%</item>
+        <item>Pripravujú sa %1$,d %%</item>
+        <item>Pripravuje sa %1$,d %%</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item>Zostáva približne %1$,d hodín</item>
+        <item>Zostáva približne %1$,d hodina</item>
+        <item>Zostávajú približne %1$,d hodiny</item>
+        <item>Zostáva približne %1$,d hodiny</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item>Zostáva približne %1$,d minút</item>
+        <item>Zostáva približne %1$,d minúta</item>
+        <item>Zostávajú približne %1$,d minúty</item>
+        <item>Zostáva približne %1$,d minúty</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item>Nahráva sa %1$d z %2$d videí</item>
+        <item>Nahráva sa 1 video</item>
+        <item>Nahrávajú sa %1$d z %2$d videí</item>
+        <item>Nahráva sa %1$d z %2$d videí</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item>Nahraných %1$,d %%</item>
+        <item>Nahrané %1$,d %%</item>
+        <item>Nahrané %1$,d %%</item>
+        <item>Nahraných %1$,d %%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item>Zostáva približne %1$,d sekúnd</item>
+        <item>Zostáva približne %1$,d sekunda</item>
+        <item>Zostávajú približne %1$,d sekundy</item>
+        <item>Zostáva približne %1$,d sekundy</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item>Dvojitým klepnutím vľavo alebo vpravo preskočíte %d sekúnd</item>
+        <item>Dvojitým klepnutím vľavo alebo vpravo preskočíte %d sekundu</item>
+        <item>Dvojitým klepnutím vľavo alebo vpravo preskočíte %d sekundy</item>
+        <item>Dvojitým klepnutím vľavo alebo vpravo preskočíte %d sekundy</item>
+    </plurals>
+    <plurals name="video_count">
+        <item>%1$d videí</item>
+        <item>1 video</item>
+        <item>%1$d videá</item>
+        <item>%1$d videa</item>
+    </plurals>
+    <plurals name="videos_with_count">
+        <item>%d videí</item>
+        <item>1 video</item>
+        <item>%d videá</item>
+        <item>%d videa</item>
+    </plurals>
+</resources>

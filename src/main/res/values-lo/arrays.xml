@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ຫຼິ້ນເພງໃດໜຶ່ງ&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ຫຼິ້ນເພງປັອບ&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ຫຼິ້ນເພງງານລ້ຽງ&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ຫຼິ້ນວິດີໂອຍອດນິຍົມຂອງມື້ນີ້&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ຫຼິ້ນວິດີໂອທີ່ແນະນຳ&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ສະແດງຮູບເງົາຕົວຢ່າງ&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ສະແດງວິດີໂອໂຢຄະ&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ສະແດງການອອກກຳລັງກາຍຍືດເສັ້ນຍືດສາຍ&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ຊອກຫາວິທີການປະດັບປະດາເຄັກ&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ຊອກຫາສູດອາຫານແລງເພື່ອສຸຂະພາບ&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ຊອກຫາວິດີໂອການຫຼິ້ນສະໂນບອດ&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ສະແດງງານສີມືຂອງເດັກນ້ອຍ&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ສະແດງວິດີໂອງານໄມ້&lt;/i&gt;</item>
+        <item>ລອງເວົ້າວ່າ:&lt;br/&gt;&lt;i&gt;ສະແດງວິທີການມັດກາລະວັດ&lt;/i&gt;</item>
+    </array>
+</resources>

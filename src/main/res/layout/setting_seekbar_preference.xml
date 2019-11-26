@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="?android:attr/listPreferredItemPaddingLeft" android:paddingEnd="?android:attr/listPreferredItemPaddingRight">
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textColor="?android:attr/textColorPrimary" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textColor="?android:attr/textColorSecondary" android:id="@android:id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="10"/>
+    <SeekBar android:id="@+id/seekbar" android:paddingTop="@dimen/settings_seekbar_top_bottom_padding" android:paddingBottom="@dimen/settings_seekbar_top_bottom_padding" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/settings_seekbar_start_end_padding" android:paddingEnd="@dimen/settings_seekbar_start_end_padding">
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textColor="?android:attr/colorControlNormal" android:id="@+id/label_start" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="10" android:layout_weight="1"/>
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textColor="?android:attr/textColorSecondary" android:id="@+id/label_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10"/>
+    </LinearLayout>
+</LinearLayout>

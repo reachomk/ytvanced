@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gdi_dialog_min_leftover_vertical_screen_space">112dp</dimen>
+</resources>

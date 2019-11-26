@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/playlist_bubble" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/playlist_thumbnail" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="centerCrop" android:contentDescription="@string/accessibility_playlist_thumbnail"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.conversation.ui.PassThroughTextView android:textSize="15sp" android:textColor="?attr/ytTextPrimary" android:textColorLink="?attr/ytStaticBlue" android:id="@+id/playlist_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" android:layout_marginStart="16dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp">
+            <com.google.android.libraries.youtube.conversation.ui.PassThroughTextView android:textSize="13sp" android:textColor="?attr/ytTextSecondary" android:textColorLink="?attr/ytStaticBlue" android:ellipsize="end" android:id="@+id/playlist_metadata_author" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" android:textIsSelectable="false"/>
+            <com.google.android.libraries.youtube.conversation.ui.PassThroughTextView android:textSize="13sp" android:textColor="?attr/ytTextSecondary" android:textColorLink="?attr/ytStaticBlue" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bullet" android:maxLines="1" android:textIsSelectable="false" android:paddingStart="8dp" android:paddingEnd="8dp"/>
+            <com.google.android.libraries.youtube.conversation.ui.PassThroughTextView android:textSize="13sp" android:textColor="?attr/ytTextSecondary" android:textColorLink="?attr/ytStaticBlue" android:id="@+id/playlist_metadata_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:textIsSelectable="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

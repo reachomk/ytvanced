@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no">
+    <View android:id="@+id/separator_top" android:background="?attr/cmtDivider" android:layout_width="match_parent" android:layout_height="@dimen/separator_height"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/single_ypc_offers" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:id="@+id/collapsed_offers" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:paddingStart="12dp" android:paddingEnd="12dp">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Body1" android:textColor="?attr/ytTextSecondary" android:textColorLink="?attr/ytStaticBlue" android:ellipsize="end" android:id="@+id/more_offer_info_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:textAlignment="viewStart" android:paddingEnd="8dp" app:robotoFont="0" app:hyperlinksClickable="true"/>
+    </LinearLayout>
+    <View android:id="@+id/expanded_separator" android:background="?attr/cmtDivider" android:layout_width="match_parent" android:layout_height="@dimen/separator_height"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/expanded_offers" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12dp" android:paddingEnd="12dp">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Caption" android:textColor="?attr/ytTextSecondary" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/offer_info_header" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" android:textAlignment="viewStart" android:paddingStart="4dp" android:paddingEnd="8dp" app:robotoFont="0"/>
+        <ImageView android:id="@+id/expand_button" android:focusable="true" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/offer_expand_button" android:scaleType="center" android:contentDescription="@string/load_more_label"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/additional_offer_info_list_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp"/>
+    <View android:id="@+id/separator" android:background="?attr/cmtDivider" android:layout_width="match_parent" android:layout_height="@dimen/separator_height"/>
+</LinearLayout>

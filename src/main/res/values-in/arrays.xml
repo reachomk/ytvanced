@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Putar musik&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Putar musik pop&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Putar musik pesta&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Putar lagu terpopuler hari ini&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Putar video yang direkomendasikan&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Tampilkan cuplikan film&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Tampilkan video yoga&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Tampilkan latihan peregangan&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Temukan ide dekorasi kue&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Temukan resep makan malam yang sehat&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Temukan video seluncur salju&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Tampilkan ide kerajinan anak&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Tampilkan video pertukangan kayu&lt;/i&gt;</item>
+        <item>Coba Ucapkan:&lt;br/&gt;&lt;i&gt;Tampilkan cara mengikat dasi&lt;/i&gt;</item>
+    </array>
+</resources>

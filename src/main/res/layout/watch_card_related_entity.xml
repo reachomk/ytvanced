@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/watch_card_related_artist" android:clickable="true" android:layout_width="0dp" android:layout_height="match_parent" android:foreground="?attr/selectableItemBackground">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:id="@+id/thumbnail_layout" android:tag="resizable_thumbnail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp">
+            <ImageView android:id="@+id/thumbnail" android:background="@drawable/bg_video_thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        </com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="#666666" android:ellipsize="end" android:id="@+id/title" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:textAlignment="viewStart" android:paddingStart="6dp" android:paddingEnd="6dp" app:robotoFont="0"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/cropped_square_avatar" android:layout_width="40dp" android:layout_height="40dp" app:aspectRatio="@fraction/aspect_ratio_square">
+    <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:layout_gravity="center" android:layout_width="70dp" android:layout_height="40dp" app:aspectRatio="@fraction/rounded_aspect_ratio_16_9">
+        <ImageView android:layout_gravity="center" android:id="@+id/image_view" android:layout_width="70dp" android:layout_height="53dp" android:scaleType="centerCrop" android:contentDescription="@null"/>
+    </com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout>
+</com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout>

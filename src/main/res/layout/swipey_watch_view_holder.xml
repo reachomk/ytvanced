@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.watch.nextgenwatch.ui.NextGenWatchLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/next_gen_watch_layout" android:layout_width="wrap_content" android:layout_height="match_parent" app:playerViewId="@+id/player_overlays_container" app:playerControlsViewId="@+id/player_controls_view" app:playerControlsTimeBarId="@+id/player_controls_time_bar_view" app:metadataViewId="@+id/video_metadata_layout" app:maxWidthRatio="@dimen/swipey_width_ratio">
+    <FrameLayout android:id="@+id/player_overlays_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.apps.youtube.app.watch.nextgenwatch.swipey.TransparentHoleImageView android:id="@+id/swipey_player_thumbnail" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@null"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/video_metadata_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/floaty_bar_controls"/>
+    <include layout="@layout/floaty_bar_time_bar"/>
+</com.google.android.apps.youtube.app.watch.nextgenwatch.ui.NextGenWatchLayout>

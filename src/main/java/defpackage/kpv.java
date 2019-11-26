@@ -1,0 +1,31 @@
+package defpackage;
+
+import android.content.Context;
+import android.view.ViewGroup;
+
+/* renamed from: kpv */
+public final class kpv implements akox {
+    private final Context a;
+    private final akkq b;
+    private final aaas c;
+    private final akvo d;
+    private final vmn e;
+    private final tpu f;
+    private final vod g;
+    private final dwk h;
+
+    public kpv(Context context, akkq akkq, aaas aaas, akvo akvo, vmn vmn, tpu tpu, vod vod, dwk dwk) {
+        this.a = (Context) amqw.a((Object) context);
+        this.b = (akkq) amqw.a((Object) akkq);
+        this.c = (aaas) amqw.a((Object) aaas);
+        this.d = (akvo) amqw.a((Object) akvo);
+        this.e = (vmn) amqw.a((Object) vmn);
+        this.f = (tpu) amqw.a((Object) tpu);
+        this.g = (vod) amqw.a((Object) vod);
+        this.h = (dwk) amqw.a((Object) dwk);
+    }
+
+    public final /* synthetic */ akot a(ViewGroup viewGroup) {
+        return new kps(this.a, this.b, this.c, this.d, this.e, this.f, this.g, this.h, viewGroup);
+    }
+}

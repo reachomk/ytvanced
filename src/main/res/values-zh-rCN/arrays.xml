@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>试着说：&lt;br/&gt;放点音乐&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;播放流行音乐&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;播放聚会音乐&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;播放今日热门内容&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;播放推荐视频&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;显示电影预告片&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;显示瑜伽视频&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;教我做伸展运动&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;查找蛋糕装饰创意&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;查找健康晚餐食谱&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;查找单板滑雪视频&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;显示儿童手工作品创意&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;显示木工视频&lt;i&gt;&lt;/i&gt;</item>
+        <item>试着说：&lt;br/&gt;教我打领带&lt;i&gt;&lt;/i&gt;</item>
+    </array>
+</resources>

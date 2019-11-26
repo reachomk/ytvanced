@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/sender_id_section" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="48dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceSubhead" android:ellipsize="end" android:id="@+id/text" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" app:robotoFont="0"/>
+</LinearLayout>

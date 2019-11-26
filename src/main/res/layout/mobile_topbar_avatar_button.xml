@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mobile_topbar_avatar" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingEnd="4dp">
+    <com.google.android.libraries.youtube.common.ui.CircularImageView android:layout_gravity="center" android:id="@+id/image" android:layout_width="@dimen/mobile_topbar_item_size" android:layout_height="@dimen/mobile_topbar_item_size" android:layout_margin="@dimen/mobile_topbar_item_padding" android:contentDescription="@null"/>
+</FrameLayout>

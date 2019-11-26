@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/full_bleed_playlist_item_three_up" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+        <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <com.google.android.apps.youtube.app.playlist.ui.PlaylistThumbnailView android:id="@+id/playlist_thumbnail_start" android:background="@drawable/bg_video_thumb" android:layout_width="wrap_content" android:layout_height="match_parent" app:iconDrawable="@drawable/ic_mix"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="2dp">
+            <com.google.android.apps.youtube.app.playlist.ui.PlaylistThumbnailView android:id="@+id/playlist_thumbnail_top_end" android:background="@drawable/bg_video_thumb" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="2dp" app:iconDrawable="@drawable/ic_mix"/>
+            <com.google.android.apps.youtube.app.playlist.ui.PlaylistThumbnailView android:id="@+id/playlist_thumbnail" android:background="@drawable/bg_video_thumb" android:layout_width="wrap_content" android:layout_height="match_parent" app:iconDrawable="@drawable/ic_mix"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textStyle="normal" android:textColor="?attr/ytTextPrimary" android:ellipsize="end" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_weight="1" android:textIsSelectable="false" android:textAlignment="viewStart" android:layout_marginStart="16dp" android:layout_marginEnd="22dp" app:robotoFont="0"/>
+        <include android:layout_gravity="top" android:id="@+id/contextual_menu_anchor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16dp" layout="@layout/contextual_menu_anchor"/>
+    </LinearLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textStyle="normal" android:textColor="?attr/ytTextSecondary" android:ellipsize="end" android:id="@+id/owner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="16dp" android:maxLines="2" android:includeFontPadding="false" android:textAlignment="viewStart" android:layout_marginStart="16dp" android:layout_marginEnd="10dp"/>
+</LinearLayout>

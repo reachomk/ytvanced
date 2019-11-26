@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/creation_sheet_title_text_size" android:textColor="?attr/ytTextSecondary" android:gravity="bottom" android:id="@+id/creation_sheet_title" android:layout_width="match_parent" android:layout_height="@dimen/creation_sheet_title_height" android:paddingStart="@dimen/creation_sheet_title_start_end_padding" android:paddingEnd="@dimen/creation_sheet_title_start_end_padding"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/creation_entry_point_items" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

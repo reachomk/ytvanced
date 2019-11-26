@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="248dp" android:layout_height="wrap_content">
+    <NumberPicker android:id="@+id/time_picker" android:layout_width="96dp" android:layout_height="wrap_content"/>
+</LinearLayout>

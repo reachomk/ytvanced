@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Пусни музика&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Пусни поп музика&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Пусни музика за парти&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Пусни днешни хитове&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Пусни препоръчани видеоклипове&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Покажи ми трейлъри на филми&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Покажи ми видеоклипове за йога&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Покажи ми упражнения за разтягане&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Намери идеи за украса за торта&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Намери здравословни рецепти за вечеря&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Намери видеоклипове за каране на сноуборд&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Покажи идеи за занимания за деца&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Покажи видеоклипове за дърводелство&lt;/i&gt;</item>
+        <item>Опитайте да кажете:&lt;br/&gt;&lt;i&gt;Покажи ми как се вързва вратовръзка&lt;/i&gt;</item>
+    </array>
+</resources>

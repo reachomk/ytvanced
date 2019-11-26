@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/offline_candidate_layout" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingEnd="16dp">
+    <com.google.android.apps.youtube.app.offline.ui.OfflineArrowView android:layout_gravity="center" android:id="@+id/offline_candidate_arrow" android:background="?attr/selectableItemBackgroundBorderless" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" app:defaultTint="?attr/ytIconInactive"/>
+</FrameLayout>

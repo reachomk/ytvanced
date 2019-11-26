@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_like_video_plural">
+        <item>الزر &quot;أعجبني&quot;، لقد أبدى %1$d مُشاهدٍ آخر إعجابهم بهذا الفيديو.</item>
+        <item>الزر &quot;أعجبني&quot;</item>
+        <item>الزر &quot;أعجبني&quot;، لقد أبدى مُشاهدٌ آخر (%1$d) إعجابه بهذا الفيديو.</item>
+        <item>الزر &quot;أعجبني&quot;، لقد أبدى مُشاهِدان آخران (%1$d) إعجابهما بهذا الفيديو.</item>
+        <item>الزر &quot;أعجبني&quot;، لقد أبدى %1$d مُشاهدين آخرين إعجابهم بهذا الفيديو.</item>
+        <item>الزر &quot;أعجبني&quot;، لقد أبدى %1$d مُشاهدًا آخر إعجابهم بهذا الفيديو.</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item>تخطّي الإعلان بعد %1$d ثانية</item>
+        <item>تخطّي الإعلان بعد %1$d ثانية</item>
+        <item>تخطّي الإعلان بعد ثانية واحدة</item>
+        <item>تخطّي الإعلان بعد ثانيتين (%1$d)</item>
+        <item>تخطّي الإعلان بعد %1$d ثوانٍ</item>
+        <item>تخطّي الإعلان بعد %1$d ثانية</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item>الزر &quot;التراجع عن إبداء الإعجاب&quot;، لقد أبدى %1$d مُشاهد آخر إعجابهم بهذا الفيديو.</item>
+        <item>الزر &quot;التراجع عن إبداء الإعجاب&quot;</item>
+        <item>الزر &quot;التراجع عن إبداء الإعجاب&quot;، لقد أبدى مُشاهد آخر (%1$d) إعجابه بهذا الفيديو.</item>
+        <item>الزر &quot;التراجع عن إبداء الإعجاب&quot;، لقد أبدى مُشاهدان آخران (%1$d) إعجابهما بهذا الفيديو.</item>
+        <item>الزر &quot;التراجع عن إبداء الإعجاب&quot;، لقد أبدى %1$d مُشاهدين آخرين إعجابهم بهذا الفيديو.</item>
+        <item>الزر &quot;التراجع عن إبداء الإعجاب&quot;، لقد أبدى %1$d مُشاهدًا آخر إعجابهم بهذا الفيديو.</item>
+    </plurals>
+    <plurals name="auto_offline_video_duration_minutes">
+        <item>%1$d دقيقة</item>
+        <item>%1$d دقيقة</item>
+        <item>دقيقة واحدة (%1$d)</item>
+        <item>دقيقتان (%1$d)</item>
+        <item>%1$d دقائق</item>
+        <item>%1$d دقيقة</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item>تنزيل %1$d فيديو جديد</item>
+        <item>تنزيل %1$d فيديو جديد</item>
+        <item>تنزيل فيديو واحد (%1$d) جديد</item>
+        <item>تنزيل فيديوهين (%1$d) جديدين</item>
+        <item>تنزيل %1$d فيديوهات جديدة</item>
+        <item>تنزيل %1$d فيديو جديدًا</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item>%1$d دقيقة</item>
+        <item>لم يتم تحديد مدة</item>
+        <item>دقيقة واحدة</item>
+        <item>دقيقتان</item>
+        <item>%1$d دقائق</item>
+        <item>%1$d دقيقة</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item>%1$d ثانية</item>
+        <item>لم يتم تحديد مدة</item>
+        <item>ثانية واحدة</item>
+        <item>ثانيتان</item>
+        <item>%1$d ثوانٍ</item>
+        <item>%1$d ثانية</item>
+    </plurals>
+    <plurals name="empty_chat_four_or_more_other_participants">
+        <item>يُرجى إرسال مشاركة لبدء الدردشة مع %1$s و%2$s و%3$s و%4$d مستخدم آخر.</item>
+        <item>يُرجى إرسال مشاركة لبدء الدردشة مع %1$s و%2$s و%3$s.</item>
+        <item>يُرجى إرسال مشاركة لبدء الدردشة مع %1$s و%2$s و%3$s ومستخدم واحد آخر.</item>
+        <item>يُرجى إرسال مشاركة لبدء الدردشة مع %1$s و%2$s و%3$s و مستخدمَين آخرين.</item>
+        <item>يُرجى إرسال مشاركة لبدء الدردشة مع %1$s و%2$s و%3$s و%4$d مستخدمين آخرين.</item>
+        <item>يُرجى إرسال مشاركة لبدء الدردشة مع %1$s و%2$s و%3$s و%4$d مستخدمًا آخر.</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item>%1$d ساعة</item>
+        <item>%1$d ساعة</item>
+        <item>ساعة واحدة (%1$d)</item>
+        <item>ساعتان (%1$d)</item>
+        <item>%1$d ساعات</item>
+        <item>%1$d ساعة</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item>كل %1$d ساعة</item>
+        <item>كل %1$d ساعة</item>
+        <item>كل ساعة</item>
+        <item>كل ساعتين (%1$d)</item>
+        <item>كل %1$d ساعات</item>
+        <item>كل %1$d ساعة</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item>%1$d دقيقة</item>
+        <item>%1$d دقيقة</item>
+        <item>دقيقة واحدة (%1$d)</item>
+        <item>دقيقتان (%1$d)</item>
+        <item>%1$d دقائق</item>
+        <item>%1$d دقيقة</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item>كل %1$d دقيقة</item>
+        <item>كل %1$d دقيقة</item>
+        <item>كل دقيقة</item>
+        <item>كل دقيقتَين (%1$d)</item>
+        <item>كل %1$d دقائق</item>
+        <item>كل %1$d دقيقة</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item>تمّ تعديلها قبل %1$d يوم.</item>
+        <item>تمّ تعديلها اليوم.</item>
+        <item>تمّ تعديلها البارحة.</item>
+        <item>تمّ تعديلها قبل يومين (%1$d).</item>
+        <item>تمّ تعديلها قبل %1$d أيام.</item>
+        <item>تمّ تعديلها قبل %1$d يومًا.</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item>تمّ تعديلها قبل %1$d ساعة.</item>
+        <item>تمّ تعديلها مؤخرًا.</item>
+        <item>Updated %1$d hour ago</item>
+        <item>تمّ تعديلها قبل ساعتين (%1$d).</item>
+        <item>تمّ تعديلها قبل %1$d ساعات.</item>
+        <item>تمّ تعديلها قبل %1$d ساعة.</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item>تمّ تعديلها قبل %1$d دقيقة.</item>
+        <item>تمّ تعديلها مؤخرًا.</item>
+        <item>تمّ تعديلها قبل دقيقة واحدة (%1$d).</item>
+        <item>تمّ تعديلها قبل دقيقتين (%1$d).</item>
+        <item>تمّ تعديلها قبل %1$d دقائق.</item>
+        <item>تمّ تعديلها قبل %1$d دقيقة.</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item>تمّ تعديلها قبل %1$d أسبوع.</item>
+        <item>تمّ تعديلها هذا الأسبوع.</item>
+        <item>Updated %1$d week ago</item>
+        <item>تمّ تعديلها قبل أسبوعين (%1$d).</item>
+        <item>تمّ تعديلها قبل %1$d أسابيع.</item>
+        <item>تمّ تعديلها قبل %1$d أسبوعًا.</item>
+    </plurals>
+    <plurals name="lc_stream_status_cd">
+        <item>%1$s مُشاهِد الآن و%2$s إعجاب</item>
+        <item>%1$s مُشاهِد الآن و%2$s إعجاب</item>
+        <item>مُشاهِد واحد (%1$s) الآن وإعجاب واحد (%2$s)</item>
+        <item>مُشاهِدان الآن (%1$s) وإعجابان (%2$s)</item>
+        <item>%1$s مُشاهِدين الآن و%2$s إعجابات</item>
+        <item>%1$s مُشاهِدًا الآن و%2$s إعجابًا</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item>%1$d من أصل %2$d فيديو</item>
+        <item>%1$d من أصل %2$d فيديو</item>
+        <item>%1$d من أصل فيديو واحد</item>
+        <item>فيديوهان (%1$d) من أصل %2$d فيديو</item>
+        <item>%1$d من أصل %2$d فيديو</item>
+        <item>%1$d من أصل %2$d فيديو</item>
+    </plurals>
+    <plurals name="notification_video_list_completed">
+        <item>تمّ حفظ %1$d فيديو جديد.</item>
+        <item>تمّ حفظ %1$d فيديو جديد.</item>
+        <item>تمّ حفظ فيديو جديد واحد (%1$d).</item>
+        <item>تمّ حفظ فيديوهَين جديدَين (%1$d).</item>
+        <item>تمّ حفظ %1$d فيديوهات جديدة.</item>
+        <item>تمّ حفظ %1$d فيديو جديدًا.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item>تبقى التنزيلات متوفّرة ما دام جهازك متصلاً بالإنترنت كل %1$d يومٍ.</item>
+        <item>تبقى التنزيلات متوفّرة ما دام جهازك متصلاً بالإنترنت كل %1$d يوم.</item>
+        <item>تبقى التنزيلات متوفّرة ما دام جهازك متصلاً بالإنترنت كل يوم.</item>
+        <item>تبقى التنزيلات متوفّرة ما دام جهازك متصلاً بالإنترنت كل يومين (%1$d).</item>
+        <item>تبقى التنزيلات متوفّرة ما دام جهازك متصلاً بالإنترنت كل %1$d أيام.</item>
+        <item>تبقى التنزيلات متوفّرة ما دام جهازك متصلاً بالإنترنت كل %1$d يومًا.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item>تبقى التنزيلات متوفّرة لمدّة %1$d يوم بلا إنترنت.</item>
+        <item>تبقى التنزيلات متوفّرة لمدّة %1$d يوم بلا إنترنت.</item>
+        <item>تبقى التنزيلات متوفّرة ليوم واحد بلا إنترنت.</item>
+        <item>تبقى التنزيلات متوفّرة لمدّة يومين (%1$d) بلا انترنت.</item>
+        <item>تبقى التنزيلات متوفّرة لمدّة %1$d أيام بلا إنترنت.</item>
+        <item>تبقى التنزيلات متوفّرة لمدّة %1$d يومًا بلا إنترنت.</item>
+    </plurals>
+    <plurals name="offline_pending_time_window_plural">
+        <item>تمّ تعيين حفظ %1$d فيديو من %2$s إلى %3$s.</item>
+        <item>لم يتمّ تعيين حفظ أيّ فيديو.</item>
+        <item>تمّ تعيين حفظ الفيديو من %2$s إلى %3$s.</item>
+        <item>تمّ تعيين حفظ فيديوهَين (%1$d) من %2$s إلى %3$s.</item>
+        <item>تمّ تعيين حفظ %1$d فيديوهات من %2$s إلى %3$s.</item>
+        <item>تمّ تعيين حفظ %1$d فيديو من %2$s إلى %3$s.</item>
+    </plurals>
+    <plurals name="overflow_hearters">
+        <item>و%d مستخدم آخر</item>
+        <item>و%d مستخدم آخر</item>
+        <item>ومستخدم واحد (%d) آخر</item>
+        <item>ومستخدمان (%d) آخران</item>
+        <item>و%d مستخدمين آخرين</item>
+        <item>و%d مستخدمًا آخر</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item>%1$,d فيديو</item>
+        <item>%1$,d فيديو</item>
+        <item>فيديو واحد</item>
+        <item>فيديوهان (%1$,d)</item>
+        <item>%1$,d فيديوهات</item>
+        <item>%1$,d فيديو</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item>%d ثانية</item>
+        <item>%d ثانية</item>
+        <item>ثانية واحدة (%d)</item>
+        <item>ثانيتان (%d)</item>
+        <item>%d ثوانٍ</item>
+        <item>%d ثانية</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item>%1$d مُقترح</item>
+        <item>%1$d مُقترح</item>
+        <item>مُقترح واحد</item>
+        <item>مُقترحان (%1$d)</item>
+        <item>%1$d مُقترحات</item>
+        <item>%1$d مُقترحًا</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item>تمّ اختيار %1$d فيديو.</item>
+        <item>تمّ اختيار %1$d فيديو.</item>
+        <item>تمّ اختيار فيديو واحد.</item>
+        <item>تمّ اختيار فيديوهين (%1$d).</item>
+        <item>تمّ اختيار %1$d فيديوهات.</item>
+        <item>تمّ اختيار %1$d فيديو.</item>
+    </plurals>
+    <plurals name="tab_with_new_items">
+        <item>%2$s: %1$d عنصرٍ جديد</item>
+        <item>%2$s: %1$d عنصر جديد</item>
+        <item>%2$s: عنصر واحد (%1$d) جديد</item>
+        <item>%2$s: عنصران جديدان (%1$d)</item>
+        <item>%2$s: %1$d عناصر جديدة</item>
+        <item>%2$s: %1$d عنصرًا جديدًا</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item>جارٍ التحضير %1$,d%%</item>
+        <item>جارٍ التحضير %1$,d%%</item>
+        <item>جارٍ التحضير %1$,d%%</item>
+        <item>جارٍ التحضير %1$,d%%</item>
+        <item>جارٍ التحضير %1$,d%%</item>
+        <item>جارٍ التحضير %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item>يتبقّى %1$,d ساعة تقريبًا</item>
+        <item>يتبقّى %1$,d ساعة تقريبًا</item>
+        <item>يتبقّى ساعة واحدة (%1$,d) تقريبًا</item>
+        <item>يتبقّى ساعتان (%1$,d) تقريبًا</item>
+        <item>يتبقّى %1$,d ساعات تقريبًا</item>
+        <item>يتبقّى %1$,d ساعة تقريبًا</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item>يتبقّى %1$,d دقيقة تقريبًا</item>
+        <item>يتبقّى %1$,d دقيقة تقريبًا</item>
+        <item>يتبقّى دقيقة واحدة (%1$,d) تقريبًا</item>
+        <item>يتبقّى دقيقتان (%1$,d) تقريبًا</item>
+        <item>يتبقّى %1$,d دقائق تقريبًا</item>
+        <item>يتبقّى %1$,d دقيقة تقريبًا</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item>جارٍ تحميل %1$d من أصل %2$d فيديو</item>
+        <item>جارٍ تحميل %1$d من أصل %2$d فيديو</item>
+        <item>جارٍ تحميل فيديو واحد</item>
+        <item>جارٍ تحميل فيديوهان (%1$d) من أصل %2$d فيديو</item>
+        <item>جارٍ تحميل %1$d من أصل %2$d فيديو</item>
+        <item>جارٍ تحميل %1$d من أصل %2$d فيديو</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item>تمّ تحميل %1$,d%%</item>
+        <item>تمّ تحميل %1$,d%%</item>
+        <item>تمّ تحميل %1$,d%%</item>
+        <item>تمّ تحميل %1$,d%%</item>
+        <item>تمّ تحميل %1$,d%%</item>
+        <item>تمّ تحميل %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item>يتبقّى %1$,d ثانية تقريبًا</item>
+        <item>يتبقّى %1$,d ثانية تقريبًا</item>
+        <item>يتبقّى ثانية واحدة (%1$,d) تقريبًا</item>
+        <item>يتبقّى ثانيتان (%1$,d) تقريبًا</item>
+        <item>يتبقّى %1$,d ثوانٍ تقريبًا</item>
+        <item>يتبقّى %1$,d ثانية تقريبًا</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item>يمكنك النقر مرّتين على يمين الشاشة أو يسارها لتخطّي %d ثانية.</item>
+        <item>يمكنك النقر مرّتين على يمين الشاشة أو يسارها لتخطّي %d ثانية.</item>
+        <item>يمكنك النقر مرّتين على يمين الشاشة أو يسارها لتخطّي ثانية واحدة (%d).</item>
+        <item>يمكنك النقر مرّتين على يمين الشاشة أو يسارها لتخطّي ثانيتين (%d).</item>
+        <item>يمكنك النقر مرّتين على يمين الشاشة أو يسارها لتخطّي %d ثوانٍ.</item>
+        <item>يمكنك النقر مرّتين على يمين الشاشة أو يسارها لتخطّي %d ثانية.</item>
+    </plurals>
+    <plurals name="video_count">
+        <item>%1$d فيديو</item>
+        <item>%1$d فيديو</item>
+        <item>فيديو واحد</item>
+        <item>فيديوهان (%1$d)</item>
+        <item>%1$d فيديوهات</item>
+        <item>%1$d فيديو</item>
+    </plurals>
+    <plurals name="videos_with_count">
+        <item>%d فيديو</item>
+        <item>ليس هناك أيّ فيديوهات</item>
+        <item>فيديو واحد</item>
+        <item>فيديوهان</item>
+        <item>%d فيديوهات</item>
+        <item>%d فيديو</item>
+    </plurals>
+</resources>

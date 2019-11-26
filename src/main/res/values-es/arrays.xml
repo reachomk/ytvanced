@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Pon música&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Pon música pop&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Pon música para fiestas&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Pon los éxitos del momento&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Reproduce vídeos recomendados&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Muestra tráileres de películas&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Enséñame vídeos de yoga&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Enséñame ejercicios para estirar&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Busca ideas para decorar tartas&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Busca recetas para cenas saludables&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Busca vídeos de snowboarding&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Muestra ideas de manualidades infantiles&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Reproduce un vídeo de carpintería&lt;/i&gt;</item>
+        <item>Prueba a decir:&lt;br/&gt;&lt;i&gt;Enséñame cómo hacer el nudo de una corbata&lt;/i&gt;</item>
+    </array>
+</resources>

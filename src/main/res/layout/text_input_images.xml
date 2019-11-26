@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="end" android:id="@+id/help_image" android:paddingTop="4dp" android:visibility="gone" android:layout_width="48dp" android:layout_height="match_parent" android:scaleType="fitStart" android:contentDescription="@string/accessibility_help_edit_text_input" android:paddingStart="20dp" android:paddingEnd="4dp"/>

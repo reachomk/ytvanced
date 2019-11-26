@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_like_video_plural">
+        <item>කැමති බොත්තම, තව %1$d මෙම වීඩියෝවට කැමති විය</item>
+        <item>කැමති බොත්තම, තව %1$d මෙම වීඩියෝවට කැමති විය</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item>තත්පර %1$dකින් දැන්වීම මඟ හරින්න</item>
+        <item>තත්පර %1$dකින් දැන්වීම මඟ හරින්න</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item>කැමැත්ත අස් කිරීමේ බොත්තම, තව %1$d මෙම වීඩියෝවට කැමති විය</item>
+        <item>කැමැත්ත අස් කිරීමේ බොත්තම, තව %1$d මෙම වීඩියෝවට කැමති විය</item>
+    </plurals>
+    <plurals name="auto_offline_video_duration_minutes">
+        <item>විනාඩි %1$dක්</item>
+        <item>විනාඩි %1$dක්</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item>නව වීඩියෝ %1$dක් බාගන්න</item>
+        <item>නව වීඩියෝ %1$dක් බාගන්න</item>
+    </plurals>
+    <plurals name="empty_chat_four_or_more_other_participants">
+        <item>මෙය %1$s, %2$s, %3$s, සහ තව පුද්ගලයින් %4$dක් සමඟ කතාබසකි. ඇරඹීමට යමක් බෙදා ගන්න!</item>
+        <item>මෙය %1$s, %2$s, %3$s, සහ තව පුද්ගලයින් %4$dක් සමඟ කතාබසකි. ඇරඹීමට යමක් බෙදා ගන්න!</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item>පැය %1$dක්</item>
+        <item>පැය %1$dක්</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item>සෑම පැය %1$dකම</item>
+        <item>සෑම පැය %1$dකම</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item>විනාඩි %1$dක්</item>
+        <item>විනාඩි %1$dක්</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item>සෑම විනාඩි %1$dකම</item>
+        <item>සෑම විනාඩි %1$dකම</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item>දින %1$dකට පෙර යාවත්කාලීනයි</item>
+        <item>දින %1$dකට පෙර යාවත්කාලීනයි</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item>පැය %1$dකට පෙර යාවත්කාලීනයි</item>
+        <item>පැය %1$dකට පෙර යාවත්කාලීනයි</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item>විනාඩි %1$dකට පෙර යාවත්කාලීනයි</item>
+        <item>විනාඩි %1$dකට පෙර යාවත්කාලීනයි</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item>සති %1$dකට පෙර යාවත්කාලීනයි</item>
+        <item>සති %1$dකට පෙර යාවත්කාලීනයි</item>
+    </plurals>
+    <plurals name="lc_stream_status_cd">
+        <item>%1$sක් දැන් නරඹති, %2$sක් කැමතියි</item>
+        <item>%1$sක් දැන් නරඹති, %2$sක් කැමතියි</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item>වීඩියෝ %2$dන් %1$d</item>
+        <item>වීඩියෝ %2$dන් %1$d</item>
+    </plurals>
+    <plurals name="notification_video_list_completed">
+        <item>නව වීඩියෝ %1$dක් සුරැකිණි</item>
+        <item>නව වීඩියෝ %1$dක් සුරැකිණි</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item>ඔබේ උපාංගයට සෑම දින %1$dකම අන්තර්ජාල සබැඳුමක් ඇති තාක් බාගැනීම් ලද හැකිව පවතී.</item>
+        <item>ඔබේ උපාංගයට සෑම දින %1$dකම අන්තර්ජාල සබැඳුමක් ඇති තාක් බාගැනීම් ලද හැකිව පවතී.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item>අන්තර්ජාල සබැඳුමක් නොමැතිව දින %1$dක් සඳහා බාගැනීම් ලද හැකිව පවතී.</item>
+        <item>අන්තර්ජාල සබැඳුමක් නොමැතිව දින %1$dක් සඳහා බාගැනීම් ලද හැකිව පවතී.</item>
+    </plurals>
+    <plurals name="offline_pending_time_window_plural">
+        <item>එකතුව වීඩියෝ %1$dක්. සුරැකීමට සකසන්න: %2$s සිට %3$s දක්වා.</item>
+        <item>එකතුව වීඩියෝ %1$dක්. සුරැකීමට සකසන්න: %2$s සිට %3$s දක්වා.</item>
+    </plurals>
+    <plurals name="overflow_hearters">
+        <item>තව +%d</item>
+        <item>තව +%d</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item>වීඩියෝ %1$,dක්</item>
+        <item>වීඩියෝ %1$,dක්</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item>තත්පර %dක්</item>
+        <item>තත්පර %dක්</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item>නිර්දේශ %1$dක්</item>
+        <item>නිර්දේශ %1$dක්</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item>වීඩියෝ %1$dක් තේරිණි</item>
+        <item>වීඩියෝ %1$dක් තේරිණි</item>
+    </plurals>
+    <plurals name="tab_with_new_items">
+        <item>%2$s: නව අයිතම %1$dක්.</item>
+        <item>%2$s: නව අයිතම %1$dක්.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item>සූදානම් කරමින් %1$,d%%</item>
+        <item>සූදානම් කරමින් %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item>පැය %1$,dක් පමණ ඉතිරියි</item>
+        <item>පැය %1$,dක් පමණ ඉතිරියි</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item>විනාඩි %1$,dක් පමණ ඉතිරියි</item>
+        <item>විනාඩි %1$,dක් පමණ ඉතිරියි</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item>වීඩියෝ %2$dන් %1$dක් උඩුගත කරමින්</item>
+        <item>වීඩියෝ %2$dන් %1$dක් උඩුගත කරමින්</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item>%1$,d%% උඩුගත කෙරිණි</item>
+        <item>%1$,d%% උඩුගත කෙරිණි</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item>තත්පර %1$,dක් පමණ ඉතිරියි</item>
+        <item>තත්පර %1$,dක් පමණ ඉතිරියි</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item>තත්පර %dක් මඟ හැරීමට වමට හෝ දකුණට දෙවරක් තට්ටු කරන්න</item>
+        <item>තත්පර %dක් මඟ හැරීමට වමට හෝ දකුණට දෙවරක් තට්ටු කරන්න</item>
+    </plurals>
+    <plurals name="video_count">
+        <item>වීඩියෝ %1$dක්</item>
+        <item>වීඩියෝ %1$dක්</item>
+    </plurals>
+    <plurals name="videos_with_count">
+        <item>වීඩියෝ %dක්</item>
+        <item>වීඩියෝ %dක්</item>
+    </plurals>
+</resources>

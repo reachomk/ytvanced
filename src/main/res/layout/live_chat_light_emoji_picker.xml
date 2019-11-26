@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/ytBrandBackgroundSolid" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:background="@color/emoji_picker_light_divider_color" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/emoji_category_container" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </HorizontalScrollView>
+    <View android:background="@color/emoji_picker_light_divider_color" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/live_chat_picker_footer_height">
+        <ImageView android:id="@+id/keyboard_button" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_keyboard_grey600_24" android:scaleType="centerInside" android:contentDescription="@string/live_chat_picker_keyboard_cd" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/emoji_button_container" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <ImageView android:id="@+id/backspace_button" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_backspace_grey600_24" android:scaleType="centerInside" android:contentDescription="@string/live_chat_picker_backspace_cd" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Soita musiikkia&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Soita popmusiikkia&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Soita bilemusiikkia&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Soita tämän hetken hittejä&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Toista suositeltuja videoita&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Näytä elokuvien trailereita&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Näytä joogavideoita&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Näytä venyttelyharjoituksia&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Etsi kakunkoristeluideoita&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Etsi terveellisiä ruokareseptejä&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Etsi lumilautailuvideoita&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Näytä askarteluideoita lapsille&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Näytä puutyövideo&lt;/i&gt;</item>
+        <item>Kokeile sanoa:&lt;br/&gt;&lt;i&gt;Näytä, miten kravatti solmitaan&lt;/i&gt;</item>
+    </array>
+</resources>

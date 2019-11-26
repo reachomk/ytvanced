@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Speel musiek&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Speel popmusiek&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Speel partytjiemusiek&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Speel vandag se treffers&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Speel aanbevole video&apos;s&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Wys vir my fliekvoorskoue&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Wys vir my jogavideo&apos;s&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Wys vir my strekoefeninge&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Vind koekversieridees&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Vind gesonde aandeteresepte&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Vind sneeuplankryvideo&apos;s&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Wys handewerkidees vir kinders&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Wys houtwerkvideo&lt;/i&gt;</item>
+        <item>Probeer sê:&lt;br/&gt;&lt;i&gt;Wys vir my hoe om &apos;n das te knoop&lt;/i&gt;</item>
+    </array>
+</resources>

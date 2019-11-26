@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/offline_storage_widget_layout" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ProgressBar android:id="@+id/storage_bar" android:layout_width="match_parent" android:layout_height="10dp" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:progressDrawable="@drawable/offline_storage_bar" style="@style/Widget.ProgressBar.Horizontal"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center_vertical" android:id="@+id/legend_used" android:background="#6ab9f8" android:layout_width="10dp" android:layout_height="10dp"/>
+        <TextView android:textAppearance="?attr/textAppearanceCaption" android:ellipsize="marquee" android:id="@+id/storage_used" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/pref_offline_storage_used" android:includeFontPadding="false" android:layout_weight="1" android:textAlignment="viewStart" android:paddingStart="6dp" android:paddingEnd="6dp"/>
+        <TextView android:textAppearance="?attr/textAppearanceCaption" android:ellipsize="marquee" android:id="@+id/storage_free" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/pref_offline_storage_free" android:includeFontPadding="false" android:layout_weight="1" android:textAlignment="viewEnd" android:paddingStart="6dp" android:paddingEnd="6dp"/>
+        <View android:layout_gravity="center_vertical" android:id="@+id/legend_free" android:background="#cccccc" android:layout_width="10dp" android:layout_height="10dp"/>
+    </LinearLayout>
+</LinearLayout>

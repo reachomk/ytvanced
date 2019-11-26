@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="?attr/backgroundPrimary" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/permissions_all" android:contentDescription="@null"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceSubhead" android:gravity="center" android:id="@+id/permission_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginTop="40dp" android:layout_marginRight="50dp" android:layout_marginBottom="32dp" app:robotoFont="0"/>
+        <TextView android:id="@+id/action_button" android:paddingLeft="20dp" android:paddingTop="18dp" android:paddingRight="20dp" android:paddingBottom="18dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/allow_access_button" style="@style/Widget.AppCompat.Button.Colored"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:src="@drawable/quantum_ic_close_white_24" android:contentDescription="@string/accessibility_close_dialog" android:layout_marginStart="16dp"/>
+</FrameLayout>

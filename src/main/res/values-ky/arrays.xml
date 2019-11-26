@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>&lt;br/&gt;&lt;i&gt;Бир музыканы ойнот&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Поп-музыканы ойнот&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Шаңдуу музыка ойнот&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Бүгүнкү хиттерди ойнот&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Сунушталган видеолорду ойнот&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Тасмалардын трейлерлерин көрсөт&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Мага йога видеолорун көрсөт&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Дене-бойду керип-чойгон машыгууларды көрсөт&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Тортту жасалгалоо идеяларын көрсөт&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Ден соолукка пайдалуу тамак-аштын рецепттерин тап&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Сноубординг видеолорун тап&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Балдарга арналган кол өнөрчүлүк видеолорун көрсөт&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Жыгач устачылык видеолорун көрсөт&lt;/i&gt; деп айтып көрүңүз</item>
+        <item>&lt;br/&gt;&lt;i&gt;Галстук байлаганды көрсөт&lt;/i&gt; деп айтып көрүңүз</item>
+    </array>
+</resources>

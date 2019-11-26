@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:visible="true" android:drawable="@drawable/ic_watch_history_paused_dark_inset" android:insetLeft="6dp" android:insetRight="5dp" android:insetTop="13dp" android:insetBottom="9dp"/>

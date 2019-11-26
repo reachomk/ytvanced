@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/box_relative_layout" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:importantForAccessibility="noHideDescendants" android:layout_alignParentStart="true"/>
+    <ViewStub android:id="@+id/price_text" android:layout="@layout/standalone_ypc_badge" android:inflatedId="@+id/price_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/content" android:layout_alignParentStart="true" style="@style/PrimetimePriceText"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@+id/detail_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/price_text" android:layout_alignParentStart="true" style="@style/PrimetimeDetailText"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@+id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/content" android:layout_alignParentEnd="true" style="@style/PrimetimeActionButton"/>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Spela lite musik&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Spela popmusik&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Spela partymusik&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Spela dagens hitlåtar&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Spela rekommenderade videor&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Visa filmtrailrar&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Visa videor om yoga&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Visa strechövningar&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Sök efter förslag på tårtdekorationer&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Sök efter hälsosamma middagsrecept&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Sök efter videor om snowboarding&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Visa förslag på pyssel för barn&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Visa video om snickeri&lt;/i&gt;</item>
+        <item>Testa att säga:&lt;br/&gt;&lt;i&gt;Visa hur man knyter en slips&lt;/i&gt;</item>
+    </array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/video_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:contentDescription="@string/accessibility_chat_message_video_thumbnail"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?attr/textAppearanceBody2" android:ellipsize="end" android:id="@+id/video_title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:singleLine="true" android:layout_weight="1" android:layout_marginStart="16dp"/>
+        <ImageView android:id="@+id/incept_button" android:paddingTop="6dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:src="@drawable/quantum_ic_keyboard_arrow_right_grey600_24" android:contentDescription="@string/accessibility_incept_button" android:paddingStart="8dp" android:paddingEnd="8dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/report_form_sub_option_item_selected" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignStart="@+id/report_form_top_level_spinner">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceBody1" android:gravity="start" android:id="@+id/report_form_sub_option_selected_text" android:paddingTop="@dimen/report_form_sub_option_padding_vertical" android:paddingBottom="@dimen/report_form_sub_option_padding_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" app:robotoFont="0"/>
+</RelativeLayout>

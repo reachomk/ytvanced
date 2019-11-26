@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/vertical_separator">
+    <ImageView android:id="@+id/delete" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginTop="10dp" android:src="@drawable/quantum_ic_clear_black_48" android:scaleType="centerInside" android:paddingEnd="15dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/position_layout" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toEndOf="@+id/delete">
+        <Spinner android:textSize="16sp" android:id="@+id/position" android:layout_width="220dp" android:layout_height="wrap_content" android:text="@string/forced_ad_pos"/>
+        <EditText android:textSize="16sp" android:id="@+id/position_entry" android:focusable="false" android:visibility="gone" android:layout_width="90dp" android:layout_height="wrap_content" android:hint=""/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ad_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/position_layout" android:layout_toEndOf="@+id/delete">
+        <Spinner android:id="@+id/ad" android:layout_width="220dp" android:layout_height="wrap_content" android:text="@string/ad_badge"/>
+        <EditText android:textSize="16sp" android:id="@+id/ad_entry" android:background="@android:color/white" android:focusable="false" android:visibility="gone" android:layout_width="90dp" android:layout_height="wrap_content" android:hint=""/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp">
+    <CheckBox android:textAppearance="?attr/textAppearanceBody1" android:textColor="?android:attr/textColorSecondary" android:id="@+id/do_not_show_offline_playlist_warning_checkbox" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/do_not_show_offline_playlist_warning"/>
+</FrameLayout>

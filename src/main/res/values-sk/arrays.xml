@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Prehraj nejakú hudbu&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Prehraj popovú hudbu&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Prehraj hudbu na párty&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Prehraj súčasné hity&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Prehraj odporúčané videá&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Zobraz upútavky filmov&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Zobraz videá o joge&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Zobraz strečingové cvičenia&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Nájdi nápady na zdobenie torty&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Nájdi recepty na zdravú večeru&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Nájdi videá o snoubordovaní&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Zobraz nápady na remeselné práce pre deti&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Zobraz video o spracovaní dreva&lt;/i&gt;</item>
+        <item>Skúste povedať:&lt;br/&gt;&lt;i&gt;Zobraz, ako uviazať kravatu&lt;/i&gt;</item>
+    </array>
+</resources>

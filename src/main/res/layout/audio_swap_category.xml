@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#333" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/audio_swap_category_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@+id/audio_swap_category_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:singleLine="true" android:layout_alignParentBottom="true" app:robotoFont="6"/>
+</RelativeLayout>

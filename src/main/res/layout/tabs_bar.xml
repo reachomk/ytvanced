@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.apps.youtube.app.common.ui.actionbar.AppTabsBar android:id="@+id/tabs_bar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:minWidth="300dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:tab_content_color="@color/theme_main_tab_text_color" app:tab_highlight_color="#50000000" app:tab_scroll_margin="48dp"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/offline_startup_latency_debug_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center_horizontal" android:id="@+id/account_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/download_50_videos_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/download_100_videos_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/download_150_videos_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/download_200_videos_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/download_300_videos_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/automatically_download_videos"/>
+    </LinearLayout>
+    <TextView android:layout_gravity="center_horizontal" android:id="@+id/not_signed_in_error_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/sign_out_notice"/>
+    <ScrollView android:id="@+id/logs_scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_margin="5dp" android:layout_weight="1">
+        <TextView android:textSize="@dimen/small_font_size" android:id="@+id/logs_text_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_vertical" android:orientation="vertical" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <TextView android:textSize="13sp" android:textColor="@color/emoji_picker_dark_category_text_color" android:gravity="center_vertical" android:id="@+id/category_name" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="32dp" android:paddingStart="6dp" android:paddingEnd="6dp"/>
+    <android.support.v7.widget.RecyclerView android:gravity="center" android:id="@+id/emoji_grid" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

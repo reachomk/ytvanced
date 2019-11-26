@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/time_sticker_time_text_size" android:textColor="@color/yt_white1" android:id="@+id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/time_sticker_padding" app:ytSansFont="0"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/time_sticker_am_pm_label_text_size" android:textColor="@color/yt_white1" android:id="@+id/am_pm_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ytSansFont="0"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;reproduzir música&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;reproduzir música pop&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;reproduzir música de festa&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;reproduzir êxitos da atualidade&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;reproduzir vídeos recomendados&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;mostrar trailers de filmes&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;mostrar vídeos de ioga&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;mostrar exercícios de alongamentos&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;encontrar ideias de decoração de bolos&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;encontrar receitas de refeições saudáveis&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;encontrar vídeos de snowboard&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;mostrar ideias artesanais para crianças&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;mostrar vídeos de marcenaria&lt;/i&gt;.</item>
+        <item>Experimente dizer:&lt;br/&gt;&lt;i&gt;mostrar como dar o nó da gravata&lt;/i&gt;.</item>
+    </array>
+</resources>

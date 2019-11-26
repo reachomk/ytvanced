@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/card_layout" android:background="?attr/framedCardBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/large_font_size" android:textColor="?attr/ytTextPrimary" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/card_title" android:background="@drawable/button_selector" android:paddingTop="16dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:textAlignment="viewStart" android:paddingStart="16dp" android:paddingEnd="16dp" app:robotoFont="0"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/watch_card_items" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?attr/ytTextDisabled" android:gravity="center_vertical" android:id="@+id/related_entities_title" android:paddingTop="8dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" android:textAlignment="viewStart" android:paddingStart="16dp" android:paddingEnd="16dp" app:robotoFont="0"/>
+        <HorizontalScrollView android:paddingTop="8dp" android:visibility="gone" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/related_entities" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </HorizontalScrollView>
+    </LinearLayout>
+</FrameLayout>

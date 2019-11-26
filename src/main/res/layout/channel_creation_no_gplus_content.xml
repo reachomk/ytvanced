@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/no_gplus_content" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:paddingTop="6dp" android:layout_width="@dimen/create_profile_left_margin" android:layout_height="wrap_content" android:src="@drawable/cake_icon" android:scaleType="fitStart" android:contentDescription="@string/birthday_description"/>
+        <EditText android:textAppearance="?attr/textAppearanceSubhead" android:id="@+id/birthday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/channel_creation_text_min_width" android:editable="false" android:inputType="none"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/create_profile_left_margin" android:layout_marginStart="@dimen/create_profile_left_margin">
+        <EditText android:textAppearance="?attr/textAppearanceSubhead" android:id="@+id/gender_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/channel_creation_text_min_width" android:editable="false" android:inputType="none"/>
+        <Spinner android:textAppearance="?attr/textAppearanceSubhead" android:id="@+id/gender_spinner" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/channel_creation_text_min_width"/>
+    </FrameLayout>
+</LinearLayout>

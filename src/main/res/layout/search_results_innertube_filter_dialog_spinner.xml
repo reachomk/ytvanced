@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14sp" android:textColor="?attr/ytTextSecondary" android:id="@+id/label" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.3" android:inputType="none|text|textCapSentences|textMultiLine" android:textAlignment="viewStart" app:robotoFont="0"/>
+    <Spinner android:textSize="16sp" android:textColor="?attr/ytTextSecondary" android:id="@+id/spinner" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="0.7" android:textAlignment="viewStart" android:paddingStart="8dp" style="@style/DropdownSpinner"/>
+</LinearLayout>

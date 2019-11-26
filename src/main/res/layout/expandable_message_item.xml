@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="#999999" android:id="@+id/message_text" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" app:robotoFont="1" app:hyperlinksClickable="true"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="#999999" android:ellipsize="end" android:id="@+id/more" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/show_details" android:singleLine="true" android:drawablePadding="4dp" android:drawableEnd="@drawable/ic_show_more_carrot" android:textAlignment="viewStart" app:robotoFont="1"/>
+</LinearLayout>

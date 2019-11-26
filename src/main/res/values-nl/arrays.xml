@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Speel wat muziek af&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Speel popmuziek af&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Speel partymuziek af&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Speel de hits van vandaag af&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Speel aanbevolen video&apos;s af&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Laat filmtrailers zien&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Laat yogavideo&apos;s zien&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Laat rekoefeningen zien&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Zoek ideeën voor taartdecoratie&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Zoek gezonde recepten voor het avondeten&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Zoek video&apos;s over snowboarden&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Laat knutselideeën voor kinderen zien&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Laat een video over houtbewerking zien&lt;/i&gt;</item>
+        <item>Zeg eens:&lt;br/&gt;&lt;i&gt;Laat zien hoe ik een stropdas strik&lt;/i&gt;</item>
+    </array>
+</resources>

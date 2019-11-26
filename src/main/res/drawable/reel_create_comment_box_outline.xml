@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:top="@dimen/reel_create_comment_box_padding_top_bottom" android:bottom="@dimen/reel_create_comment_box_padding_top_bottom">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/reel_create_comment_box_stroke_width" android:color="@android:color/white"/>
+            <corners android:radius="@dimen/reel_create_comment_box_corner_radius"/>
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+</layer-list>

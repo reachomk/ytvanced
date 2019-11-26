@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/Widget.YouTube.TextInputLayout.Alternate" android:id="@+id/description_edit_layout" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="280dp" android:contentDescription="@string/accessibility_channel_settings_edit_description">
+    <EditText android:textSize="@dimen/medium_font_size" android:id="@+id/description_edit" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="8" android:scrollHorizontally="false" android:selectAllOnFocus="true" android:inputType="none|text|textCapSentences|textAutoCorrect|textMultiLine">
+        <requestFocus/>
+    </EditText>
+</android.support.design.textfield.TextInputLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>&lt;br/&gt;&lt;i&gt;Музыка ойнату&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Поп музыка&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Сауық кешіне арналған музыка&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Бүгінгі хит әндер&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Ұсынылған бейнелерді ойнату&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Фильмдердің трейлерлері&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Йога туралы бейнелер&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Созылу жаттығулары&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Тортты безендіруге қатысты идеялар&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Денсаулыққа пайдалы кешкі ас рецептілері&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Сноубордқа қатысты бейнелер&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Балалар қолөнеріне қатысты идеялар&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Ағаш өңдеу туралы бейне&lt;/i&gt; деп айтып көріңіз.</item>
+        <item>&lt;br/&gt;&lt;i&gt;Галстукты байлау жолы&lt;/i&gt; деп айтып көріңіз.</item>
+    </array>
+</resources>

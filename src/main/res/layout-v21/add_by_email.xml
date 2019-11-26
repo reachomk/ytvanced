@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="4dp" style="@style/ConnectionToolbars"/>
+    <ScrollView android:id="@+id/contents" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Space android:id="@+id/space" android:layout_width="match_parent" android:layout_height="60dp"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="10sp" android:textColor="?attr/ytStaticBlue" android:id="@+id/input_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="32dp" android:layout_marginEnd="32dp" android:labelFor="@+id/email_text"/>
+            <EditText android:theme="@style/ShareEditText" android:id="@+id/email_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" android:imeOptions="actionSend" android:layout_marginStart="30dp" android:layout_marginEnd="30dp"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceCaption" android:id="@+id/detail_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="32dp" android:layout_marginEnd="32dp"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/found_email_invitee" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_marginStart="32dp" android:layout_marginEnd="32dp">
+                <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@+id/contact_photo" android:layout_width="40dp" android:layout_height="40dp"/>
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceSubhead" android:ellipsize="end" android:id="@+id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@+id/button_frame" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="8dp">
+        <TextView android:textAppearance="?attr/textAppearanceButton" android:textColor="?attr/ytTextError" android:layout_gravity="end" android:id="@+id/send_invite_button" android:background="?attr/selectableItemBackground" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?attr/ytTextSecondary" android:gravity="center" android:id="@+id/error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_margin="16dp" android:text="@string/error_message" android:layout_weight="1" app:robotoFont="0"/>
+</LinearLayout>

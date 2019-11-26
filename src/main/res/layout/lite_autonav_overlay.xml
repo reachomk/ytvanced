@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/mini_thumbnail" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@null"/>
+    <View android:background="?attr/ytOverlayBackgroundHeavy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/mini_countdown" android:visibility="gone" android:layout_width="@dimen/countdown_outer_size" android:layout_height="@dimen/countdown_outer_size" android:progressDrawable="@drawable/autonav_countdown" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/mini_play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_play_arrow_white_36" android:contentDescription="@string/accessibility_play"/>
+    <View android:layout_gravity="top" android:id="@+id/top_bar_background" android:background="?attr/ytOverlayBackgroundLight" android:layout_width="match_parent" android:layout_height="@dimen/autonav_top_bar_background_height"/>
+    <View android:layout_gravity="bottom" android:id="@+id/bottom_bar_background" android:background="?attr/ytOverlayBackgroundLight" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <FrameLayout android:id="@+id/core_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

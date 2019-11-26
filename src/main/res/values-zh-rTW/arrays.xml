@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>試著說：&lt;br/&gt;播放音樂&lt;i&gt;&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;播放流行音樂&lt;i&gt;&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;播放派對音樂&lt;i&gt;&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;播放今天的熱門影片&lt;i&gt;&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;播放推薦影片&lt;i&gt;&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;我想看電影預告片&lt;i&gt;&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;我想看瑜珈影片&lt;i&gt;&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;我想看伸展運動&lt;i&gt;&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;&lt;i&gt;尋找蛋糕裝飾靈感&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;尋找健康晚餐食譜&lt;i&gt;&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;尋找單板滑雪影片&lt;i&gt;&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;顯示兒童手工藝靈感&lt;i&gt;&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;顯示木工影片&lt;i&gt;&lt;/i&gt;</item>
+        <item>試著說：&lt;br/&gt;我想看如何打領帶&lt;i&gt;&lt;/i&gt;</item>
+    </array>
+</resources>

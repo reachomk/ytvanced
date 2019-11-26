@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defpackage.set xmlns:android="http://schemas.android.com/apk/res/android">
+    <defpackage.set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="333" android:valueFrom="0.65" android:valueTo="1.05" android:valueType="floatType" android:propertyName="scaleY"/>
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="166" android:valueFrom="1.05" android:valueTo="1.075" android:valueType="floatType" android:propertyName="scaleY"/>
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="166" android:valueFrom="1.075" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY"/>
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="333" android:valueFrom="1" android:valueTo="0.81" android:valueType="floatType" android:propertyName="scaleY"/>
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="166" android:valueFrom="0.81" android:valueTo="1.275" android:valueType="floatType" android:propertyName="scaleY"/>
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="166" android:valueFrom="1.275" android:valueTo="0.62" android:valueType="floatType" android:propertyName="scaleY"/>
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="333" android:valueFrom="0.62" android:valueTo="0.12" android:valueType="floatType" android:propertyName="scaleY"/>
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="333" android:valueFrom="0.12" android:valueTo="0.65" android:valueType="floatType" android:propertyName="scaleY"/>
+    </defpackage.set>
+</defpackage.set>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/mdx_remote_queue" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/mdx_remote_queue_header"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Headline" android:textColor="@color/yt_grey2" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/empty_queue" android:background="@color/yt_black1" android:padding="16dp" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/mdx_remote_queue_empty_text" android:singleLine="false" android:layout_weight="1" app:robotoFont="0"/>
+    <FrameLayout android:id="@+id/mdx_playlist_mode" android:background="@color/yt_black1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp">
+            <com.google.android.libraries.youtube.common.ui.TouchImageView android:id="@+id/mdx_shuffle" android:background="?attr/selectableItemBackground" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/setbar_shuffle" android:contentDescription="@string/accessibility_shuffle"/>
+            <com.google.android.libraries.youtube.common.ui.TouchImageView android:id="@+id/mdx_loop" android:background="?attr/selectableItemBackground" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/setbar_repeat" android:contentDescription="@string/accessibility_repeat"/>
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:background="@color/set_row_selected_color" android:layout_width="match_parent" android:layout_height="1dp"/>
+    </FrameLayout>
+    <com.google.android.libraries.youtube.common.ui.LoadingFrameLayout android:id="@+id/mdx_remote_queue_loading_layout" android:background="@color/yt_black1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <android.support.v7.widget.RecyclerView android:id="@+id/mdx_remote_queue_list" android:background="@color/yt_black1" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.google.android.libraries.youtube.common.ui.LoadingFrameLayout>
+    <FrameLayout android:id="@+id/mdx_remote_queue_player_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

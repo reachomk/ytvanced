@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/voz_loading_dialog" android:background="?attr/ytBrandBackgroundSolid" android:padding="27dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.AppCompatImageView android:id="@+id/back_button" android:background="?attr/actionBarItemBackground" android:visibility="gone" android:layout_width="@dimen/medium_icon_24dp" android:layout_height="@dimen/medium_icon_24dp" android:src="@drawable/ic_search_clear" android:tint="?attr/ytIcon1" android:layout_alignParentLeft="true" android:contentDescription="@string/close_voice_search"/>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/microphone_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ProgressBar android:id="@+id/loading_view" android:visibility="gone" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginBottom="43dp" android:indeterminate="true"/>
+    </FrameLayout>
+    <FrameLayout android:gravity="start" android:layout_gravity="center" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:layout_alignParentTop="true">
+        <TextView android:textSize="24sp" android:textColor="?attr/ytTextPrimary" android:id="@+id/text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+    </FrameLayout>
+</RelativeLayout>

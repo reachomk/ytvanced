@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.LoadingFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/suggested_videos_header" layout="@layout/suggested_playlist_videos_header"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/suggested_videos_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:overScrollMode="never"/>
+    </LinearLayout>
+</com.google.android.libraries.youtube.common.ui.LoadingFrameLayout>

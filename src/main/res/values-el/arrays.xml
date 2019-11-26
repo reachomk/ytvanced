@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Παίξε λίγη μουσική&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Παίξε ποπ μουσική&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Παίξε μουσική για πάρτι&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Παίξε σύγχρονες επιτυχίες&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Παίξε προτεινόμενα βίντεο&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Δείξε μου τρέιλερ ταινιών&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Δείξε μου βίντεο με γιόγκα&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Δείξε μου ασκήσεις για στρέτσινγκ&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Βρες ιδέες διακόσμησης για τούρτες&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Βρες υγιεινές συνταγές για βραδινό&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Βρες βίντεο για σνόουμπορντ&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Δείξε μου ιδέες για παιδικές κατασκευές&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Δείξε βίντεο με ξύλινες κατασκευές&lt;/i&gt;</item>
+        <item>Πείτε:&lt;br/&gt;&lt;i&gt;Δείξε μου πώς να δένω γραβάτα&lt;/i&gt;</item>
+    </array>
+</resources>

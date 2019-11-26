@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/user_mention_suggestions_bottom_sheet" android:background="?attr/ytBrandBackgroundSolid" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="0dp">
+    <View android:layout_gravity="top" android:background="?attr/yt10PercentLayer" android:layout_width="match_parent" android:layout_height="1dp"/>
+</LinearLayout>

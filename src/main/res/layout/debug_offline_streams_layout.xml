@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/offline_streams_debug_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center_horizontal" android:id="@+id/encryption_key_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <TextView android:layout_gravity="center_horizontal" android:id="@+id/encryption_key_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <TextView android:layout_gravity="center_horizontal" android:id="@+id/streams_dir_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/report_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/verify_streams_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/force_stream_corrupt_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <TextView android:layout_gravity="center_horizontal" android:id="@+id/force_audio_itag_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <EditText android:id="@+id/force_audio_itag_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"/>
+        <TextView android:layout_gravity="center_horizontal" android:id="@+id/force_video_itag_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+        <EditText android:id="@+id/force_video_itag_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"/>
+    </LinearLayout>
+    <TextView android:layout_gravity="center_horizontal" android:id="@+id/not_signed_in_error_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/sign_out_notice"/>
+</LinearLayout>

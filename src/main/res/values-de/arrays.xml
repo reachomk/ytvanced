@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Spiel Musik&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Spiel Popmusik&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Spiel Partymusik&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Spiel aktuelle Hits&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Spiel empfohlene Videos ab&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Zeig mir Filmtrailer&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Zeig mir Yogavideos&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Zeig mir Dehnübungen&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Such Ideen für Tortendekoration&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Suche gesunde Kochrezepte fürs Abendessen&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Suche Snowboardvideos&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Zeig Bastelideen für Kinder&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Zeig ein Video über Holzbearbeitung&lt;/i&gt;</item>
+        <item>Sag zum Beispiel:&lt;br/&gt;&lt;i&gt;Zeig mir, wie man eine Krawatte bindet&lt;/i&gt;</item>
+    </array>
+</resources>

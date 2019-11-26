@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu">
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.Theme.GoogleMaterial.Light">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Colored">
+    </style>
+    <style name="Base.Widget.AppCompat.EditText">
+        <item name="?0x10104dd">@null</item>
+        <item name="?0x10104de">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator">
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Small">
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined">
+    </style>
+    <style name="Base.Widget.AppCompat.TextView">
+        <item name="?0x10104dd">1</item>
+        <item name="?0x10104de">@null</item>
+    </style>
+    <style name="CardView">
+        <item name="cardBackgroundColor">?unknown_attr_ref: 10104e2</item>
+    </style>
+    <style name="Theme.YouTube.Dark">
+    </style>
+    <style name="Theme.YouTube.Dark.Dialog">
+    </style>
+    <style name="Theme.YouTube.Light">
+    </style>
+    <style name="Theme.YouTube.Light.Dialog">
+    </style>
+    <style name="ThemeOverlay.GoogleMaterial.TextInputEditText">
+        <item name="colorControlNormal">@color/google_textfield_indicator_text_color</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ContextMenu">
+        <item name="android:popupBackground">@drawable/mtrl_popupmenu_background</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat">
+        <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
+        <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:attr/ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light">
+        <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
+        <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:attr/ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.YouTube.Dark">
+        <item name="android:alertDialogTheme">@style/Theme.YouTube.Dark.Dialog</item>
+    </style>
+    <style name="Base.V23.Theme.YouTube.Dark.Dialog">
+        <item name="android:colorPrimary">?attr/ytThemedBlue</item>
+        <item name="android:colorAccent">?attr/ytThemedBlue</item>
+    </style>
+    <style name="Base.V23.Theme.YouTube.Light">
+        <item name="android:alertDialogTheme">@style/Theme.YouTube.Light.Dialog</item>
+    </style>
+    <style name="Base.V23.Theme.YouTube.Light.Dialog">
+        <item name="android:colorPrimary">?attr/ytThemedBlue</item>
+        <item name="android:colorAccent">?attr/ytThemedBlue</item>
+    </style>
+</resources>

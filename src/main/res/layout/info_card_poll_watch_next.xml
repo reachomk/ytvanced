@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/InfoCards">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/card_watch_next_padding_half" android:paddingTop="@dimen/card_watch_next_padding" android:paddingRight="@dimen/card_watch_next_padding_half" android:paddingBottom="@dimen/card_watch_next_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/card_watch_next_padding_half" android:paddingEnd="@dimen/card_watch_next_padding_half">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?attr/ytTextPrimary" android:ellipsize="end" android:id="@+id/question" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="10" android:textAlignment="viewStart" android:layout_marginStart="@dimen/card_watch_next_padding_half" android:layout_marginEnd="@dimen/card_watch_next_padding_half" app:robotoFont="0"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/poll_choices" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

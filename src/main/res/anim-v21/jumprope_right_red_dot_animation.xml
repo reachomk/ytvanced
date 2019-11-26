@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defpackage.set xmlns:android="http://schemas.android.com/apk/res/android">
+    <defpackage.set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="500" android:valueFrom="1" android:valueTo="0.79" android:valueType="floatType" android:propertyName="scaleY"/>
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="150" android:valueFrom="0.79" android:valueTo="0.853" android:valueType="floatType" android:propertyName="scaleY"/>
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="350" android:valueFrom="0.853" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY"/>
+    </defpackage.set>
+</defpackage.set>

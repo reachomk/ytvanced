@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/small_title_text_size" android:textColor="?attr/ytTextPrimary" android:id="@+id/game_title_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lc_game_title_margin_top" android:maxLines="1" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/lc_game_title_margin_start"/>
+    <TextView android:textSize="@dimen/small_title_text_size" android:textColor="?attr/ytTextSecondary" android:id="@+id/game_title_year" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/lc_game_title_margin_start"/>
+    <View android:background="?attr/ytSeparator" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="@dimen/lc_game_title_margin_top"/>
+</LinearLayout>

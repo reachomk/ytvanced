@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <solid android:color="@color/lc_red"/>
+    <corners android:radius="@dimen/lc_count_bubble_radius"/>
+    <padding android:left="@dimen/lc_count_bubble_horizontal_padding" android:right="@dimen/lc_count_bubble_horizontal_padding"/>
+</shape>

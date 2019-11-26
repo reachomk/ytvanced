@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;යම් සංගීතය වාදනය කරන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;පොප් සංගීතය වාදනය කරන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;සාද සංගීතය වාදනය කරන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;අද ඉහළමයන් වාදනය කරන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;නිර්දේශිත වීඩියෝ වාදනය කරන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;මට චිත්‍රපට ප්‍රචාරක පට පෙන්වන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;මට යෝගා වීඩියෝ පෙන්වන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;මට දිගැදෙන අභ්‍යාස පෙන්වන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;කේක් සැරසිලි අදහස් සොයා ගන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;සෞඛ්‍යමත් රාත්‍රී ආහාර වට්ටෝරු සොයා ගන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;හිම පුවරුවේ යන වීඩියෝ සොයා ගන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;ළමයි ශිල්ප අදහස් පෙන්වන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;ලී වැඩ වීඩියෝව පෙන්වන්න&lt;/i&gt;</item>
+        <item>පැවසීමට උත්සාහ කරන්න:&lt;br/&gt;&lt;i&gt;ටයි පටියක් ගැට ගහන ආකාරය මට පෙන්වන්න&lt;/i&gt;</item>
+    </array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="end" android:id="@+id/info_card_teaser_overlay" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="end" android:id="@+id/info_card_teaser_wrapper" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="end" android:id="@+id/info_card_teaser_content" android:layout_width="wrap_content" android:layout_height="@dimen/info_card_teaser_height" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:alpha="0.9" android:layout_marginStart="8dp" android:layout_marginEnd="8dp">
+            <FrameLayout android:id="@+id/info_card_teaser_background" android:background="@drawable/info_card_teaser_background" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <TextView android:textColor="@color/info_card_teaser_foreground" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/info_card_teaser_message" android:background="?attr/defaultItemSelector" android:paddingLeft="12dp" android:paddingRight="46dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="478dp" android:singleLine="true" android:textAlignment="viewStart" android:paddingStart="12dp" android:paddingEnd="46dp"/>
+        </FrameLayout>
+        <com.google.android.libraries.youtube.common.ui.TouchImageView android:layout_gravity="end" android:id="@+id/info_card_teaser_icon" android:layout_width="@dimen/info_card_controls_overlay_action_button_size" android:layout_height="@dimen/info_card_controls_overlay_action_button_size" android:src="@drawable/info_card_teaser_icon" android:scaleType="center" android:layout_weight="1"/>
+    </FrameLayout>
+</FrameLayout>

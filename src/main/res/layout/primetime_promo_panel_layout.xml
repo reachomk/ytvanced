@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/primetime_promo" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.apps.youtube.app.common.widget.FixedAspectRatioImageView android:id="@+id/thumbnail" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="@null" app:aspectRatio="@fraction/aspect_ratio_21_9_exact"/>
+    <com.google.android.libraries.youtube.common.ui.RoundedFrameLayout android:id="@+id/panel_icon_wrapper" android:background="?attr/ytOverlayBackgroundHeavy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:layout_alignBottom="@+id/thumbnail" android:layout_marginEnd="4dp" android:layout_alignEnd="@+id/thumbnail" app:corners="2dp">
+        <android.support.v7.widget.AppCompatImageView android:id="@+id/icon" android:padding="2dp" android:layout_width="24dp" android:layout_height="24dp" android:tint="?attr/ytStaticWhite" android:radius="2dp" android:contentDescription="@null"/>
+    </com.google.android.libraries.youtube.common.ui.RoundedFrameLayout>
+    <ViewStub android:id="@+id/album_metadata" android:layout="@layout/primetime_album_metadata" android:inflatedId="@+id/album_metadata" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/thumbnail" style="@style/PrimetimePanelMetadata"/>
+    <ViewStub android:id="@+id/show_metadata" android:layout="@layout/primetime_show_metadata" android:inflatedId="@+id/show_metadata" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/thumbnail" style="@style/PrimetimePanelMetadata"/>
+</RelativeLayout>

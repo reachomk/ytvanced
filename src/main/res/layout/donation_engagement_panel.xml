@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/content_container" android:background="?attr/ytBrandBackgroundSolid" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_gravity="top" android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="55dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@+id/campaign_padding_top" android:background="?attr/ytGeneralBackgroundA" android:layout_width="match_parent" android:layout_height="4dp" android:layout_alignParentTop="true"/>
+            <include android:id="@+id/campaign_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/campaign_padding_top" layout="@layout/donation_campaign"/>
+            <include android:id="@+id/progress_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/campaign_group" layout="@layout/donation_progress"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/creator_messages_container" android:background="?attr/ytGeneralBackgroundA" android:paddingBottom="13dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/progress_group"/>
+            <View android:id="@+id/separator" android:background="?attr/yt10PercentLayer" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/creator_messages_container"/>
+            <include android:id="@+id/nonprofit_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/separator" layout="@layout/donation_nonprofit"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceCaption" android:textColor="?attr/ytTextSecondary" android:id="@+id/nonprofit_description_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/nonprofit_group" android:lineSpacingExtra="5sp" android:layout_marginStart="@dimen/donation_panel_side_margin" android:layout_marginEnd="@dimen/donation_panel_side_margin"/>
+        </RelativeLayout>
+    </ScrollView>
+    <include layout="@layout/donation_bottom_button"/>
+</FrameLayout>

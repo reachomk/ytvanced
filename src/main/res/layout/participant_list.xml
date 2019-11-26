@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.libraries.youtube.share.ui.ActivityIndicatorFrameLayout android:id="@+id/activity_indicator" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <android.support.v7.widget.RecyclerView android:id="@+id/list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never"/>
+    </com.google.android.libraries.youtube.share.ui.ActivityIndicatorFrameLayout>
+</LinearLayout>

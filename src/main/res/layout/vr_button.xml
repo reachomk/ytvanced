@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.TouchImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:visibility="gone" android:layout_width="40dp" android:layout_height="42dp" android:src="@drawable/ic_vr" android:scaleType="center" android:contentDescription="@string/accessibility_enter_vr_mode" style="@style/PlayerButton"/>

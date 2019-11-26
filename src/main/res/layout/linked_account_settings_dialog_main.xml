@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/header_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/header" android:background="?attr/ytGeneralBackgroundC" android:layout_width="match_parent" android:layout_height="88dp" android:scaleType="centerCrop" android:contentDescription="@null"/>
+        <ImageView android:layout_gravity="end" android:id="@+id/close_button" android:padding="12dp" android:layout_width="48dp" android:layout_height="48dp" android:foreground="?attr/selectableItemBackgroundBorderless" android:src="@drawable/quantum_ic_close_white_24" android:tint="@color/yt_black4" android:contentDescription="@string/accessibility_close_dialog"/>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <ImageView android:id="@+id/user_avatar" android:layout_width="56dp" android:layout_height="56dp" android:foregroundGravity="center" android:contentDescription="@null"/>
+            <ImageView android:id="@+id/third_party_avatar" android:layout_width="56dp" android:layout_height="56dp" android:contentDescription="@null" android:layout_marginStart="94dp" android:layout_alignStart="@+id/user_avatar"/>
+            <FrameLayout android:id="@+id/link_icon_background" android:background="@drawable/link_icon_background" android:layout_width="21dp" android:layout_height="21dp" android:layout_marginTop="18dp" android:layout_marginStart="64dp"/>
+            <ImageView android:id="@+id/link_icon" android:layout_width="13dp" android:layout_height="13dp" android:layout_marginTop="22dp" android:tint="?attr/ytStaticWhite" android:contentDescription="@null" android:layout_marginStart="68dp"/>
+        </RelativeLayout>
+    </FrameLayout>
+    <com.google.android.libraries.youtube.gaming.thirdpartylinking.ThirdPartyDialogScrollView android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/third_party_link_scroll_height" android:minWidth="@dimen/third_party_link_scroll_width">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24dp" android:layout_marginEnd="24dp">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/large_font_size" android:textColor="?attr/ytTextPrimary" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:textIsSelectable="false" app:robotoFont="6"/>
+            <View android:id="@+id/separator" android:background="?attr/ytSeparator" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="16dp"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?attr/ytTextPrimary" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="20dp" app:robotoFont="0"/>
+        </LinearLayout>
+    </com.google.android.libraries.youtube.gaming.thirdpartylinking.ThirdPartyDialogScrollView>
+    <View android:id="@+id/bottom_separator" android:background="?attr/ytSeparator" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+    <FrameLayout android:id="@+id/link_button_container" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:gravity="center" android:id="@+id/link_button" android:background="@drawable/link_button" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="8dp" android:textAllCaps="true" app:robotoFont="6"/>
+    </FrameLayout>
+</LinearLayout>

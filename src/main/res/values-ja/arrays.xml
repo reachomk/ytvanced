@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>次のように言ってみてください:&lt;br/&gt;「音楽を再生して」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「ポップ ミュージックを再生して」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「パーティー向けの音楽を再生して」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「最新ヒット曲を再生して」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「おすすめ動画を再生して」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「映画の予告編を見せて」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「ヨガの動画を見せて」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「ストレッチ エクササイズを見せて」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「ケーキの飾り付けのアイデアを探して」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「ヘルシーな夕食のレシピを探して」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「スノーボードの動画を探して」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「子どもの工作のアイデアを見せて」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「木工の動画を見せて」&lt;i&gt;&lt;/i&gt;</item>
+        <item>次のように言ってみてください:&lt;br/&gt;「ネクタイの結び方を見せて」&lt;i&gt;&lt;/i&gt;</item>
+    </array>
+</resources>

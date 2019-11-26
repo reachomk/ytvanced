@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/audio_swap_audio_track_view_scroll_hint" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/upload_edit_audio_swap_audio_track_view_scroll_hint" android:shadowColor="@android:color/black" android:shadowDx="3" android:shadowDy="3" android:shadowRadius="3" android:textAllCaps="true" app:robotoFont="6"/>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/border_top" android:background="?attr/ytGeneralBackgroundC" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <FrameLayout android:id="@+id/message_container" android:background="?attr/selectableItemBackground" android:paddingTop="8dp" android:paddingBottom="8dp" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <LinearLayout android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/check_icon" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/quantum_ic_check_grey600_36" android:contentDescription="@null" android:layout_marginEnd="8dp"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Spec.Body2a" android:textColor="?attr/ytTextSecondary" android:ellipsize="end" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="3dp" android:textAlignment="viewStart" android:layout_marginEnd="36dp"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/expand_icon" android:padding="4dp" android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/quantum_ic_arrow_drop_down_black_24" android:contentDescription="@null" android:layout_marginStart="8dp"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/expanded_content" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:id="@+id/border_bottom" android:background="?attr/ytGeneralBackgroundC" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <Space android:id="@+id/margin_bottom" android:layout_width="0dp" android:layout_height="8dp"/>
+</LinearLayout>

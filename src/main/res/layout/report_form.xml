@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceTitle" android:id="@+id/title" android:paddingTop="@dimen/report_form_standard_spacing" android:paddingBottom="@dimen/report_form_inter_item_spacing" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/report_form_standard_spacing" android:paddingEnd="@dimen/report_form_standard_spacing" app:robotoFont="0"/>
+    <ListView android:id="@+id/content" android:paddingBottom="@dimen/report_form_standard_spacing" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:divider="@null" android:layout_weight="1"/>
+    <View android:background="?attr/yt10PercentLayer" android:layout_width="match_parent" android:layout_height="@dimen/report_form_separator_height"/>
+</merge>

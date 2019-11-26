@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="10dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minWidth="300dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="20sp" android:textColor="?android:attr/textColorPrimary" android:id="@+id/dialog_title" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" app:robotoFont="6"/>
+    <ViewStub android:id="@+id/lower_bound_view_stub" android:layout="@layout/setting_boolean_dialog_entry" android:inflatedId="@+id/lower_bound_view_stub" android:layout_width="match_parent" android:layout_height="48dp"/>
+    <ViewStub android:id="@+id/upper_bound_view_stub" android:layout="@layout/setting_boolean_dialog_entry" android:inflatedId="@+id/upper_bound_view_stub" android:layout_width="match_parent" android:layout_height="48dp"/>
+</LinearLayout>

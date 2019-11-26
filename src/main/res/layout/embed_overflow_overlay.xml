@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.embeddedplayer.service.jar.EmbedOverflowOverlay xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:id="@+id/overflow_layout" android:background="#c0000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/top_plugins_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true"/>
+        <RelativeLayout android:id="@+id/overflow_buttons_container" android:paddingTop="4dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_plugins_container" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/cc_button" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.google.android.libraries.youtube.common.ui.TouchImageView android:id="@+id/cc_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14dp" android:src="@drawable/player_subtitles" android:contentDescription="@string/accessibility_closed_captions"/>
+                <TextView android:typeface="sans" android:textColor="#cccccc" android:id="@+id/cc_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/quality_button" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/cc_button" android:layout_toEndOf="@+id/cc_button">
+                <com.google.android.libraries.youtube.common.ui.TouchImageView android:id="@+id/quality_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14dp" android:src="@drawable/player_quality" android:contentDescription="@string/accessibility_quality"/>
+                <TextView android:typeface="sans" android:textColor="#cccccc" android:id="@+id/quality_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/overflow_quality"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/plugins_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/quality_button" android:layout_toEndOf="@+id/quality_button"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/audio_track_select_button" android:background="#4d999999" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40dp" android:layout_marginBottom="8dp">
+        <TextView android:typeface="sans" android:textColor="#cccccc" android:id="@+id/audio_track_language" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ImageView android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_audio_track_selector" android:contentDescription="@null" android:paddingStart="8dp"/>
+    </LinearLayout>
+</com.google.android.apps.youtube.embeddedplayer.service.jar.EmbedOverflowOverlay>

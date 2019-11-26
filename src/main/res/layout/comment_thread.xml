@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/defaultItemSelector" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/comment_thread" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ImageView android:gravity="bottom" android:id="@+id/comment_divider" android:layout_width="match_parent" android:layout_height="@dimen/comment_divider_height" android:layout_marginBottom="@dimen/comment_divider_margin_bottom" android:src="?attr/cmtDivider" android:contentDescription="@null"/>
+</LinearLayout>

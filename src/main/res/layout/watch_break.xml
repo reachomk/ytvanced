@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/watch_break_monkey" android:contentDescription="@null"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceTitle" android:id="@+id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:textAlignment="center"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceBody1" android:id="@+id/notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:lineSpacingMultiplier="1.2" android:textAlignment="center"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+        <Button android:textColor="?attr/ytStaticBlue" android:id="@+id/settings_button" android:background="?attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8dp" style="@style/WatchBreakButton"/>
+        <Button android:textColor="?attr/ytStaticWhite" android:id="@+id/dismiss_button" android:background="@drawable/button_color_brand_primary_alternate_background" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WatchBreakButton"/>
+    </LinearLayout>
+</LinearLayout>

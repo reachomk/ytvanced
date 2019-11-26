@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Ասեք՝ &lt;br/&gt;&lt;i&gt;Երաժշտություն&lt;/i&gt;</item>
+        <item>Ասեք՝ &lt;br/&gt;&lt;i&gt;Փոփ երաժշտություն&lt;/i&gt;</item>
+        <item>Ասեք՝ &lt;br/&gt;&lt;i&gt;Պարային երաժշտություն&lt;/i&gt;</item>
+        <item>Ասեք՝ &lt;br/&gt;&lt;i&gt;Այսօրվա հիթերը&lt;/i&gt;</item>
+        <item>Ասեք՝&lt;br/&gt;&lt;i&gt;Առաջարկվող տեսանյութեր&lt;/i&gt;</item>
+        <item>Ասեք՝ &lt;br/&gt;&lt;i&gt;Ֆիլմերի թրեյլերներ&lt;/i&gt;</item>
+        <item>Ասեք՝ &lt;br/&gt;&lt;i&gt;Յոգայի տեսանյութեր&lt;/i&gt;</item>
+        <item>Ասեք՝ &lt;br/&gt;&lt;i&gt;Ձգողական վարժություններ&lt;/i&gt;</item>
+        <item>Ասեք՝ &lt;br/&gt;&lt;i&gt;Տորթի զարդարման գաղափարներ&lt;/i&gt;</item>
+        <item>Ասեք՝ &lt;br/&gt;&lt;i&gt;Ընթրիքի համար առողջ ուտեստների բաղադրատոմսեր&lt;/i&gt;</item>
+        <item>Ասեք՝ &lt;br/&gt;&lt;i&gt;Տեսանյութեր սնոուբորդինգի մասին&lt;/i&gt;</item>
+        <item>Ասեք՝&lt;br/&gt;&lt;i&gt;Երեխաների ստեղծագործական աշխատանքի մասին տեսանյութեր&lt;/i&gt;</item>
+        <item>Ասեք՝ &lt;br/&gt;&lt;i&gt;Փայտագործության թեմայով տեսանյութեր&lt;/i&gt;</item>
+        <item>Ասեք՝ &lt;br/&gt;&lt;i&gt;Ինչպես կապել վզկապ&lt;/i&gt;</item>
+    </array>
+</resources>

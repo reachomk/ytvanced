@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/overlay" android:background="?attr/ytOverlayBackgroundMedium" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/accessibility_close_dialog"/>
+    <include layout="@layout/bottom_sheet_close_button"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/add_to_playlist_bottom_sheet_close_button" android:layout_alignStart="@+id/add_to_playlist_bottom_sheet_close_button" android:layout_alignEnd="@+id/add_to_playlist_bottom_sheet_close_button">
+        <com.google.android.libraries.youtube.common.ui.TopPeekingScrollView android:layout_gravity="center_horizontal" android:id="@+id/top_peeking_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" app:interceptSideScroll="true">
+            <android.support.v7.widget.RecyclerView android:id="@+id/list" android:background="?attr/ytBrandBackgroundSolid" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:overScrollMode="never"/>
+        </com.google.android.libraries.youtube.common.ui.TopPeekingScrollView>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Müzik çal&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Pop müzik çal&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Parti müzikleri çal&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Günün hit şarkılarını çal&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Önerilen videoları oynat&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Film fragmanlarını göster&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Yoga videoları göster&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Esneme egzersizleri göster&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Pasta süsleme fikirleri bul&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Sağlıklı akşam yemeği tarifleri bul&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Kayak videoları bul&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Çocuklar için el işi fikirleri bul&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Ahşap işçiliğiyle ilgili video göster&lt;/i&gt;</item>
+        <item>Şunu Söyleyebilirsiniz:&lt;br/&gt;&lt;i&gt;Kravatın nasıl bağlanacağını göster&lt;/i&gt;</item>
+    </array>
+</resources>

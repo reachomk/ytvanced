@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:insetLeft="@dimen/section_list_drawer_separator_width" android:insetRight="@dimen/section_list_drawer_separator_width">
+    <selector>
+        <item android:state_selected="true" android:drawable="@color/yt_white2"/>
+        <item android:state_pressed="true" android:drawable="@color/yt_white2"/>
+        <item android:drawable="@android:color/transparent"/>
+    </selector>
+</inset>

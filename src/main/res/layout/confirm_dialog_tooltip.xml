@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="end" android:orientation="vertical" android:id="@+id/confirm_dialog_tooltip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceTitle" android:textColor="@color/white" android:layout_gravity="start" android:id="@+id/title" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/body_container" android:paddingBottom="16dp" android:layout_width="250dp" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/buttons" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceButton" android:textColor="@color/white" android:id="@+id/cancel_button" android:background="?attr/selectableItemBackground" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceButton" android:textColor="@color/white" android:id="@+id/confirm_button" android:background="?attr/selectableItemBackground" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="14dp" android:paddingEnd="14dp">
+    <LinearLayout android:orientation="vertical" android:background="?attr/framedCardBackground" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10dp" android:paddingEnd="10dp">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?attr/ytTextSecondary" android:id="@+id/title" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" app:robotoFont="1"/>
+        <View android:id="@+id/separator" android:background="@color/line_separator_color" android:layout_width="match_parent" android:layout_height="@dimen/line_separator_height"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/refinements_columns" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"/>
+    </LinearLayout>
+</FrameLayout>

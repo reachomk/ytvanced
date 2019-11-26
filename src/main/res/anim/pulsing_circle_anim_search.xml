@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defpackage.set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:anim/decelerate_interpolator">
+    <scale android:duration="1336" android:pivotX="50%" android:pivotY="50%" android:fillAfter="true" android:fromXScale="0" android:toXScale="1" android:fromYScale="0" android:toYScale="1"/>
+    <alpha android:duration="700" android:startOffset="0" android:fromAlpha="1" android:toAlpha="1"/>
+    <alpha android:duration="636" android:fillAfter="true" android:startOffset="700" android:fromAlpha="1" android:toAlpha="0"/>
+    <rotate android:duration="1336"/>
+</defpackage.set>

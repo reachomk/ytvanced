@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="48dp">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/ytTextAppearanceBody2a" android:textColor="?attr/ytOverlayTextPrimary" android:ellipsize="end" android:id="@+id/autonav_toggle_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart"/>
+    <com.google.android.apps.youtube.app.common.ui.SwipeDisabledSwitch android:gravity="center_vertical" android:id="@+id/autonav_toggle_button" android:layout_width="wrap_content" android:layout_height="40dp" android:text="@null"/>
+</LinearLayout>

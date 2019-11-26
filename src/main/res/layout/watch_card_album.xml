@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/album_layout" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/selectableItemBackground">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:paddingStart="6dp" android:paddingEnd="6dp">
+        <ImageView android:id="@+id/thumbnail" android:layout_width="70dp" android:layout_height="70dp" android:layout_margin="6dp" android:scaleType="centerCrop"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="#666666" android:ellipsize="end" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" android:textIsSelectable="false" android:paddingStart="6dp" android:paddingEnd="6dp" app:robotoFont="0"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textColor="#999999" android:id="@+id/year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textIsSelectable="false" android:paddingStart="6dp" android:paddingEnd="6dp" app:robotoFont="1"/>
+    </LinearLayout>
+</FrameLayout>

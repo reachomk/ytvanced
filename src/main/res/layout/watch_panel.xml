@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/watch_panel" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.libraries.youtube.common.ui.LoadingFrameLayout android:id="@+id/video_info_loading_layout" android:background="?attr/ytBrandBackgroundSolid" android:layout_width="match_parent" android:layout_height="match_parent" app:progressViewLayout="@layout/video_info_loading_preview">
+            <com.google.android.apps.youtube.app.common.ui.stickyheaders.StickyHeaderContainer android:id="@+id/sticky_header_container" android:layout_width="match_parent" android:layout_height="match_parent" app:stickyHeaderRecyclerView="@layout/watch_list"/>
+        </com.google.android.libraries.youtube.common.ui.LoadingFrameLayout>
+        <View android:id="@+id/scrim" android:background="#88000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include android:id="@+id/set_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/watch_panel_playlist_header_height" layout="@layout/set_list"/>
+        <include android:layout_gravity="top" android:id="@+id/set_bar" android:layout_width="match_parent" android:layout_height="@dimen/watch_panel_playlist_header_height" layout="@layout/set_bar"/>
+        <RelativeLayout android:id="@+id/engagement_panel" android:background="?attr/ytBrandBackgroundSolid" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ViewStub android:id="@+id/info_cards_drawer" android:layout="@layout/watch_next_info_card_drawer" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

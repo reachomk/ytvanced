@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Play some music“ (Пушти музика)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Play pop music“ (Пушти поп музика)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Play party music“ (Пушти музика за забави)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Play today&apos;s hits“ (Пушти ги денешните хитови)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Play recommended videos“ (Пушти препорачани видеа)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Show me movie trailers“ (Прикажи ми трејлери за филмови)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Show me yoga videos“ (Покажи ми видеа за јога)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Show me stretching exercises“ (Покажи ми вежби за истегнување)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Find cake decorating ideas“ (Најди идеи за декорирање торти)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Find healthy dinner recipes“ (Најди рецепти за здрава вечера)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Find snowboarding videos“ (Најди видеа за сноубординг)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Show kids craft ideas“ (Прикажи идеи за детски ракотворби)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Show woodworking video“ (Прикажи видео за обработка на дрво)&lt;/i&gt;</item>
+        <item>Кажете:&lt;br/&gt;&lt;i&gt;„Show me how to tie a tie“ (Покажи ми како да врзам вратоврска)&lt;/i&gt;</item>
+    </array>
+</resources>

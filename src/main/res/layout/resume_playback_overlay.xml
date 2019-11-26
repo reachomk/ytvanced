@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/resume_playback_overlay_progressbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="4dp" android:progressDrawable="@drawable/resume_playback_progressbar_drawable" android:minHeight="4dp" android:mirrorForRtl="false" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>

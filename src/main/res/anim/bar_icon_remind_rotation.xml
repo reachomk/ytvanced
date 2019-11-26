@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defpackage.set xmlns:android="http://schemas.android.com/apk/res/android" android:duration="@integer/bar_remind_animation_duration" android:startOffset="@integer/bar_remind_icon_rotation_offset">
+    <rotate android:fromDegrees="0" android:toDegrees="360" android:pivotX="50%" android:pivotY="50%"/>
+</defpackage.set>

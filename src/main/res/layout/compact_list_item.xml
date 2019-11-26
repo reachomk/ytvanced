@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/compact_list_item" android:background="?android:attr/selectableItemBackground" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="@dimen/start_end_padding" android:paddingEnd="@dimen/start_end_padding">
+    <include layout="@layout/compact_list_item_thumbnail"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceSubhead" android:textColor="?attr/ytTextPrimary" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:textAlignment="viewStart" android:layout_marginEnd="8dp"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?attr/ytStaticWhite" android:id="@+id/badge_text" android:background="@drawable/blue_badge_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" app:robotoFont="6" style="@style/StandaloneBadges"/>
+        </LinearLayout>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceBody1" android:textColor="?attr/ytTextSecondary" android:ellipsize="end" android:id="@+id/subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:textAlignment="viewStart" android:layout_marginEnd="16dp"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatImageView android:id="@+id/right_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?attr/ytIcon1" android:contentDescription="@null"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceSubhead" android:ellipsize="end" android:id="@+id/activity_count_live_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" app:robotoFont="0"/>
+    </FrameLayout>
+    <com.google.android.apps.youtube.app.offline.ui.OfflineArrowView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/offline_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

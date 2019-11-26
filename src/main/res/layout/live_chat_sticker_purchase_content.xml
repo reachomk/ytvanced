@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.tabs.TabLayout android:id="@+id/sticker_sets" android:layout_width="wrap_content" android:layout_height="wrap_content" app:tabContentStart="@dimen/live_chat_sticker_tab_layout_content_start" app:tabMode="0" app:tabMaxWidth="@dimen/super_stickers_tab_min_width" app:tabPaddingStart="0dp" app:tabPaddingEnd="0dp"/>
+    <android.support.v7.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@+id/sticker_grid" android:background="?attr/ytGeneralBackgroundB" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/sticker_sets"/>
+    <View android:id="@+id/sticker_set_drop_shadow" android:background="@drawable/live_chat_toolbar_shadow" android:layout_width="match_parent" android:layout_height="@dimen/live_chat_shadow_height" android:layout_below="@+id/sticker_sets"/>
+</RelativeLayout>

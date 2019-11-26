@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:fitsSystemWindows="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/header_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="48dp"/>
+    <ScrollView android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="48dp">
+        <FrameLayout android:paddingTop="320dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/content" android:background="?attr/ytBrandBackgroundSolid" android:paddingTop="24dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" android:paddingStart="4dp" android:paddingEnd="4dp"/>
+        </FrameLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/buttonBar" android:layout_width="match_parent" android:layout_height="48dp">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Button" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/secondary_button" android:paddingTop="@dimen/button_top_bottom_padding" android:paddingBottom="@dimen/button_top_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="@dimen/button_start_end_padding" android:paddingEnd="@dimen/button_start_end_padding"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Button" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/primary_button" android:paddingTop="@dimen/button_top_bottom_padding" android:paddingBottom="@dimen/button_top_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0" android:paddingStart="@dimen/button_start_end_padding" android:paddingEnd="@dimen/button_start_end_padding"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="?attr/ytSeparator" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="48dp"/>
+</FrameLayout>

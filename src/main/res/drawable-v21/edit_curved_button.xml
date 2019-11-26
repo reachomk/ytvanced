@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="?android:attr/colorControlHighlight">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/quantum_black_100"/>
+            <corners android:radius="@dimen/edit_location_suggestion_button_corner_radius"/>
+        </shape>
+    </item>
+    <item>
+        <selector>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/edit_location_suggestion_button_corner_radius"/>
+                    <solid android:color="?attr/edit_location_suggestion_background_color"/>
+                    <stroke android:width="?attr/edit_location_suggestion_stroke_width" android:color="?attr/edit_location_suggestion_stroke_color"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

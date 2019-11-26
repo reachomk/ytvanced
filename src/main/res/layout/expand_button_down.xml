@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?attr/ytCallToAction" android:gravity="center" android:id="@+id/link_text" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" app:robotoFont="0"/>
+    <android.support.v7.widget.AppCompatImageView android:id="@+id/link_icon" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_expand_more_white_24" android:scaleType="center" android:tint="?attr/ytIconInactive" android:minHeight="48dp"/>
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/custom_notification_basic_thumbnail_text_layout" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+    <TextView android:ellipsize="end" android:id="@+id/custom_notification_title" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/NotificationText"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <FrameLayout android:id="@+id/first_survey_option_click" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:layout_gravity="center" android:id="@+id/first_survey_option" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@null"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/second_survey_option_click" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_gravity="center" android:id="@+id/second_survey_option" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@null"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/third_survey_option_click" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_gravity="center" android:id="@+id/third_survey_option" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@null"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/fourth_survey_option_click" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_gravity="center" android:id="@+id/fourth_survey_option" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@null"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/fifth_survey_option_click" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_gravity="center" android:id="@+id/fifth_survey_option" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@null"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

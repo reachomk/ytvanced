@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Spila tónlist&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Spila poppvídeó&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Spila partítónlist&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Spila tónlistina sem er vinsælust í dag&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Spila vídeó sem mælt er með&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Sýna stiklur úr kvikmyndum&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Sýna mér jógavídeó&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Sýna mér teygjuæfingar&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Finna hugmyndir að skreytingu á köku&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Finna uppskriftir að heilsusamlegri kvöldmáltíð&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Finna snjóbrettavídeó&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Sýna tillögur tengdar handiðn fyrir börn&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Sýna vídeó er fjallar um trésmíði&lt;/i&gt;</item>
+        <item>Prófaðu að segja:&lt;br/&gt;&lt;i&gt;Sýna mér hvernig á að hnýta bindi&lt;/i&gt;</item>
+    </array>
+</resources>

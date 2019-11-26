@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.LoadingFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="200dp" android:minHeight="200dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+            <include android:id="@+id/ypc_tip_screen" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/ypc_tip_screen"/>
+        </ScrollView>
+        <View android:background="#cccccc" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/navigation" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <com.google.android.libraries.youtube.common.ui.LoadingFrameLayout android:id="@+id/next" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="#333333" android:ellipsize="end" android:gravity="center" android:background="@drawable/compat_item_selector" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tipjar_next" android:maxLines="1" android:includeFontPadding="false" app:robotoFont="1"/>
+            </com.google.android.libraries.youtube.common.ui.LoadingFrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.libraries.youtube.common.ui.LoadingFrameLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_like_video_plural">
+        <item>Botó M&apos;agrada. A %1$d persones els ha agradat aquest vídeo</item>
+        <item>Botó M&apos;agrada. A %1$d persona més li ha agradat aquest vídeo</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item>Omet l&apos;anunci d&apos;aquí a %1$d segons</item>
+        <item>Omet l&apos;anunci d&apos;aquí a 1 segon</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item>Botó per desfer el m&apos;agrada. A %1$d persones més els ha agradat aquest vídeo</item>
+        <item>Botó per desfer el m&apos;agrada. A %1$d persona més li ha agradat aquest vídeo</item>
+    </plurals>
+    <plurals name="auto_offline_video_duration_minutes">
+        <item>%1$d minuts</item>
+        <item>%1$d minut</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item>Baixa %1$d vídeos nous</item>
+        <item>Baixa %1$d vídeo nou</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item>%1$d minuts</item>
+        <item>0 minuts</item>
+        <item>1 minut</item>
+        <item>2 minuts</item>
+        <item>%1$d minuts</item>
+        <item>%1$d minuts</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item>%1$d segons</item>
+        <item>0 segons</item>
+        <item>1 segon</item>
+        <item>2 segons</item>
+        <item>%1$d segons</item>
+        <item>%1$d segons</item>
+    </plurals>
+    <plurals name="empty_chat_four_or_more_other_participants">
+        <item>Aquest és un xat amb %1$s, %2$s, %3$s i %4$d persones més. Comparteix alguna cosa per començar.</item>
+        <item>Aquest és un xat amb %1$s, %2$s, %3$s i 1 persona més. Comparteix alguna cosa per començar.</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item>%1$d hores</item>
+        <item>%1$d hora</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item>Cada %1$d hores</item>
+        <item>Cada hora</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item>%1$d minuts</item>
+        <item>%1$d minut</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item>Cada %1$d minuts</item>
+        <item>Cada minut</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item>Actualitzat fa %1$d dies</item>
+        <item>Actualitzat ahir</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item>Actualitzat fa %1$d hores</item>
+        <item>Actualitzat fa %1$d hora</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item>Actualitzat fa %1$d minuts</item>
+        <item>Actualitzat fa %1$d minut</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item>Actualitzat fa %1$d setmanes</item>
+        <item>Actualitzat fa %1$d setmana</item>
+    </plurals>
+    <plurals name="lc_stream_status_cd">
+        <item>%1$s espectadors, %2$s m&apos;agrades</item>
+        <item>%1$s espectador, %2$s m&apos;agrada</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item>%1$d de %2$d vídeos</item>
+        <item>%1$d d&apos;1 vídeo</item>
+    </plurals>
+    <plurals name="notification_video_list_completed">
+        <item>S&apos;han desat %1$d vídeos nous</item>
+        <item>S&apos;ha desat %1$d vídeo nou</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item>Les baixades estan disponibles si el teu dispositiu es connecta a Internet cada %1$d dies.</item>
+        <item>Les baixades estan disponibles si el teu dispositiu es connecta a Internet cada dia.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item>Les baixades estan disponibles sense connexió durant %1$d dies.</item>
+        <item>Les baixades estan disponibles sense connexió durant 1 dia.</item>
+    </plurals>
+    <plurals name="offline_pending_time_window_plural">
+        <item>%1$d vídeos en total. Es desaran: de %2$s a %3$s.</item>
+        <item>Es desarà: de %2$s a %3$s.</item>
+    </plurals>
+    <plurals name="overflow_hearters">
+        <item>%d usuaris més</item>
+        <item>%d usuari més</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item>%1$,d vídeos</item>
+        <item>1 vídeo</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item>%d segons</item>
+        <item>%d segon</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item>%1$d recomanacions</item>
+        <item>1 recomanació</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item>S&apos;han seleccionat %1$d vídeos</item>
+        <item>S&apos;ha seleccionat 1 vídeo</item>
+    </plurals>
+    <plurals name="tab_with_new_items">
+        <item>%2$s: %1$d elements nous.</item>
+        <item>%2$s: %1$d element nou.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item>S&apos;està preparant: %1$,d%%</item>
+        <item>S&apos;està preparant: %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item>Falten %1$,d hores aproximadament</item>
+        <item>Falta %1$,d hora aproximadament</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item>Falten %1$,d minuts aproximadament</item>
+        <item>Falta %1$,d minut aproximadament</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item>Penjant %1$d de %2$d vídeos</item>
+        <item>S&apos;està penjant 1 vídeo</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item>%1$,d%% penjat</item>
+        <item>%1$,d%% penjat</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item>Falten %1$,d segons aproximadament</item>
+        <item>Falta %1$,d segon aproximadament</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item>Toca dos cops a l&apos;esquerra o a la dreta per saltar %d segons</item>
+        <item>Toca dos cops a l&apos;esquerra o a la dreta per saltar %d segon</item>
+    </plurals>
+    <plurals name="video_count">
+        <item>%1$d vídeos</item>
+        <item>1 vídeo</item>
+    </plurals>
+    <plurals name="videos_with_count">
+        <item>%d vídeos</item>
+        <item>1 vídeo</item>
+    </plurals>
+</resources>

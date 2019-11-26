@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/color_brand_primary_alternate"/>
+            <size android:height="@dimen/layout_params_match_parent" android:width="@dimen/layout_params_match_parent"/>
+            <padding android:left="3dp" android:top="3dp" android:right="3dp" android:bottom="3dp"/>
+        </shape>
+    </item>
+</selector>

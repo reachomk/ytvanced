@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;የተወሰነ ሙዚቃ አጫውት&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;ፖፕ ሙዚቃ አጫውት&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;የፓርቲ ሙዚቃ አጫውት&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;የዛሬ ምርጦችን አጫውት&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;የሚመከሩ ቪድዮዎችን አጫውት&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;የፊልም ማስታወቂያዎችን አሳይ&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;የዮጋ ቪድዮዎችን አሳየኝ&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;የመተጣጠፍ እንቅስቃሴ አሳየኝ&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;የኬክ ማስዋብ ሃሳቦችን አግኝ&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;ጤናማ የእራት አሰራር አግኝ&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;የበረዶ መንሸራተት ቪድዮዎች አግኝ&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;የልጆችን የእጅ ሙያ ሃሳቦች አሳይ&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;የእንጨት ስራ ቪድዮ አሳይ&lt;/i&gt;</item>
+        <item>እንዲህ በማለት ይሞክሩ፦&lt;br/&gt;&lt;i&gt;ከረባት እንዴት እንደሚታሰር አሳየኝ&lt;/i&gt;</item>
+    </array>
+</resources>

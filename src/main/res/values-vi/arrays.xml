@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Phát bản nhạc nào đó&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Phát nhạc pop&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Phát nhạc tiệc tùng&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Phát các bản nhạc nổi bật hôm nay&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Phát video đề xuất&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Cho tôi xem đoạn giới thiệu phim&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Cho tôi xem video yoga&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Cho tôi xem các bài tập giãn cơ&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Tìm ý tưởng trang trí bánh&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Tìm công thức nấu bữa tối tốt cho sức khỏe&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Tìm video trượt ván trên tuyết&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Cho tôi xem ý tưởng làm đồ thủ công cho trẻ&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Cho tôi xem video về nghề mộc&lt;/i&gt;</item>
+        <item>Thử nói:&lt;br/&gt;&lt;i&gt;Cho tôi xem cách thắt cà vạt&lt;/i&gt;</item>
+    </array>
+</resources>

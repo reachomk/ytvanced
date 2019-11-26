@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Відтворити будь-яку музику&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Відтворити популярну музику&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Відтворити музику для вечірок&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Відтворити сьогоднішні хіти&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Відтворити рекомендовані відео&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Показати трейлери фільмів&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Показати відео про йогу&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Показати вправи на розтяжку&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Показати ідеї оздоблення тортів&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Знайти рецепти корисної їжі&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Знайти відео про сноубординг&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Показати ідеї рукоділля для дітей&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Показати відео про вироби з дерева&lt;/i&gt;</item>
+        <item>Спробуйте сказати:&lt;br/&gt;&lt;i&gt;Показати, як зав’язувати краватку&lt;/i&gt;</item>
+    </array>
+</resources>

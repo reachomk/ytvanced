@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/membership_text_perk_default_margin">
+    <CheckBox android:textAppearance="?attr/textAppearanceBody1" android:gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/checkbox" android:paddingTop="6dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <RadioButton android:textAppearance="?attr/textAppearanceBody1" android:textColor="?attr/ytTextSecondary" android:gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/radio_button" android:paddingTop="6dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:textAppearance="?attr/textAppearanceBody1" android:id="@+id/freeform_response" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:inputType="text"/>
+</LinearLayout>

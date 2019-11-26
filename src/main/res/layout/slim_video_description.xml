@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.common.ui.HeightTransitionLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceBody1" android:textColor="?attr/ytTextSecondary" android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:singleLine="false" android:includeFontPadding="false" android:lineSpacingMultiplier="1.35" android:textAlignment="viewStart" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:robotoFont="0" app:hyperlinksClickable="true"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/metadata_row_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+        <View android:id="@+id/bottom_separator" android:background="?attr/ytSeparator" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</com.google.android.apps.youtube.app.common.ui.HeightTransitionLayout>

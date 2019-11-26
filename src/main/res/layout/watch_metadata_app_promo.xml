@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="?attr/ytGeneralBackgroundB" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+    <ImageView android:id="@+id/image" android:layout_width="32dp" android:layout_height="32dp" android:contentDescription="@null" android:layout_marginEnd="12dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?attr/ytTextPrimary" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" app:robotoFont="0"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textColor="?attr/ytTextSecondary" android:id="@+id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" app:robotoFont="0"/>
+    </LinearLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceButton" android:id="@+id/button" android:paddingTop="@dimen/text_button_padding" android:paddingBottom="@dimen/text_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/text_button_start_end_padding" android:paddingEnd="@dimen/text_button_start_end_padding"/>
+</LinearLayout>

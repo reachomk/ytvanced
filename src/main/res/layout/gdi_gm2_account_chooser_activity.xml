@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/GDI.GM2.Dialog.PaddedWindow">
+        <android.support.v7.widget.AppCompatTextView android:id="@+id/gm2_credential_chooser_heading" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gdi_dialog_margin" style="@style/GDI.GM2.Dialog.Title"/>
+        <TextView android:id="@+id/gm2_credential_chooser_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="1dp" style="@style/GDI.GM2.Dialog.Subtitle"/>
+        <TextView android:textColor="#1a73e8" android:gravity="center_vertical" android:id="@+id/why_to_share" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:minHeight="48dp" android:text="@string/gdi_gm2_choose_account_why_to_share" style="@style/GDI.GM2.Dialog.Subtitle"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/gm2_credential_chooser_credential_holder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <android.support.design.button.MaterialButton android:id="@+id/gm2_check_link_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/gdi_gm2_choose_account_check_email" style="@style/Widget.GoogleMaterial.Button"/>
+        <View android:layout_gravity="center_vertical" android:background="@color/gdi_credentials_background" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="8dp"/>
+        <android.support.design.button.MaterialButton android:id="@+id/gm2_use_another_account" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/gdi_gm2_choose_account_use_another_account" style="@style/Widget.GoogleMaterial.Button.TextButton"/>
+    </LinearLayout>
+</ScrollView>

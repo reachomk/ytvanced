@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/header_container" android:background="?attr/ytBrandBackgroundSolid" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/panel_header" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <android.support.v7.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@+id/close_button" android:background="?attr/selectableItemBackgroundBorderless" android:padding="12dp" android:layout_width="48dp" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_close_grey600_24" android:tint="?attr/ytIcon1" android:contentDescription="@string/accessibility_close_button"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/panel_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/header_container"/>
+    <View android:id="@+id/drop_shadow" android:background="@drawable/engagement_panel_header_bottom_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/engagement_panel_box_shadow_width" android:layout_below="@+id/header_container"/>
+    <View android:id="@+id/scrim" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

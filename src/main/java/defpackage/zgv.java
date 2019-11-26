@@ -1,0 +1,11 @@
+package defpackage;
+
+/* renamed from: zgv */
+public enum zgv {
+    AUDIO_SOURCE_UNKNOWN,
+    AUDIO_SOURCE_DEFAULT,
+    AUDIO_SOURCE_CAMCORDER,
+    AUDIO_SOURCE_MIC,
+    AUDIO_SOURCE_VOICE_COMMUNICATION,
+    AUDIO_SOURCE_VOICE_RECOGNITION
+}

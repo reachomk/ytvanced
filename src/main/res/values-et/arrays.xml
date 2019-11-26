@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Mängi muusikat&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Mängi popmuusikat&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Mängi peomuusikat&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Mängi tänaseid hitte&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Esita soovitatud videod&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Näita filmitreilereid&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Näita joogavideoid&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Näita venitusharjutusi&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Otsi tordi kaunistamise ideid&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Otsi tervislikke retsepte&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Otsi lumelauavideoid&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Näita käsitööideid lastele&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Näita puutöövideot&lt;/i&gt;</item>
+        <item>Proovige öelda:&lt;br/&gt;&lt;i&gt;Näita, kuidas lipsusõlme siduda&lt;/i&gt;</item>
+    </array>
+</resources>

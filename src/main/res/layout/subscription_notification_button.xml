@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/subscription_notification_view" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="48dp" android:minHeight="48dp">
+    <ViewStub android:layout_gravity="center" android:id="@+id/toggle_button_view_stub" android:layout="@layout/toggle_button" android:inflatedId="@+id/toggle_button_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/notification_options_view_stub" android:layout="@layout/subscription_notification_options_button" android:inflatedId="@+id/notification_options_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/notification_toggle_view_stub" android:layout="@layout/subscription_notification_toggle_button" android:inflatedId="@+id/notification_toggle_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

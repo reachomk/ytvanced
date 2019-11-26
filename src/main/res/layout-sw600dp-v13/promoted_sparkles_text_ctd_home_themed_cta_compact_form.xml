@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/promoted_sparkles_text_ctd_home_themed_cta_compact_form" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/ad_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/content_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@+id/content_background" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/inner_background" android:paddingTop="11dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="11dp" android:paddingStart="16dp">
+                <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:id="@+id/thumbnail_wrapper" android:layout_width="160dp" android:layout_height="160dp" android:layout_marginTop="4dp" android:layout_marginEnd="11dp" app:aspectRatio="@fraction/aspect_ratio_sparkles_text_home_compact_form">
+                    <ImageView android:id="@+id/thumbnail" android:background="@drawable/bg_video_thumb" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@null"/>
+                    <ImageView android:id="@+id/second_thumbnail" android:background="@drawable/bg_video_thumb" android:focusable="false" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@null"/>
+                    <com.google.android.apps.youtube.app.common.widget.TintableImageView android:theme="@style/Widget.YouTube.Control" android:layout_gravity="center" android:id="@+id/icon" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="2dp" android:contentDescription="@null"/>
+                    <include android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/overlay_badge_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:layout_marginEnd="4dp" layout="@layout/large_sparkles_native_thumbnail_badge"/>
+                </com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <RelativeLayout android:id="@+id/title_row" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="11dp">
+                        <include android:id="@+id/close_button_or_contextual_menu_anchor_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" layout="@layout/close_button_or_contextual_menu_anchor_home"/>
+                        <FrameLayout android:id="@+id/title_frame" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_toLeftOf="@+id/close_button_or_contextual_menu_anchor_home" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+                            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?attr/adText1" android:ellipsize="end" android:layout_gravity="start" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:robotoFont="0"/>
+                        </FrameLayout>
+                    </RelativeLayout>
+                    <FrameLayout android:id="@+id/description_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="11dp">
+                        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?attr/adText2" android:ellipsize="end" android:layout_gravity="start" android:id="@+id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" app:robotoFont="0"/>
+                    </FrameLayout>
+                    <LinearLayout android:layout_gravity="start" android:orientation="horizontal" android:id="@+id/ratings_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:baselineAligned="false" android:layout_marginEnd="11dp">
+                        <include android:id="@+id/ad_attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="6dp" layout="@layout/standalone_ad_badge_small"/>
+                        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/compact_renderer_metadata_text_size" android:textColor="?attr/adText2" android:ellipsize="end" android:id="@+id/rating_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="5dp" app:robotoFont="0"/>
+                        <RatingBar android:id="@+id/rating" android:focusable="false" android:layout_width="wrap_content" android:layout_height="12dp" android:layout_marginTop="2dp" android:progressDrawable="@drawable/app_promotion_ratingbar" android:numStars="5" android:stepSize="0.1" android:isIndicator="true" android:contentDescription="@null" android:layout_marginEnd="5dp"/>
+                        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/compact_renderer_metadata_text_size" android:textColor="?attr/adText2" android:ellipsize="end" android:id="@+id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="2dp" app:robotoFont="0"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+                    <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/promoted_cta_button_horizontal_fill_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="11dp">
+                        <include android:layout_gravity="start" android:id="@+id/cta_button_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/promoted_cta_button_horizontal_fill"/>
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <View android:id="@+id/click_overlay" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <ViewStub android:id="@+id/muted_ad_view_stub" android:layout="@layout/muted_native_ad" android:inflatedId="@+id/muted_ad_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:layout_marginBottom="1dp"/>
+</FrameLayout>

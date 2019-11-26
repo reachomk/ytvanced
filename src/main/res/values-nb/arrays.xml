@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Spill noe musikk&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Spill noe popmusikk&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Spill noe festmusikk&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Spill dagens hits&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Spill av anbefalte videoer&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Vis meg filmtrailere&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Vis meg yogavideoer&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Vis meg tøyeøvelser&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Finn ideer til kakepynting&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Finn sunne middagsoppskrifter&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Finn snowboardvideoer&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Vis håndverkideer for barn&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Vis en video om snekring&lt;/i&gt;</item>
+        <item>Prøv å si:&lt;br/&gt;&lt;i&gt;Vis meg hvordan man knyter et slips&lt;/i&gt;</item>
+    </array>
+</resources>

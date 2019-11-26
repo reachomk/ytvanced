@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/yt_white2" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:rowCount="3" android:columnCount="2">
+    <ImageView android:id="@+id/lim_state_msg_icon" android:layout_width="26dp" android:layout_height="26dp" android:layout_marginTop="2dp" android:src="@drawable/quantum_ic_warning_amber_48" android:contentDescription="@null"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/black" android:layout_gravity="left|right|center_vertical|center_horizontal|fill_horizontal|center" android:id="@+id/lim_state_msg_header_text" android:layout_width="0dp" android:layout_marginStart="12dp" app:robotoFont="6"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceBody1" android:layout_gravity="fill_horizontal" android:id="@+id/lim_state_msg_subtext" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:lineSpacingMultiplier="1.25" android:layout_columnSpan="2"/>
+    <com.google.android.apps.youtube.app.common.ui.chipcloud.ChipCloudView android:gravity="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_columnSpan="2" app:colSpacing="8dp" app:rowSpacing="0dp">
+        <include android:layout_gravity="center_vertical" android:id="@+id/learn_more_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" layout="@layout/button"/>
+        <include android:gravity="center_horizontal" android:id="@+id/go_home_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" layout="@layout/button"/>
+    </com.google.android.apps.youtube.app.common.ui.chipcloud.ChipCloudView>
+</GridLayout>

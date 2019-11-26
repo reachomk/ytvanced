@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/extra_small_font_size" android:textColor="@color/quantum_white_text" android:gravity="center" android:layout_gravity="center" android:id="@+id/message_view" android:background="@drawable/black_rounded_rectangle" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48dp" android:drawablePadding="4dp" android:alpha="0" android:drawableStart="@drawable/quantum_ic_no_sound_white_24" android:textAlignment="center" android:paddingStart="8dp" android:paddingEnd="12dp"/>
+</FrameLayout>

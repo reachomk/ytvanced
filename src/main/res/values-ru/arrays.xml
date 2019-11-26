@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Воспроизведи какую-нибудь музыку&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Воспроизведи поп-музыку&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Воспроизведи танцевальную музыку&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Воспроизведи популярную музыку&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Воспроизведи рекомендованные видео&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Покажи трейлеры фильмов&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Покажи видео о йоге&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Покажи упражнения на растяжку&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Найди видео о том, как украшать торты&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Найди рецепты здоровых блюд на ужин&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Найди видео о сноубординге&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Покажи ролики об идеях для детского творчества&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Покажи видео о столярном деле&quot;&lt;/i&gt;.</item>
+        <item>Скажите:&lt;br/&gt;&lt;i&gt;&quot;Покажи, как завязывать галстук&quot;&lt;/i&gt;.</item>
+    </array>
+</resources>

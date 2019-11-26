@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Paleisk muzikos&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Paleisk populiariosios muzikos&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Paleisk vakarėlių muzikos&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Paleisk šiandienos hitus&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Leisk rekomenduojamus vaizdo įrašus&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Parodyk filmų anonsų&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Parodyk vaizdo įrašų apie jogą&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Parodyk tempimo pratimų&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Rask idėjų, kaip papuošti tortą&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Rask sveiko maisto receptų&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Surask vaizdo įrašų apie snieglentes&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Parodyk idėjų vaikų darbeliams&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Parodyk vaizdo įrašą apie medžio darbus&lt;/i&gt;</item>
+        <item>Bandykite pasakyti:&lt;br/&gt;&lt;i&gt;Parodyk, kaip užsirišti kaklaraištį&lt;/i&gt;</item>
+    </array>
+</resources>

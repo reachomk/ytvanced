@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;დაუკარი მუსიკა&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;დაუკარი პოპ-მუსიკა&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;დაუკარი წვეულების მუსიკა&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;დაუკარი დღევანდელი ჰიტები&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;დაუკარი რეკომენდებული ვიდეოები&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;მაჩვენე ფილმის ტრეილერები&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;მაჩვენე იოგას ვიდეოები&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;მაჩვენე გაჭიმვის ვარჯიშები&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;მოძებნე ნამცხვრის მორთვის იდეები&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;მოძებნე ჯანსაღი სადილის რეცეპტები&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;იპოვე სნოუბორდინგის ვიდეოები&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;მაჩვენე საბავშვო ხელსაქმის იდეები&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;მაჩვენე ხის დამუშავების ვიდეო&lt;/i&gt;</item>
+        <item>სცადეთ, თქვათ:&lt;br/&gt;&lt;i&gt;მაჩვენე, როგორ შევკრა ჰალსტუხი&lt;/i&gt;</item>
+    </array>
+</resources>

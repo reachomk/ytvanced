@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:minHeight="48dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/skip_ad_button_container" android:background="#59000000" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/skip_ad_text" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/skip_ad" android:singleLine="true" android:includeFontPadding="false"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/skip_ad_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginTop="6dp" android:layout_marginRight="8dp" android:layout_marginBottom="6dp" android:src="@drawable/ad_skip" android:contentDescription="@string/skip_ad" android:layout_marginStart="6dp" android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+</FrameLayout>

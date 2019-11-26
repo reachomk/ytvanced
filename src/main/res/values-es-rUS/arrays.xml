@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Reproduce música&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Reproduce música pop&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Reproduce música de fiesta&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Reproduce los éxitos del momento&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Reproduce videos recomendados&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Muéstrame avances de películas&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Muéstrame videos de yoga&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Muéstrame ejercicios de estiramiento&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Busca ideas para decorar un pastel&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Busca recetas saludables para la cena&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Busca videos de snowboard&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Muéstrame ideas de manualidades para niños&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Muestra videos de carpintería&lt;/i&gt;”</item>
+        <item>Intenta decir:&lt;br/&gt;“&lt;i&gt;Muéstrame cómo hacer un nudo de corbata&lt;/i&gt;”</item>
+    </array>
+</resources>

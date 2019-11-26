@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Play some music&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Play pop music&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Play party music&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Play today&apos;s hits&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Play recommended videos&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Show me movie trailers&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Show me yoga videos&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Show me stretching exercises&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Find cake decorating ideas&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Find healthy dinner recipes&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Find snowboarding videos&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Show kids craft ideas&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Show woodworking video&lt;/i&gt;</item>
+        <item>‏بگویید:&lt;br/&gt;&lt;i&gt;Show me how to tie a tie&lt;/i&gt;</item>
+    </array>
+</resources>

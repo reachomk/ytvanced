@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdx_smart_remote_voice_tips">
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;เล่นเพลงให้ฟังหน่อย&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;เล่นเพลงป๊อป&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;เล่นเพลงสำหรับปาร์ตี้&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;เล่นวิดีโอยอดนิยมของวันนี้&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;เล่นวิดีโอแนะนำ&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;แสดงตัวอย่างภาพยนตร์&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;แสดงวิดีโอโยคะ&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;แสดงการบริหารร่างกายด้วยการยืดกล้ามเนื้อ&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;ค้นหาไอเดียแต่งหน้าเค้ก&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;ค้นหาสูตรอาหารเย็นเพื่อสุขภาพ&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;ค้นหาวิดีโอเกี่ยวกับสโนว์บอร์ด&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;แสดงไอเดียเกี่ยวกับงานประดิษฐ์สำหรับเด็ก&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;แสดงวิดีโอเกี่ยวกับงานไม้&lt;/i&gt;</item>
+        <item>ลองพูดว่า&lt;br/&gt;&lt;i&gt;แสดงวิธีผูกเนคไท&lt;/i&gt;</item>
+    </array>
+</resources>

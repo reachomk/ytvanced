@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/offline_storage_widget_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/preview" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp"/>
+    <CheckedTextView android:textSize="@dimen/medium_font_size" android:textColor="?attr/ytTextPrimary" android:gravity="center_vertical" android:id="@+id/checked_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkMark="?android:attr/listChoiceIndicatorSingle" android:textAlignment="viewStart"/>
+</LinearLayout>

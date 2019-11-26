@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/channel_bubble" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@+id/channel_thumbnail" android:layout_width="40dp" android:layout_height="40dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.conversation.ui.PassThroughTextView android:textSize="15sp" android:textColor="?attr/ytTextPrimary" android:textColorLink="?attr/ytStaticBlue" android:id="@+id/channel_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" android:layout_marginStart="16dp"/>
+        <com.google.android.libraries.youtube.conversation.ui.PassThroughTextView android:textSize="13sp" android:textColor="?attr/ytTextSecondary" android:textColorLink="?attr/ytStaticBlue" android:id="@+id/channel_metadata" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" android:layout_marginStart="16dp"/>
+    </LinearLayout>
+</LinearLayout>

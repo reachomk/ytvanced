@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.V14.Theme.GoogleMaterial.Light">
+        <item name="android:colorBackground">@color/google_default_color_background</item>
+        <item name="android:windowBackground">@color/google_default_color_background</item>
+        <item name="android:timePickerDialogTheme">@style/ThemeOverlay.GoogleMaterial.Dialog</item>
+        <item name="android:datePickerDialogTheme">@style/ThemeOverlay.GoogleMaterial.Dialog</item>
+        <item name="android:colorEdgeEffect">@color/google_grey500</item>
+        <item name="?0x10104e0">true</item>
+        <item name="appBarLayoutStyle">@style/Widget.GoogleMaterial.AppBarLayout</item>
+        <item name="bottomAppBarStyle">@style/Widget.GoogleMaterial.BottomAppBar</item>
+        <item name="bottomNavigationStyle">@style/Widget.GoogleMaterial.BottomNavigationView</item>
+        <item name="bottomSheetDialogTheme">@style/Theme.GoogleMaterial.Light.BottomSheetDialog</item>
+        <item name="chipGroupStyle">@style/Widget.GoogleMaterial.ChipGroup</item>
+        <item name="chipStandaloneStyle">@style/Widget.GoogleMaterial.Chip.Input</item>
+        <item name="chipStyle">@style/Widget.GoogleMaterial.Chip.Assistive</item>
+        <item name="extendedFloatingActionButtonStyle">@style/Widget.GoogleMaterial.ExtendedFloatingActionButton.Icon</item>
+        <item name="floatingActionButtonStyle">@style/Widget.GoogleMaterial.FloatingActionButton</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.GoogleMaterial.Button.StrokedButton</item>
+        <item name="materialButtonStyle">@style/Widget.GoogleMaterial.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.GoogleMaterial.CardView</item>
+        <item name="materialDatePickerDialogTheme">@style/ThemeOverlay.GoogleMaterial.MaterialCalendar.DatePicker</item>
+        <item name="materialDatePickerStyle">@style/Widget.GoogleMaterial.MaterialCalendar.DatePicker</item>
+        <item name="materialDateRangePickerDialogTheme">@style/ThemeOverlay.GoogleMaterial.MaterialCalendar.DateRangePicker</item>
+        <item name="materialDateRangePickerStyle">@style/Widget.GoogleMaterial.MaterialCalendar.DateRangePicker</item>
+        <item name="navigationViewStyle">@style/Widget.GoogleMaterial.NavigationView</item>
+        <item name="openSearchBarStyle">@style/Widget.GoogleMaterial.OpenSearchBar</item>
+        <item name="openSearchViewPrefixStyle">@style/Widget.GoogleMaterial.OpenSearchView.Prefix</item>
+        <item name="openSearchViewStyle">@style/Widget.GoogleMaterial.OpenSearchView</item>
+        <item name="productLockupViewStyle">@style/Widget.GoogleMaterial.ProductLockupView</item>
+        <item name="tabStyle">@style/Widget.GoogleMaterial.TabLayout</item>
+        <item name="textInputStyle">@style/Widget.GoogleMaterial.TextInputLayout.OutlinedBox</item>
+        <item name="actionOverflowMenuStyle">@style/Widget.GoogleMaterial.PopupMenu.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.GoogleMaterial.Light.ActionBar.Solid</item>
+        <item name="actionModeStyle">@style/Widget.GoogleMaterial.ActionMode</item>
+        <item name="borderlessButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton</item>
+        <item name="toolbarStyle">@style/Widget.GoogleMaterial.Toolbar</item>
+        <item name="popupMenuStyle">@style/Widget.GoogleMaterial.PopupMenu</item>
+        <item name="colorPrimary">@color/google_default_color_primary</item>
+        <item name="colorPrimaryDark">@color/google_default_color_primary_dark</item>
+        <item name="colorAccent">?attr/colorPrimaryGoogle</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.GoogleMaterial.Dialog.Alert</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+        <item name="checkboxStyle">@style/Widget.GoogleMaterial.CompoundButton.CheckBox</item>
+        <item name="radioButtonStyle">@style/Widget.GoogleMaterial.CompoundButton.RadioButton</item>
+        <item name="switchStyle">@style/Widget.GoogleMaterial.CompoundButton.Switch</item>
+        <item name="colorError">@color/google_default_color_error</item>
+        <item name="viewInflaterClass">android.support.design.theme.MaterialComponentsViewInflater</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.GoogleMaterial.MaterialAlertDialog</item>
+        <item name="snackbarStyle">@style/Widget.GoogleMaterial.Snackbar</item>
+        <item name="snackbarButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Snackbar</item>
+    </style>
+    <style name="Base.V14.ThemeOverlay.GoogleMaterial.MaterialAlertDialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:checkedTextViewStyle">@style/Widget.GoogleMaterial.CheckedTextView</item>
+        <item name="android:windowElevation">@dimen/google_window_elevation</item>
+        <item name="?0x1010571">@dimen/google_dialog_corner_radius</item>
+        <item name="buttonBarButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Dialog</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.GoogleMaterial</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Dialog.Flush</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.GoogleMaterial.Title.Text</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.GoogleMaterial.Body.Text</item>
+    </style>
+    <style name="Base.V14.ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/Widget.MaterialComponents.CheckedTextView</item>
+        <item name="?0x1010571">@null</item>
+        <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.MaterialComponents</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.MaterialComponents.Body.Text</item>
+    </style>
+    <style name="CreationEntryDialog">
+        <item name="android:windowBackground">?attr/ytBrandBackgroundSolid</item>
+        <item name="android:windowAnimationStyle">@style/CreationEntryDialogAnimation</item>
+        <item name="?0x1010586">2</item>
+    </style>
+    <style name="Sponsorships.FullScreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/DialogSlideAnimation</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="?0x101056c">false</item>
+    </style>
+    <style name="WebviewDialog.FullScreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/WebviewDialogSlideAnimation</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="?0x101056c">false</item>
+    </style>
+    <style name="Widget.Design.AppBarLayout">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat">
+        <item name="actionModeShareDrawable">?android:attr/actionModeShareDrawable</item>
+        <item name="editTextBackground">?android:attr/editTextBackground</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat.Light">
+        <item name="actionModeShareDrawable">?android:attr/actionModeShareDrawable</item>
+        <item name="editTextBackground">?android:attr/editTextBackground</item>
+    </style>
+</resources>

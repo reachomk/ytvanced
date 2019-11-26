@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/topic_picker" android:background="?attr/ytGeneralBackgroundA" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/CompatElevationZ12">
+    <com.google.android.libraries.youtube.common.ui.LoadingFrameLayout android:id="@+id/topic_picker_loading_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/topic_picker_content" android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView android:id="@+id/topic_container" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingStart="8dp" android:paddingEnd="8dp"/>
+            <LinearLayout android:orientation="horizontal" android:background="?attr/ytBrandBackgroundSolid" android:padding="8dp" android:layout_width="match_parent" android:layout_height="56dp">
+                <Space android:id="@+id/topic_container_space_before_buttons" android:layout_width="@dimen/topic_picker_empty_space" android:layout_height="wrap_content" android:layout_weight="1"/>
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:layout_gravity="center" android:id="@+id/dismiss_button" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="36dp" android:minWidth="64dp" android:textAllCaps="true" android:textAlignment="center" android:paddingStart="8dp" app:robotoFont="6"/>
+                <Space android:id="@+id/topic_container_space_between_buttons" android:layout_width="@dimen/topic_picker_gap_between_buttons" android:layout_height="wrap_content" android:layout_weight="0"/>
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:layout_gravity="center" android:id="@+id/finish_button" android:padding="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="36dp" android:minWidth="64dp" android:textAllCaps="true" android:textAlignment="center" app:robotoFont="6"/>
+                <Space android:id="@+id/topic_container_space_after_buttons" android:layout_width="@dimen/topic_picker_empty_space" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.libraries.youtube.common.ui.LoadingFrameLayout>
+</LinearLayout>

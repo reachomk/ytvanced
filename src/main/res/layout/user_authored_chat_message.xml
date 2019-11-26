@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="top" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="2dp" android:baselineAligned="false">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceCaption" android:layout_gravity="center_horizontal" android:id="@+id/timestamp" android:paddingTop="16dp" android:paddingBottom="12dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:robotoFont="6"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/author_avatar_container" android:background="?attr/selectableItemBackground" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp">
+            <com.google.android.libraries.youtube.common.ui.CircularImageView android:layout_gravity="center" android:id="@+id/author_avatar" android:layout_width="@dimen/chat_message_author_avatar_size" android:layout_height="@dimen/chat_message_author_avatar_size" android:contentDescription="@string/accessibility_chat_message_author"/>
+        </FrameLayout>
+        <Space android:id="@+id/avatar_spacer" android:layout_width="@dimen/chat_message_avatar_spacer" android:layout_height="1dp" android:layout_toEndOf="@+id/author_avatar_container"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/main_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:minHeight="@dimen/chat_message_author_avatar_size" android:layout_toStartOf="@+id/main_spacer" android:layout_toEndOf="@+id/avatar_spacer">
+            <com.google.android.libraries.youtube.conversation.ui.ConversationRoundedLinearLayout android:orientation="vertical" android:id="@+id/bubble" android:background="?attr/ytBrandBackgroundSolid" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sharpCorners="4dp" app:corners="16dp">
+                <ViewStub android:id="@+id/inside_bubble_stub" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <include layout="@layout/chat_message_face_pile"/>
+            </com.google.android.libraries.youtube.conversation.ui.ConversationRoundedLinearLayout>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceCaption" android:textColor="?attr/ytTextDisabled" android:id="@+id/author_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceCaption" android:textColor="?attr/ytTextError" android:gravity="center_vertical" android:layout_gravity="end" android:id="@+id/error_retry" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:text="@string/send_failed_tap_to_retry" android:drawablePadding="8dp" android:contentDescription="@string/send_failed_tap_to_retry" android:drawableEnd="@drawable/quantum_ic_error_red_24"/>
+        </LinearLayout>
+        <Space android:id="@+id/main_spacer" android:layout_width="@dimen/chat_message_content_spacer" android:layout_height="1dp" android:layout_toStartOf="@+id/heart_button"/>
+        <com.google.android.libraries.youtube.conversation.ui.HeartView android:id="@+id/heart_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@+id/heart_spacer"/>
+        <Space android:id="@+id/heart_spacer" android:layout_width="@dimen/chat_message_heart_spacer" android:layout_height="1dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <ViewStub android:id="@+id/rvr_stub" android:layout="@layout/related_video_replies" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:paddingLeft="36dp" android:paddingRight="36dp" android:paddingBottom="@dimen/background_promo_default_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/thumbnail" android:visibility="gone" android:layout_width="160dp" android:layout_height="160dp" android:adjustViewBounds="true" android:contentDescription="@null"/>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="160dp" android:adjustViewBounds="true" android:contentDescription="@null"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24dp">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_large_font_size" android:textColor="?attr/ytTextPrimary" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:robotoFont="6"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?attr/ytTextSecondary" android:id="@+id/body_text" android:paddingTop="@dimen/background_promo_default_body_text_top_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" app:robotoFont="0"/>
+        <include android:layout_gravity="start" android:id="@+id/button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" layout="@layout/wide_button"/>
+        <include android:layout_gravity="start" android:id="@+id/secondary_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" layout="@layout/wide_button"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:background="?attr/ytBrandBackgroundSolid" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/purchase_flow_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/loading_container" android:padding="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/error_container" android:padding="20dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/error_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_error_white_36" android:importantForAccessibility="no"/>
+        <TextView android:textSize="16sp" android:textColor="?attr/ytTextSecondary" android:id="@+id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:layout_marginBottom="15dp" android:text="@string/live_chat_purchase_flow_retry_message"/>
+        <TextView android:textSize="14sp" android:textColor="#2196f3" android:id="@+id/retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/live_chat_purchase_flow_retry_button" android:textAllCaps="true"/>
+    </LinearLayout>
+</RelativeLayout>

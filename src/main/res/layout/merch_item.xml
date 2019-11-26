@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/SelectableItemForegroundCompat">
+    <ImageView android:id="@+id/thumbnail" android:layout_width="128dp" android:layout_height="128dp" android:scaleType="fitCenter" android:contentDescription="@null"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:layout_marginStart="128dp">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceSubhead" android:textColor="?attr/ytTextPrimary" android:ellipsize="end" android:id="@+id/title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="?attr/ytTextPrimary" android:ellipsize="end" android:id="@+id/price_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="1"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?attr/textAppearanceCaption" android:textColor="?attr/ytTextPrimary" android:id="@+id/link_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="32dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <ImageView android:id="@+id/character_backstory_image" android:layout_width="120dp" android:layout_height="120dp" android:layout_marginTop="35dp" android:contentDescription="@null"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="440dp" android:layout_marginStart="20dp">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14sp" android:textColor="?attr/ytTextPrimary" android:id="@+id/character_name" android:layout_width="wrap_content" android:layout_height="wrap_content" app:robotoFont="6"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="12sp" android:textColor="?attr/ytTextPrimary" android:id="@+id/character_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:contentDescription="@null" android:hyphenationFrequency="0"/>
+    </LinearLayout>
+</LinearLayout>

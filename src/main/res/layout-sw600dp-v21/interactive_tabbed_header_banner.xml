@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/channel_banner_container" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/topic_channel_banner_fixed_height">
+    <ImageView android:id="@+id/banner" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@null" android:importantForAccessibility="no"/>
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null" android:importantForAccessibility="no" app:srcCompat="@drawable/interactive_tabbed_header_overlay"/>
+</FrameLayout>

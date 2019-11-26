@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:background="?attr/selectableItemBackground" android:paddingLeft="4dp" android:paddingRight="4dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4dp" android:paddingEnd="4dp">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:foreground="@drawable/share_panel_profile_photo_overlay">
+        <com.google.android.libraries.youtube.share.ui.ConversationIconView android:id="@+id/icon" android:layout_width="@dimen/share_panel_contact_photo_and_overflow_button_size" android:layout_height="@dimen/share_panel_contact_photo_and_overflow_button_size" android:contentDescription="@string/accessibility_user_image" app:lineWeight="1.5dp"/>
+    </FrameLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textColor="?attr/shareSelectableNameColor" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/text" android:layout_width="@dimen/share_panel_contact_name_max_width" android:layout_height="wrap_content" android:maxLines="2" app:robotoFont="0"/>
+</LinearLayout>

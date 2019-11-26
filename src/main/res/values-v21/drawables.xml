@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="channel_list_sub_menu_scroll_gradient">@drawable/channel_list_sub_menu_scroll_gradient_v21</drawable>
+    <drawable name="channel_list_sub_menu_scroll_gradient">@drawable/channel_list_sub_menu_scroll_gradient_v21</drawable>
+    <drawable name="drawer_avatar_background">@drawable/drawer_avatar_background_v21</drawable>
+    <drawable name="drawer_avatar_background">@drawable/drawer_avatar_background_v21</drawable>
+    <drawable name="search_bar_background">@drawable/search_bar_background_v21</drawable>
+    <drawable name="search_bar_background">@drawable/search_bar_background_v21</drawable>
+    <drawable name="selectable_item_background_solid_dark">@drawable/selectable_item_background_solid</drawable>
+    <drawable name="selectable_item_background_solid_light">@drawable/selectable_item_background_solid</drawable>
+</resources>

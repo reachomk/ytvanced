@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.LoadingFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/loading_layout" android:background="?attr/ytBrandBackgroundSolid" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/section_list_refresher" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/section_list" layout="@layout/section_list"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</com.google.android.libraries.youtube.common.ui.LoadingFrameLayout>

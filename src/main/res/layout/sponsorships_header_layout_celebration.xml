@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="216dp">
+        <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/background_image" android:layout_width="256dp" android:layout_height="200dp" android:scaleType="centerCrop" android:contentDescription="@null"/>
+        <com.google.android.libraries.youtube.common.ui.CircularImageView android:layout_gravity="center" android:id="@+id/channel_image" android:layout_width="112dp" android:layout_height="112dp" android:contentDescription="@null"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Body2" android:textColor="@color/yt_black4" android:ellipsize="end" android:id="@+id/super_title_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:contentDescription="@null" android:textAlignment="center" app:ytSansFont="0"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Title" android:textSize="44sp" android:textColor="@color/yt_black4" android:ellipsize="end" android:id="@+id/title_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" android:contentDescription="@null" android:textAlignment="center" app:ytSansFont="0"/>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Body1" android:textSize="16sp" android:textColor="@color/yt_black4" android:ellipsize="end" android:id="@+id/sub_title_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLines="1" android:contentDescription="@null" android:textAlignment="center"/>
+    </LinearLayout>
+</LinearLayout>
